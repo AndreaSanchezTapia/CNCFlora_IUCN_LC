@@ -4,31 +4,35 @@ library(dplyr)
 library("stringr")
 library("rgbif")
 library(readxl)
-source("new_duplicated.R")
+source("scripts/new_duplicated.R")
 treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1)
 names(treespp)
 familias <- treespp$Family
 especies <- treespp$ScientificName
-
+library(flora)
+especies <- purrr::map(especies, ~remove.authors(.)) %>% simplify2array()
 #extração de registros por espécie do gbif
 dir.create("output")
-
+treespp$ScientificName[371]
 #buscando registros de gbif----
-for (i in 1:length(especies)) {
+#i <- 371
+por algun motivo no sirve el 371 sin nombtre
+
+for (i in 371) {
     dir.create(paste0("./output/",familias[i]), showWarnings = F)
     nome_arquivo <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
 
-    key <- name_backbone(name = especies[i])$speciesKey
+    key <- name_backbone(name = treespp$ScientificName[i])$speciesKey
     if (!is.null(key)) {
         occs <- list()
         for (k in 1:length(key)) {
             occs[[k]] <- occ_search(
                 taxonKey = key[k],
                 limit = 100000,
-                #hasCoordinate = TRUE,
+                hasCoordinate = TRUE,
                 basisOfRecord = "PRESERVED_SPECIMEN",
-                #hasGeospatialIssue = F,
+                hasGeospatialIssue = F,
                 return = 'data'
                 #fields = "minimal"
             )
@@ -39,11 +43,11 @@ for (i in 1:length(especies)) {
             occs.f <- subset(occs, dim.null == T)
             occs.f <- dplyr::bind_rows(occs.f)
             print(dim(occs.f))
+            write.csv(occs.f, nome_arquivo)
         }
     } else {
-        cat(paste("No key found for", especies[i], "\n"))
+        warning(paste("No key found for", especies[i], "\n"))
         }
-
     #query.i <- occ_search(scientificName = especies[i])
 
         #as colunas que criam os comentários nem sempre existem:
@@ -51,9 +55,19 @@ for (i in 1:length(especies)) {
 }
 
 
-#limpar a coluna de coletor do inpa---
+#limpar a coluna de coletor do inpa----
+#le inpa----
+tabela_inpa_splink <- read.csv(file = "./output/inpa_filtrado.csv", header = TRUE)
+# a coluna acceptedNameUsage não existe e a coluna scientifiName nãõ tem autor
+unique(tabela_inpa_splink$institutioncode)
 
-for (i in 1:length(especies)) {
+tabela_inpa_splink <- tabela_inpa_splink %>%
+    mutate(institutioncode = "Instituto Nacional de Pesquisas da Amazônia (INPA)")
+#todos os coletores do inpa
+colectores_inpa <- tabela_inpa_splink %>% select(institutioncode, catalognumber, collector) %>% mutate(collector = as.character(collector)) %>% rename(catalogNumber = catalognumber, institutionCode = institutioncode)
+class(colectores_inpa$catalogNumber)
+i
+for (i in 371:length(especies)) {
     #nomes
     nome_arquivo <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     nome_out <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
@@ -84,6 +98,7 @@ for (i in 1:length(especies)) {
 
 #########################################
     #Limpeza de registros
+source("./scripts/new_duplicated.R")
 for (i in 1:length(especies)) {
     print(paste("Limpando", especies[i], i, "de", length(especies), sep = " "))
     ###     o arquivo original sem o inpa
