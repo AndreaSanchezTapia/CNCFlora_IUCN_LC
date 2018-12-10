@@ -6,7 +6,8 @@ library(flora)
 flora <- read_csv("./ipt/all_flora.csv") %>% select(-1)
 
 # read original data----
-treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>% rename(scientificName = ScientificName) %>%
+treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
+    rename(scientificName = ScientificName) %>%
     mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
                simplify2array())
 
@@ -30,13 +31,12 @@ sinonimos <- taxon.filt %>%
     mutate(sinonimo_de = relatedResourceID)
 sin.filt <- filter(flora, id %in% sinonimos$sinonimo_de) %>%
     mutate(id_correct = id)
-View(sin.filt)
 #toca hacer un loop de sinonimos
 #vector de nombres
 #quien es ok, ok,
 #quien es sinonimo, sinonimo,
 #hasta que sean todos ok.
-taxon.filt <- filter(flora, nombre %in% treespp$original_binomial,
+taxon.filt <- filter(flora, nombre %in% treespp$nombre,
                      taxonRank == "ESPECIE") %>%
     #select(id, acceptedNameUsage, scientificName, nomenclaturalStatus) %>%
     #filter(!is.na(acceptedNameUsage))
@@ -51,9 +51,7 @@ taxon.filt %>% View()#
 relaciones <- flora %>%
     select(taxonID, scientificName, nomenclaturalStatus, taxonomicStatus, acceptedNameUsageID, acceptedNameUsage, parentNameUsage, parentNameUsageID)
 
-cat(paste0(treespp$original_binomial[1:300], "\n"))
 
-find_synonyms
 
 treesspp2 <- treespp %>%
     select(scientificName, nombre) %>%
