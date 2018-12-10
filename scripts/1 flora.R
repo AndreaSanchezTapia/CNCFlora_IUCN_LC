@@ -41,8 +41,8 @@ relacion
 
 taxon_dist               <- left_join(taxon, distribution)
 taxon_dist_ref           <- left_join(taxon_dist, ref)
-taxon_dist_ref_lfh       <- left_join(taxon_dist_ref, lf_habitat)
+taxon_dist_ref_lfh       <- left_join(taxon_dist_ref, lf_mod)
 taxon_dist_ref_lfh_types <- left_join(taxon_dist_ref_lfh, types)
 all                      <- left_join(taxon_dist_ref_lfh_types, vernacular)
 all <- mutate(all, nombre = paste(genus, specificEpithet)) %>% distinct()
-write.csv(all, "./ipt/all_flora")
+write.csv(all, "./ipt/all_flora.csv")
