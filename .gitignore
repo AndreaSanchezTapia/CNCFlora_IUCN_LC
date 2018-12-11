@@ -4,3 +4,12 @@
 .Ruserdata
 data/raster
 data/shape
+distribution.txt
+meta.xml
+ipt/eml.xml
+ipt/reference.txt
+ipt/resourcerelationship.txt
+ipt/speciesprofile.txt
+ipt/taxon.txt
+ipt/typesandspecimen.txt
+ipt/vernacularname.txt
