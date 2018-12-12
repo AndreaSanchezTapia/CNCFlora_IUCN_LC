@@ -3,76 +3,51 @@ library(readxl)
 library(dplyr)
 library(flora)
 #read flora data
-flora <- read_csv("./ipt/all_flora.csv") %>% select(-1)
-
+flora <- read_csv("./ipt/all_flora.csv") %>% dplyr::select(-1)
+names(flora)
 # read original data----
 treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
     rename(scientificName = ScientificName) %>%
     mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
                simplify2array())
-
-
-
-#los nombres están aceitos en la flora?
-taxon.filt <- filter(flora, nombre %in% treespp$nombre,
-                     taxonRank == "ESPECIE")
-setdiff(taxon.filt$nombre, treesspp2$final_name)
-count(taxon.filt, taxonomicStatus, nomenclaturalStatus)
-aceitos <- taxon.filt %>% filter(taxonomicStatus == "NOME_ACEITO")
-#reads relationship
-relationship <- read_delim("./ipt/resourcerelationship.txt",
-                           delim = "\t", quote = "") %>%
-    distinct()
-
-sinonimos <- taxon.filt %>%
-    filter(taxonomicStatus != "NOME_ACEITO") %>%
-    left_join(relationship) %>% group_by(id) %>%
-
-    mutate(sinonimo_de = relatedResourceID)
-sin.filt <- filter(flora, id %in% sinonimos$sinonimo_de) %>%
-    mutate(id_correct = id)
-#toca hacer un loop de sinonimos
-#vector de nombres
-#quien es ok, ok,
-#quien es sinonimo, sinonimo,
-#hasta que sean todos ok.
-taxon.filt <- filter(flora, nombre %in% treespp$nombre,
-                     taxonRank == "ESPECIE") %>%
-    #select(id, acceptedNameUsage, scientificName, nomenclaturalStatus) %>%
-    #filter(!is.na(acceptedNameUsage))
-#taxon.filt %>%
-    #select(id, nombre, taxonomicStatus, nomenclaturalStatus) %>%
-    mutate(final_correct_name =
-               ifelse(!is.na(acceptedNameUsage), acceptedNameUsage, scientificName)) %>% select(2, 6, 7,8,family)
-
-taxon.filt %>% View()#
-#una tabla para hacer el loop por ese estatus
-
-relaciones <- flora %>%
-    select(taxonID, scientificName, nomenclaturalStatus, taxonomicStatus, acceptedNameUsageID, acceptedNameUsage, parentNameUsage, parentNameUsageID)
-
-
-
+names(treespp)
 treesspp2 <- treespp %>%
-    select(scientificName, nombre) %>%
+    dplyr::select(Family, scientificName, nombre) %>%
     left_join(flora) %>%
-    select(scientificName,
-           taxonID,
+    dplyr::select(
+           Family,
+        scientificName,
            nombre,
+           taxonID,
            acceptedNameUsageID,
            acceptedNameUsage,
            parentNameUsage,
            family,
            taxonomicStatus,
-           nomenclaturalStatus,
-           occurrenceRemarks,
-           location,
-           lifeForm,
-           habitat,
-           locality) %>%
+           nomenclaturalStatus
+           #occurrenceRemarks,
+           #location,
+           #lifeForm,
+           #vegetationType,
+           #habitat,
+           #locality
+           )
+names(treesspp2)
+treesp3 <- treesspp2 %>%
+    #new column final_name
     mutate(final_name = ifelse(taxonomicStatus == "NOME_ACEITO", scientificName, acceptedNameUsage)) %>%
-    mutate(final_name = ifelse(is.na(taxonID) & is.na(acceptedNameUsageID), "not found in Flora do Brasil",final_name)) %>%
-    select(scientificName, final_name, family, occurrenceRemarks, location, lifeForm, habitat, locality)
+    mutate(final_ID = ifelse(taxonomicStatus == "NOME_ACEITO", taxonID, acceptedNameUsageID)) %>%
+    mutate(final_name = ifelse(is.na(taxonID) & is.na(acceptedNameUsageID), scientificName, final_name)) %>%
+    #new column notes
+    mutate(notes = if_else(is.na(taxonID) & is.na(acceptedNameUsageID),
+                           "not in LFB", "LFB")) %>%
+    #new column syn
+    mutate(tax_notes = if_else(taxonomicStatus == "NOME_ACEITO", "name ok", "")) %>%
+    mutate(tax_notes = if_else(taxonomicStatus == "SINONIMO", "synonym", tax_notes)) %>%
+    mutate(family = if_else(!is.na(family), Family, family)) %>%
+    #mutate(notes_fam = if_else(family != Family, "family changed", "")) %>%
+    dplyr::select(scientificName, taxonID, final_name, final_ID, notes,tax_notes, family)
+write.csv(treesp3, "./results/names_flora.csv")
 
-write.csv(treesspp2, "./results/names_flora.csv")
-View(treesspp2)
+library(dplyr)
+flora %>% filter(nombre == "Tibouchina pulchra") %>% View()

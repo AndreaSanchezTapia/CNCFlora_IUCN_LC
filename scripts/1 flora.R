@@ -11,7 +11,8 @@ library(readr)
 #unzip("iptflora",exdir = "./ipt")
 
 #reads formatted distribution
-distribution <- read_csv("./ipt/distribution_modified.csv") %>% select(-1)
+distribution <- read_csv("./ipt/distribution_modified.csv") %>%
+    dplyr::select(-1)
 head(distribution)
 
 #####------
@@ -24,17 +25,17 @@ relationship <- read_delim("./ipt/resourcerelationship.txt",
 ref <- read_delim("./ipt/reference.txt",delim = "\t", quote = "")
 #lf_habitat <- read_delim("./ipt/speciesprofile.txt", delim = "\t", quote = "")
 lf_mod <- read.csv("./ipt/lf_hab_modified.csv")
-
-length(unique(lf_habitat$id))
+head(lf_mod)
+length(unique(lf_mod$id))
 types <- read_delim("./ipt/typesandspecimen.txt", delim = "\t", quote = "") %>%
     group_by(id) %>%
     mutate_all(.funs = function(x) paste(x, collapse = "-"))
 
 vernacular <- read_delim("./ipt/vernacularname.txt", delim = "\t") %>%
     mutate(vernacular = paste(vernacularName, language, locality, sep = "-")) %>%
-    select(id, vernacular) %>%
+    dplyr::select(id, vernacular) %>%
     group_by(id) %>% mutate(all_names = paste(vernacular, collapse = "/")) %>%
-    select(-vernacular) %>% distinct()
+    dplyr::select(-vernacular) %>% distinct()
 
 relacion <- unique(relationship$relationshipOfResource)
 relacion
