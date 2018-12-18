@@ -3,8 +3,7 @@ library(textclean)
 library(dplyr)
 library("stringr")
 library(flora)
-
-treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1)
+dir.create("aoo")
 names(treespp)
 library(rgdal)
 # alt <- raster("./data/raster/Raster_Brasil_altitude/Raster_Brasil_altitude.tif")
@@ -23,20 +22,17 @@ library(rgdal)
 # alt.10km.utm <- projectRaster(alt.10km, res = 1000, crs = CRS("+init=epsg:29193"))
 # plot(alt.10km.utm)
 # res(alt.10km.utm)
+any(is.na(especies))
 
-familias <- treespp$Family
-especies <- treespp$ScientificName
-library(flora)
-especies <- purrr::map(especies, ~remove.authors(.)) %>% simplify2array()
-treespp2 <- treespp %>% mutate(sp = purrr::map(ScientificName, ~remove.authors(.)) %>% simplify2array())
 library(redlistr)
-i <- 1
+
 for (i in seq_along(especies)) {
-nome_spfilt <- paste0("./output_centroides/",familias[i],"/",familias[i], "_",
+print(paste(especies[i], familias[i], "- calculating AOO and EOO", i, "of 673"))
+    nome_spfilt <- paste0("./output_final/",familias[i],"/",familias[i], "_",
                       especies[i],"_", "sp_filt.csv")
-data_csv1 <- paste0("./output_centroides/",familias[i],"/",familias[i], "_",
+data_csv1 <- paste0("./output_final/",familias[i],"/",familias[i], "_",
                       especies[i],"_", "aoo_eoo.csv")
-data_csv2 <- paste0("./output_centroides/aoo/",
+data_csv2 <- paste0("./aoo/",
                       especies[i],"_", "aoo_eoo.csv")
 tabela.spfilt <- read.csv(nome_spfilt)
 tabela <- tabela.spfilt[
@@ -61,18 +57,22 @@ data <- data.frame(sp = especies[i],
                    familia = familias[i],
                    nusado = nrow(tabela),
                    eoo = eoo.area,
-                   aoo2 = aoo2*4,
-                   aoo10 = aoo10*100)
+                   aoo2 = aoo2,
+                   aoo10 = aoo10)###não e necesario multiplicar
 write.csv(data, file = data_csv1)
 write.csv(data, file = data_csv2)
 }
 library(purrr)
-tabla_aoo_eoo <- list.files("./output_centroides/aoo/", full.names = T) %>%
+tabla_aoo_eoo <- list.files("./aoo/", full.names = T) %>%
     purrr::map(.f = read.csv) %>%
     bind_rows() %>% dplyr::select(-1)
+tabla_aoo_eoo <- tabla_aoo_eoo %>% rename(nombre = sp, family = familia)
+dim(tabla_aoo_eoo)
 names(tabla_aoo_eoo)
-tabla_final <- left_join(treespp2, tabla_aoo_eoo)
-write.csv(tabla_final, file = "./output_centroides/aoo/aoo.csv")
+names(treespp)
+tabla_final <- left_join(treespp, tabla_aoo_eoo)
+head(tabla_final)
+write.csv(tabla_final, file = "./results/final_with_aooeoo.csv")
 
 plot(tabla_final$AOO_2x2km, tabla_final$aoo2)
 plot(tabla_final$RecordsUsed, tabla_final$nusado)
