@@ -5,25 +5,32 @@ library("stringr")
 library("rgbif")
 library(readxl)
 source("scripts/new_duplicated.R")
-treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1)
+treespp <- read.csv("./results/names_flora.csv", row.names = 1)
+treespp <- treespp %>%
+ mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
+simplify2array())
+treespp$nombre[642] <- "Waltheria cinerescens"
+write.csv(treespp, "./results/names_flora.csv")
 names(treespp)
-familias <- treespp$Family
-especies <- treespp$ScientificName
-library(flora)
-especies <- purrr::map(especies, ~remove.authors(.)) %>% simplify2array()
+names(treespp)
+familias <- treespp$family
+especies <- treespp$nombre
+especies[3]
+familias[3]
+
 #extração de registros por espécie do gbif
-dir.create("output")
-treespp$ScientificName[371]
+dir.create("output_final")
+treespp$scientificName[371]
 #buscando registros de gbif----
 #i <- 371
-por algun motivo no sirve el 371 sin nombtre
+#por algun motivo no sirve el 371 sin nombtre
 
-for (i in 371) {
-    dir.create(paste0("./output/",familias[i]), showWarnings = F)
-    nome_arquivo <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
+for (i in 1:length(especies)) {
+    dir.create(paste0("./output_final/",familias[i]), showWarnings = F)
+    nome_arquivo <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
 
-    key <- name_backbone(name = treespp$ScientificName[i])$speciesKey
+    key <- name_backbone(name = treespp$scientificName[i])$speciesKey
     if (!is.null(key)) {
         occs <- list()
         for (k in 1:length(key)) {
@@ -57,43 +64,42 @@ for (i in 371) {
 
 #limpar a coluna de coletor do inpa----
 #le inpa----
-tabela_inpa_splink <- read.csv(file = "./output/inpa_filtrado.csv", header = TRUE)
+tabela_inpa_splink <- read.csv(file = "./results/output_centroides/inpa_filtrado.csv", header = TRUE)
 # a coluna acceptedNameUsage não existe e a coluna scientifiName nãõ tem autor
 unique(tabela_inpa_splink$institutioncode)
 
 tabela_inpa_splink <- tabela_inpa_splink %>%
     mutate(institutioncode = "Instituto Nacional de Pesquisas da Amazônia (INPA)")
 #todos os coletores do inpa
-colectores_inpa <- tabela_inpa_splink %>% select(institutioncode, catalognumber, collector) %>% mutate(collector = as.character(collector)) %>% rename(catalogNumber = catalognumber, institutionCode = institutioncode)
+colectores_inpa <- tabela_inpa_splink %>% dplyr::select(institutioncode, catalognumber, collector) %>% mutate(collector = as.character(collector)) %>% rename(catalogNumber = catalognumber, institutionCode = institutioncode)
 class(colectores_inpa$catalogNumber)
-i
-for (i in 371:length(especies)) {
+#loop----
+for (i in 1:length(especies)) {
     #nomes
-    nome_arquivo <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
-    nome_out <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
+    nome_arquivo <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
+    nome_out <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
     print(paste("Inpa", especies[i], i, "de", length(especies), sep = " "))
     #le a tabela
     tabela_especie <- read.csv(nome_arquivo, row.names = 1, stringsAsFactors = F) %>% mutate(catalogNumber = factor(catalogNumber))
 
     #junta a tabela com os coletores
     if ("Instituto Nacional de Pesquisas da Amazônia (INPA)" %in% tabela_especie$institutionCode) {
-    proof_name <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa_proof.csv")
+    proof_name <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa_proof.csv")
     tabela_especie <- left_join(tabela_especie, colectores_inpa)
     #tudo o que for do inpa bota o coletor e tira a coluna collector
     tabela_especie <- tabela_especie %>%
         mutate(recordedBy = if_else(tabela_especie$institutionCode %in%
                                         "Instituto Nacional de Pesquisas da Amazônia (INPA)", collector, recordedBy)) %>%
-        select(-collector)
+        dplyr::select(-collector)
     #escreve
     write.csv(tabela_especie, file = nome_out)
     proof <- tabela_especie %>% filter(institutionCode == "Instituto Nacional de Pesquisas da Amazônia (INPA)") %>%
-        select(institutionCode, catalogNumber, recordedBy) %>% distinct()
+        dplyr::select(institutionCode, catalogNumber, recordedBy) %>% distinct()
     write.csv(proof, file = proof_name)
     } else {
  write.csv(tabela_especie, file = nome_out)
     }
 }
-
 
 
 #########################################
@@ -102,17 +108,17 @@ source("./scripts/new_duplicated.R")
 for (i in 1:length(especies)) {
     print(paste("Limpando", especies[i], i, "de", length(especies), sep = " "))
     ###     o arquivo original sem o inpa
-    nome_arquivo <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
+    nome_arquivo <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     ###     o arquivo com o inpa
-    nome_inpa <- paste0("./output/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
+    nome_inpa <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
     ###     o nome do arquivo que será criado com registros excluídos
-    nome_excluded <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_excluded <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                             "excluded.csv")
 ### o nome do arquivo que será criado com registros duplicados (coletor, ano, numero de coleta). nao incluo nos excluded porque ele não vai ser excluido, vai ter uma cópia dele em clean e o duplicado não pode aparecer no excluded, vai ser confuso. mas eu quero checar que os s.n. não foram tomados como duplicados:
-    nome_duplicata <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_duplicata <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                             "duplicata.csv")
 ### o nome do arquivo limpo que será criado no final
-    nome_clean <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_clean <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                          "clean.csv")
 
 #agora a "tabela" é tabela_especie, entao tenho que substituir isso tudo
@@ -146,7 +152,7 @@ write.csv(tabela_exclude, file = nome_excluded)
 
 #remover registros com número de coleta, estado e ano iguais (coletas colaborativas duplicadas)
 #gera um vetor TrueFalse dizendo quem é duplicado, omitindo os s.n e NA
-vetor_duplicata <- tabela_especie %>% select(year, recordNumber, stateProvince) %>%
+vetor_duplicata <- tabela_especie %>% dplyr::select(year, recordNumber, stateProvince) %>%
     new_duplicated(., incomparables = c("NA", "s.n", "s/n"))
 #cria a tabela de duplicados e salva
 tabela_duplicata <- tabela_especie[vetor_duplicata,]
@@ -157,7 +163,7 @@ tabela_especie <- tabela_especie[!vetor_duplicata,]
 ####################################################
 #registros com mesmo coletor e número de coleta
 #preciso incluir escape s.n. e NA {next}
-vetor_duplicata <- tabela_especie %>% select(recordedBy, recordNumber) %>%
+vetor_duplicata <- tabela_especie %>% dplyr::select(recordedBy, recordNumber) %>%
     new_duplicated(., incomparables = c("s.n", "s/n"))
 #cria a tabela de duplicados e salva
 tabela_duplicata <- bind_rows(tabela_duplicata, tabela_especie[vetor_duplicata,])
