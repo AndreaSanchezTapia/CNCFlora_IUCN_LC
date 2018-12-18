@@ -9,12 +9,10 @@ library(lubridate)
 #devtools::install_github("diogosbr/spfilt")
 library(spfilt)
 # le tudo
-treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1)
+treespp <- read.csv("./results/names_flora.csv", row.names = 1)
 names(treespp)
-familias <- treespp$Family
-especies <- treespp$ScientificName
-library(flora)
-especies <- purrr::map(especies, ~remove.authors(.)) %>% simplify2array()
+familias <- treespp$family
+especies <- treespp$nombre
 
 
 #primeiro ler a planilha com a lista de coordenadas por centroide----
@@ -74,9 +72,9 @@ especies
 for (i in 1:length(especies)) {
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
 
-    nome_clean <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_clean <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                          "clean.csv")
-    nome_centroides <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_centroides <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                          "centroides.csv")
     tabela_especie <- read.csv(nome_clean, row.names = 1, stringsAsFactors = F) %>%
         mutate(catalogNumber = factor(catalogNumber))
@@ -237,12 +235,12 @@ source('~/Documents/2 Coleguinhas/Diogo/sp_filt/R/filt_andrea.R')
 #226
 #279
 #373
-#for (i in 374:length(especies)) {
-for (i in c(72,158,179,226,279,373)) {
+for (i in 1:length(especies)) {
+#for (i in c(72,158,179,226,279,373)) {
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
-    nome_centroides <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_centroides <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                               "centroides.csv")
-    nome_spfilt <- paste0("./output/",familias[i],"/",familias[i], "_", especies[i],"_",
+    nome_spfilt <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                               "sp_filt.csv")
     tabela_especie <- read.csv(nome_centroides, row.names = 1, stringsAsFactors = F)
 
