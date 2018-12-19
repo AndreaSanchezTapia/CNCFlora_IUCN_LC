@@ -1,49 +1,52 @@
 #Reads and formats FdB----
 library(readr)
+library(dplyr)
 ##distribution----
-# distribution  <- read_delim("./ipt/distribution.txt", delim = "\t", quote = "") %>%
-#     group_by(id) %>%
-#     mutate(location = paste(locationID, collapse = "-")) %>%
-#     select(-locationID) %>% distinct() %>% ungroup()
+distribution  <-
+    read_delim("./ipt/distribution.txt", delim = "\t", quote = "") %>%
+     group_by(id) %>%
+     mutate(location = paste(locationID, collapse = "-")) %>%
+     dplyr::select(-locationID) %>% distinct() %>% ungroup()
 library(tidyr)
 library(stringr)
 library(jsonlite)
-# names(distribution)
-# ocurrence_remarks <- distribution %>% select(occurrenceRemarks) %>%
-#     #slice(10000:10100) %>%
-#     data.frame() %>%
-#     #pull() %>%
-#     mutate(occurrenceRemarks = as.character(occurrenceRemarks))
+names(distribution)
+ocurrence_remarks <- distribution %>%
+    dplyr::select(occurrenceRemarks) %>%
+     #slice(10000:10100) %>%
+     data.frame() %>%
+     #pull() %>%
+     mutate(occurrenceRemarks = as.character(occurrenceRemarks))
+head(ocurrence_remarks)#
+source("./scripts/change_NA_to_df.R")
+occurrenceRemarks_df <-
+     purrr::map(ocurrence_remarks$occurrenceRemarks,
+                ~data.frame(jsonlite::fromJSON(.))) %>%
+     #purrr::map(., ~ifelse(is.null(dim(.)), ,)
+     purrr::map(.,
+                ~ mutate(.,
+                         om = paste(.$endemism, .$phytogeographicDomain,
+                                    sep = "/"))) %>%
+     purrr::map( ~ mutate(., om_all = paste(om, collapse = "-"))) %>%
+     purrr::map( ~ dplyr::select(., om_all)) %>%
+     purrr::map( ~ distinct(.)) %>%
+     purrr::map(., .f = ~change_others_to_dataframe(.))
+
+omdf <- bind_rows(occurrenceRemarks_df,.id = "sp")
+omdf[10031:10033,]
 #
-# occurrenceRemarks_df <-
-#     purrr::map(ocurrence_remarks$occurrenceRemarks,
-#                ~data.frame(jsonlite::fromJSON(.))) %>%
-#     #purrr::map(., ~ifelse(is.null(dim(.)), ,)
-#     purrr::map(.,
-#                ~ mutate(.,
-#                         om = paste(.$endemism, .$phytogeographicDomain,
-#                                    sep = "/"))) %>%
-#     purrr::map( ~ mutate(., om_all = paste(om, collapse = "-"))) %>%
-#     purrr::map( ~ select(., om_all)) %>%
-#     purrr::map( ~ distinct(.)) %>%
-#     purrr::map(., .f = ~change_others_to_dataframe(.))
-#
-# omdf <- bind_rows(occurrenceRemarks_df,.id = "sp")
-# omdf[10031:10033,]
-#
-# #omdf <- data.table::rbindlist(occurrenceRemarks_df, idcol = T)
-# omdf <- data.frame(omdf)
-# head(omdf)
-# names(distribution)
-# distribution_mod <- distribution %>% mutate(occurrenceRemarks = omdf$om_all)
-# write.csv(distribution_mod, "./ipt/distribution_modified.csv")
+head(distribution)
+distribution_mod <- distribution %>% mutate(occurrenceRemarks = omdf$om_all)
+head(distribution_mod)
+write.csv(distribution_mod, "./ipt/distribution_modified.csv")
 
 
 ###lifeform
 lf_habitat <-
     read_delim("./ipt/speciesprofile.txt", delim = "\t", quote = "")
 names(lf_habitat)
-i <- 1
+head(lf_habitat)
+lf_habitat %>% filter(!is.na(lifeForm)) %>% head
 lf <- list()
 hab <- list()
 veg <- list()
@@ -83,5 +86,3 @@ lf_hab %>%
     #filter(lifeForm != "NA") %>%
     head(.)
 write.csv(lf_hab, "./ipt/lf_hab_modified.csv")
-# distribution_mod <- distribution %>% mutate(occurrenceRemarks = omdf$om_all)
-# write.csv(distribution_mod, "./ipt/distribution_modified.csv")
