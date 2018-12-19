@@ -12,8 +12,8 @@ library(flora)
 
 espi <- read_excel("./data/ameacadas/Lista especies ameacadas pan-serraespinhacomeridional.xlsx") %>%
     set_names(c("Familia","Nome_cientifico", "Categoria")) %>%
-    mutate(source = "espi")
-espi
+    mutate(source = "espi") %>% filter(!is.na(Familia))
+tail(espi)
 espi$Nome_cientifico
 fav <- read_excel("./data/ameacadas/Lista de especies ameacadas pan-faveiro-de-wilson.xlsx") %>%
     set_names(c("Familia","Nome_cientifico", "Categoria")) %>%
@@ -53,3 +53,10 @@ write.csv(all_CNCFlora, "./data/ameacadas/all_CNCFLora.csv")
 
 #######################
 
+CNC <- read.csv("./data/ameacadas/all_CNCFLora.csv", row.names = 1) %>% rename(nombre = Nome_cientifico, CNCFlora = Categoria) %>% select(-1)
+
+any(aoo$nombre %in% CNC$nombre)
+#nothing in CNCFlora
+
+#####CITES
+cites <- read.csv("./data/CITES/Index_of_CITES_Species_2018-12-19 10_47.csv")
