@@ -1,0 +1,181 @@
+
+
+
+	
+		
+	
+		
+
+	
+Lamanonia ternata
+Vell.
+Cunoniaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Belangera glabra Cambess.
+Belangera speciosa Cambess.
+Belangera tomentosa Cambess.
+Lamanonia glabra (Cambess.) Kuntze
+Lamanonia speciosa (Cambess.) L.B.Sm.
+Lamanonia tomentosa (Cambess.) Kuntze
+	
+	
+	
+	
+Common Name: 
+
+	
+	InflorescencesPhotograph by: Sérgio Bordignon; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	InflorescencesPhotograph by: Sérgio Bordignon; Flora digital do Rio Grande do Sul e de Santa Catarina
+	LeavesPhotograph by: Eduardo Luís Hettwer Giehl ; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Ripening fruitsPhotograph by: Djeison Fernando de Souza; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Trunk with slash to show the woodPhotograph by: João Augusto Bagatini; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Ripening seed capsulesPhotograph by: João Augusto Bagatini; Flora digital do Rio Grande do Sul e de Santa Catarina
+
+
+General InformationLamanonia ternata is a semideciduous tree with a dense, ellipsoid crown; it can grow from 12 - 16 metres tall. The short bole can be 40 - 60cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for medicinal purposes and for its timber. A very ornamental tree, especially when in bloom, it can be used in general landscaping[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil.HabitatDense primary and secondary forests, more frequently found on slopes or hill tops where the soil is well-drained[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height14.00 m
+Growth RateMedium
+PollinatorsBees
+Cultivation StatusOrnamental, Wild
+Cultivation DetailsA plant of medium elevations in the tropics.
+Prefers a sunny position[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Newly planted young trees establish reasonably well, attaining a height of about 2 metres in two years[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalThe bark is bitter, styptic and tonic[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].Other UsesThe wood is soft, moderately heavy, easy to work and with medium durability when exposed to the elements[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is used in furniture making, general carpentry, canoe making etc[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe. The seeds are very small and light - they should be sown in a semi-shaded position in a nursery seedbed and only just covered with soil. Germination rates are generally very poor, with less than 10% germinating in 20 - 30 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Lamanonia+ternata>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

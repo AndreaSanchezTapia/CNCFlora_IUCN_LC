@@ -1,0 +1,192 @@
+
+
+
+	
+		
+	
+		
+
+	
+Calyptranthes clusiifolia
+O.Berg
+Myrtaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Chytraculia clusiifolia (O.Berg) Kuntze
+Myrcia clusiifolia Miq.
+	
+	
+	
+	
+Common Name: 
+
+	
+	InflorescencePhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	InflorescencePhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Close-up of the flowerPhotograph by: Alex Popovkin, Bahia, Brazil
+	Leaves and flowersPhotograph by: Alex Popovkin, Bahia, Brazil
+
+
+General InformationCalyptranthes clusiifolia is an evergreen tree with a dense, more or less globose crown; it can grow 6 - 8 metres tall. The upright, cylindrical bole can be 20 - 35cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local use of its wood. An ornamental plant, it can be used in general landscaping[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern and central Brazil, Venezuela.HabitatAtlantic rainforest and semideciduous forests at higher elevations, mainly in the primary forests; favouring sandy soils of moderate fertility, usually at elevations above 600 metres[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height6.00 m
+Growth RateSlow
+PollinatorsBees
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Succeeds in dry to moist soils[20TitleCompanion Planting for Successful Gardening.
+Publication 
+AuthorRiotte. L.
+PublisherGarden Way, Vermont, USA.
+Year1978
+ISBN0-88266-064-0
+DescriptionFairly good.
+]. Prefers a sandy soil of moderate fertility[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A slow-growing plant, scarcely reaching a height of 1.5 metres within 2 years from seed[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The plant can flower several times a year. The flowers are strongly scented[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalNone knownOther UsesThe wood is medium-textured, straight-grained, moderately heavy, with moderate mechanical properties and not very durable. It is used locally in general construction for purposes such as window and door jambs, laths etc; for making tool handles, boxes and crates[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and to make charcoal[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a sunny position in a nursery seedbed. A germination rate of less than 50% can usually be expected, with the seed sprouting within 10 - 15 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Calyptranthes+clusiifolia>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 100?
+	
+	
+

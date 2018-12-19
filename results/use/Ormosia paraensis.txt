@@ -1,0 +1,170 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ormosia paraensis
+Ducke
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Ormosia crassicarpa Pittier
+Ormosia heterophylla Pires
+	
+	
+	
+	
+Common Name: 
+
+	
+	Tree growing in native habitatPhotograph by: Reinaldo Aguilar	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Tree growing in native habitatPhotograph by: Reinaldo Aguilar
+	TrunkPhotograph by: Reinaldo Aguilar
+	SeedpodPhotograph by: Reinaldo Aguilar
+	LeafPhotograph by: Reinaldo Aguilar
+
+
+General InformationOrmosia paraensis is an evergreen tree that can grow around 40 metres tall[749TitleContributions from the United States National Herbarium. Vol. 32
+Publication 
+AuthorRudd V.E.
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionMonographs of several species in the family Fabaceae, including the Ormosia that occur in the Americas. It can be downloaded from the Internet.
+].
+The tree is harvested from the wild for its wood.Known HazardsThe plants, but especially the seed and perhaps also the bark, of many if not all species in this genus contain alkaloids and are toxic[864TitleBotanical Museum Leaflets Vol 21
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherBotanical Museum; Cambridge, Massachusetts
+Year1963 - 1967
+ISBN 
+DescriptionA series of botanical articles. It can be downloaded from the Internet.
+].Botanical References749TitleContributions from the United States National Herbarium. Vol. 32
+Publication 
+AuthorRudd V.E.
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionMonographs of several species in the family Fabaceae, including the Ormosia that occur in the Americas. It can be downloaded from the Internet.
+RangeS. America - northern Brazil, Venezuela, the Guyanas.HabitatRainforests, in areas not subject to seasonal inundation, growing on both sandy and clay soils; at elevations up to 800 metres[749TitleContributions from the United States National Herbarium. Vol. 32
+Publication 
+AuthorRudd V.E.
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionMonographs of several species in the family Fabaceae, including the Ormosia that occur in the Americas. It can be downloaded from the Internet.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height35.00 m
+PollinatorsInsects
+Cultivation StatusWild
+Cultivation Details
+This species has a symbiotic relationship with certain soil bacteria; these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[755TitleNodulation Plants in GRIN Taxonomy
+Publication 
+Author 
+Websitehttp://www.ars-grin.gov/~sbmljw/cgi-bin/taxnodul.pl?language=en
+PublisherUnited States Department of Agriculture
+Year0
+ISBN 
+DescriptionAn online database listing plants that have either positive or negative reports on root and stem nodulation with nitrogen-fixing bacteria.
+].Edible UsesNone knownMedicinalNone knownOther UsesWe have seen no specific reports for this species, but the brightly coloured seeds of various members of this genus are so commonly used as beads that the various species are often called necklace trees[520TitleBotanical Beads
+Publication 
+AuthorSmith R.J.
+Websitehttp://www.botanicalbeads.com/
+Publisher 
+Year0
+ISBN 
+DescriptionA website looking at seeds that are used for ornament. It is based on a book that the author had written.
+].
+The heartwood is yellow-brown to red-brown, with thin light brown streaks; it is clearly demarcated from the 3 - 15cm wide band of sapwood. The texture is coarse, grain interlocked. The wood is fairly hard to hard, moderately heavy, with good elasticity, moderately durable, and resistant to damage from fungi, dry wood borers and termites. It is slow to dry with a slight risk of checking and distortion, and is moderately stable to poorly stable in service. The wood generally is easy to work, though there are sometimes diffiulties due to the interlocked grain, surfaces are slightly fuzzy and finishing requires care. Peeling and slicing are good, it takes nails and screws well and glues correctly. It is used for furniture, flooring, joinery, heavy carpentry, panelling, veneer and turnery[848TitleTropix 7
+Publication 
+Author 
+Websitehttp://tropix.cirad.fr/en
+PublisherCIRAD
+Year0
+ISBN 
+DescriptionAn on-line guide to the timbers of 245 species of trees.
+].PropagationLike many species within the family Fabaceae, once they have been dried for storage the seeds of this species may benefit from scarification before sowing in order to speed up and improve germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ormosia+paraensis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: Type the digit seven into the box
+	
+	
+

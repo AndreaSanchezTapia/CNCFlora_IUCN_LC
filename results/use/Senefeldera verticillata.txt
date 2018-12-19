@@ -1,0 +1,166 @@
+
+
+
+	
+		
+	
+		
+
+	
+Senefeldera verticillata
+(Vell.) Croizat
+Euphorbiaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Omphalea verticillata Vell.
+Senefeldera angustifolia Klotzsch
+Senefeldera dodecandra MÃ¼ll.Arg.
+Senefeldera grandifolia Baill.
+Senefeldera latifolia Klotzsch
+Senefeldera multiflora Mart.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering branchPhotograph by: Alex Popovkin, Bahia, Brazil	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering branchPhotograph by: Alex Popovkin, Bahia, Brazil
+	Close-up of the flowering spikesPhotograph by: Alex Popovkin, Bahia, Brazil
+	Drawing of the leaves and flowersPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 11(2): fasicle 64, t. 75 (1874)
+
+
+General InformationSenefeldera verticillata is an evergreen tree with a dense, elongated crown; it can grow 6 - 18 metres tall. The slender bole is often hollow, it can be 20 - 40cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is an excellent fuel and is commonly harvested from the wild, and also often cultivated, for this purpose. It can be grown as a pioneer when restoring native woodland or establishing a woodland garden.Known HazardsNone knownBotanical ReferencesRangeS. America - eastern Brazil.HabitatAtlantic rainforest, growing in the more open areas and in secondary growth formations, commonly found invading abandoned agricultural fields[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height12.00 m
+Growth RateFast
+Cultivation StatusCultivated, Wild
+Cultivation Details
+Requires a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A fast-growing plant when young, easily reaching a height of 2.5 metres or more within 2 years from seed[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalNone knownAgroforestry Uses:An excellent pioneer species, fast-growing in sunny positions, easy to propagate and rapidly invading abandoned agricultural land; it can be used when restoring native woodland and also for establishing woodland gardens[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Other UsesThe wood is average-textured, straight-grained, heavy, with poor to moderate mechanical properties and a low resistance to rot. Not often used as a timber, but the wood has a high energy value and is commonly used for fuel and to make charcoal[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed. A high germination rate can usually be expected, with the seed sprouting within 40 - 50 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Senefeldera+verticillata>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: How many suns are in our solar system
+	
+	
+

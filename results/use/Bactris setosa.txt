@@ -1,0 +1,174 @@
+
+
+
+	
+		
+	
+		
+
+	
+Bactris setosa
+Mart.
+Arecaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bactris escragnollei Glaz. ex Burret
+Bactris lindmanniana Drude ex Lindm.
+	
+	
+	
+	
+Common Name: Tucum
+
+	
+	Ripening fruitsPhotograph by: Jorge Emerim
+		Public domain	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Ripening fruitsPhotograph by: Jorge Emerim
+		Public domain
+	Plant growing in the cerrado of Goias near the city of São Miguel do Araguaia, BrazilPhotograph by: MarcosM
+
+
+General InformationTucum is a spiny, evergreen, palm growing 2 - 6 metres tall. The plant forms dense clumps of unbranched stems 3 - 4cm in diameter; the stems are ringed and armed with spines; and topped by a crown of 2 - 5 leaves[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].
+The edible fruits are often gathered from the wild and consumed locally.Known HazardsNone knownBotanical References768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+RangeS. America - Brazil.HabitatUnderstorey of the Atlantic forest, mainly in damp soils or swampy areas[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height6.00 m
+PollinatorsInsects
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesFruit - raw[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. A thin and succulent pulp with a sweet-acid flavour[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The purple-black, globose fruit is about 2cm in diameter[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].MedicinalNone knownOther UsesA fibre in the leaves, known as Tecum, is very strong. It is used for fishing nets, lines, hats, ropes and hammocks[454TitleUseful Fiber Plants of the World
+Publication 
+AuthorDodge C.R.
+Websitehttp://www.biodiversitylibrary.org/
+PublisherUSDA; Washington.
+Year1897
+ISBN 
+DescriptionA rather dated, but very comprehensive catalogue of fibre plants from around the world. The book can be downloaded from the Internet.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Bactris+setosa>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

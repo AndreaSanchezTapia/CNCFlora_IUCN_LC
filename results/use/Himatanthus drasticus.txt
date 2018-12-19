@@ -1,0 +1,192 @@
+
+
+
+	
+		
+	
+		
+
+	
+Himatanthus drasticus
+(Mart.) Plumel
+Apocynaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Plumeria drastica Mart.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Close-up of the flowersPhotograph by: Antonio Sergio	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationHimatanthus drasticus is a deciduous shrub or small tree with a dense, more or less globose crown; it can grow 3 - 7 metres tall. The bole can be 25 - 35cm in diameter with a thick, corky bark[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is a popular local herbal remedy and is harvested from the wild for local use as a medicine and for its low quality wood. It can be used as a pioneer when restoring native woodland in dry areas.Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil, the Guyanas.HabitatCoastal forests and dryland forests[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitDeciduous Tree
+Height5.00 m
+Growth RateSlow
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A slow-growing plant[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalThe bark is febrifuge in low doses and tonic[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is used in the treatment of hernias and sloughing ulcers[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+The leaves have been used in the treatment of cancer. Research has shown that an ethanolic extract of the leaves has very low toxicity and is effective in the treatment of some forms of cancer[760TitleAntitumor activity of leaves of Himatanthus drasticus (Mart.) Plumel-Apocynaceae (Janaguba) in the treatment of Sarc
+PublicationBrazilian Journal of Pharmaceutical Sciences vol. 46, n. 2, abr./jun., 2010
+Authorde Sousa E.L. Et al
+PublisherBrazilian Journal of Pharmaceutical Sciences
+Year2010
+ISBN 
+DescriptionA research paper on the effectiveness of leaf extracts of Himatanthus drasticus in the treatment of cancer.
+].
+A latex obtained from the plant has medicinal properties[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Agroforestry Uses:Although slow-growing, the plant can succeed in difficult, dry areas and so can be used as a pioneer when restoring native woodland[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe heartwood and sapwood are not clearly distinguished. The wood is light in weight with a low resistance to insect attack. Of poor quality and small size, it is only used for making light boxes[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a sunny position in a nursery seedbed. A low germination rate can be expected, with the seed sprouting within 60 - 80 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Himatanthus+drasticus>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	
+	
+

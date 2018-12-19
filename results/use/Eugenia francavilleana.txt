@@ -1,0 +1,199 @@
+
+
+
+	
+		
+	
+		
+
+	
+Eugenia francavilleana
+O.Berg
+Myrtaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Eugenia glazioviana Kiaersk.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationEugenia francavilleana is an evergreen shrub or small tree with a dense, pyramidal crown when young, becoming more open and globose in older trees, growing 4 - 6 metres tall. The straight and more or less cylindrical bole can be 20 - 30cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local use of its wood. It can be used as a pioneer species when restoring native woodland or establishing woodland gardens and, with its elegant crown, it can be used for landscaping[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]Known HazardsNone knownBotanical ReferencesRangeS. America - central and eastern Brazil.HabitatSemideciduous forests, in both dense primary and the more open, secondary formations; favouring well-drained, sandy soils on gentle slopes and plateaux[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height5.00 m
+PollinatorsBees
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a well-drained, sandy soil in the wild[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesFruit - raw. A fleshy, sweetish tasting pulp[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The red to black, globose to pear-shaped fruit is around 15mm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownAgroforestry Uses:Tolerant of full sun and providing an edible fruit that is also a valuable food source for the native fauna, the plant can be used as a pioneer when restoring native woodland or establishing a woodland garden[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Other UsesThe wood is fine-textured, straight-grained, moderately heavy, soft to cut, with poor mechanical properties and low durability. It can be used, mainly for internal work, in small general constructions; for tool handles; light cabinet making etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a sunny position in a nursery seedbed. A germination rate in excess of 50% can be expected, with the seed sprouting within 15 - 25 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. When the seedlings are 4 - 5cm tall, pot them up into individual containers and they should be ready to plant out 5 - 6 months later[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eugenia+francavilleana>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: subtract 1 from 12
+	
+	
+

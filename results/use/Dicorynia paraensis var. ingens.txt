@@ -1,0 +1,120 @@
+
+
+
+	
+		
+	
+		
+
+	
+Dicorynia paraensis
+Benth.
+Fabaceae
+The name of this species has often been wrongly applied to Dicorynia guianensis. Dicorynis paraensis is found in the rainforests of northern Brazil, Colombia and Venezuela - little is known of its wood. Dicorynia guianensis is a well-known species from the Guyanas of northern S. America and yields a high quality timber[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Dicorynia spruceana Benth.
+	
+	
+	
+	
+Common Name: Angelique
+
+	
+	Drawing of the leaves, flowers and seedPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 15(2): fasicle 50, t. 29 (1870)	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationAngelique is a tree,. The bole is straight and can be free of branches for up to 18 metres.
+The tree is little known, but is likely to yield a good quality timber.Known HazardsNone knownBotanical ReferencesRangeNorthern S. America - northern Brazil, Colombia, Venezuela.HabitatPlateaux and slopes in the rainforest[480TitleGreen Manures and Manuring in the Tropics
+Publication 
+AuthorSornay P. De. Translated by Flattely F.W.
+Websitehttp://www.biodiversitylibrary.org
+PublisherJohn Bale, Sons and Danielsson Ltd.: London
+Year1916
+ISBN 
+DescriptionAn excellent work on the subject, even if it was written almost 100 years ago. It also includes a section of useful Legumes. Can be downloaded from the Internet.
+]. Inundated forest areas, on lower terrain along the Rio Negro[1309TitleThe Leguminosae; A Source Book of Characteristics, Uses and Nodulation
+Publication 
+AuthorAllen O.N.; Allen E.K.
+PublisherUniversity of Wisconsin
+Year1981
+ISBN0-333-32221-5
+DescriptionAn amazing and comprehensive work, giving a brief guide to the many genera of the family Fabaceae and also the principle uses of the genus.
+].Properties
+Other Uses Rating
+HabitTree
+Height0.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesWood - likely to be of good quality but not well known at present. Most, if not all, reports on the timber of this species should actually be referred to Dicorynis guianensis, a species found in the Guyanas.PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Dicorynia+paraensis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: How many fingers does the typical human have?
+	
+	
+

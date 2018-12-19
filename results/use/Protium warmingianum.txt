@@ -1,0 +1,215 @@
+
+
+
+	
+		
+	
+		
+
+	
+Protium warmingianum
+Marchand
+Burseraceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Protium blanchetii Engl.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Fruiting branch. The species depocted is very similar to P. warmingianum, but might turn out to be distinct from it.Photograph by: Alex Popovkin, Bahia, Brazil	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Fruiting branch. The species depocted is very similar to P. warmingianum, but might turn out to be distinct from it.Photograph by: Alex Popovkin, Bahia, Brazil
+	Fruit split open to reveal the edible white aril and the black seed. The species depocted is very similar to P. warmingianum, but might turn out to be distinct from it.Photograph by: Alex Popovkin, Bahia, Brazil
+	Fruiting stem. The species depocted is very similar to P. warmingianum, but might turn out to be distinct from it.Photograph by: Alex Popovkin, Bahia, Brazil
+
+
+General InformationProtium warmingianum is an aromatic, evergreen tree with a rounded crown; it can grow 10 - 20 metres tall. The straight, cylindrical bole can be 30 - 40cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local medicinal use.Known HazardsNone knownBotanical ReferencesRangeS. America - north and east Brazil.HabitatSavannah and rainforest. Most commonly found in dense, primary forest on moister soils[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height15.00 m
+Growth RateMedium
+Self-fertileNo
+Cultivation StatusWild
+Cultivation Details
+Succeeds in full sun and in dappled shade[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Plants have a moderate rate of growth[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Most, if not all, species in this genus are dioecious, both male and female forms need to be grown if fruit and seed are required[745TitleNovon Vol. 9
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherMissouri Botanical Garden; Missouri.
+Year1999
+ISBN 
+DescriptionA botanical publication with a main focus on publishing the names of new and renamed species. It can be downloaded from the Internet.
+].Edible UsesA succulent, sweet-tasting aril surrounds the seed[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. This report does not say that the fruit is edible, but it is likely to be since several other members of the genus have edible fruits[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+]. It is rather small though, the almost black, globose fruits are only 25mm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].MedicinalAn aromatic resin obtained from the trunk has medicinal uses[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesA resin is obtained from the trunk[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It has medicinal uses[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]
+The wood is fine-textured, straight-grained, moderately heavy, easy to cut, with a low resistance to wood-eating organisms. It is used for making simple furniture, door and window frames, moldings, wainscots etc[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+We have no more information on the wood of this species, but a general description of the wood for tropical American members of this genus is as follows:-
+The heartwood is brown or reddish-brown, sometimes with irregularly spaced darker brown lines; it is not always sharply demarcated from the pale buff to pinkish sapwood. The texture varies from rather fine to fairly coarse; grain straight to very irregular and interlocked; lustre is rather high; dry specimens are without any distinctive odour or taste. Silica is reported for some species. The wood is generally reported to have a low resistance to attack by decay fungi and is vulnerable to dry-wood termites; it has no appreciable resistance to marine borers. Reports on seasoning vary from fairly easy to air dry to moderately difficult. Logs should be debarked prior to sawing to avoid resin accumulation
+on cutters and equipment. The dry wood works easily and rates fair to good in all operations; it cuts easily into veneers but tends to buckle on drying; some species are abrasive because of the silica content. The wood is used for purposes such as furniture, millwork, veneer and plywood, general construction, particleboard; it is a possible substitute for birch[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed. A low germination rate can be expected, with the seed sprouting within 90 - 120 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Protium+warmingianum>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: subtract 1 from 12
+	
+	
+

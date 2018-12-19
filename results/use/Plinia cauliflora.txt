@@ -1,0 +1,392 @@
+
+
+
+	
+		
+	
+		
+
+	
+Plinia cauliflora
+(Mart.) Kausel
+Myrtaceae
+Some botanists divide this species into two, recognising Plinia jaboticaba (treated here as a synonym) as a distinct species[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Eugenia cauliflora (Mart.) DC.
+Eugenia jaboticaba (Vell.) Kiaersk.
+Myrcia jaboticaba (Vell.) Baill.
+Myrciaria cauliflora (Mart.) O.Berg
+Myrciaria jaboticaba (Vell.) O.Berg
+Myrtus cauliflora Mart.
+Myrtus jaboticaba Vell.
+Plinia jaboticaba (Vell.) Kausel
+	
+	
+	
+	
+Common Name: Jaboticaba
+
+	
+	Ripe fruits growing along the trunkPhotograph by: Bruno.karklis	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Ripe fruits growing along the trunkPhotograph by: Bruno.karklis
+	The flowers are produced all along the trunkPhotograph by: Nevinho
+	Close-up of the flowerPhotograph by: mauroguanandi
+	Ripe fruitsPhotograph by: Elias Rovielo
+	LeavesPhotograph by: Forest and Kim Starr
+	Fruiting plant, growing in a home orchardPhotograph by: mauroguanandi
+
+
+General InformationJaboticaba is a very slow-growing ornamental evergreen shrub or small tree with a dense crown, that can grow from 3 - 10 metres tall[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It has one or more trunks and the branches emerge close to the ground and spread to give a dense, wide, round and symmetrical crown[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+A highly esteemed fruit in Brazil, where the plant is often cultivated in domestic orchards[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+, 307TitleTropical and Subtropical Trees - A Worldwide Encyclopaedic Guide.
+Publication 
+AuthorBarwick. M.
+PublisherThames & Hudson, London
+Year2004
+ISBN0-500-51181-0
+DescriptionA superb book, very concise and well written, giving a wealth of information on 400 or more species including descriptions, habitat, cultivation details and plant uses. A wealth of colour photographs bring each plant vividly to life.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The fruit is often found for sale in local markets[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].Known HazardsNone knownBotanical References200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+RangeS. America - eastern Brazil, Bolivia.HabitatNot known in the wildProperties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height13.00 m
+Growth RateSlow
+Cultivation StatusCultivated, Ornamental
+Cultivation DetailsA plant of the tropics, where it is found at elevations up to 1,700 metres. It grows best in areas where annual daytime temperatures are within the range 22 - 28Â°c, but can tolerate 10 - 32Â°c[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. When dormant, the plant can survive occasional short-lived temperatures down to about -3Â°c, but young growth can be severely damaged at -1Â°c[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. It prefers a mean annual rainfall in the range 900 - 1,500mm, but tolerates 700 - 1,700mm[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+Requires a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a fertile, deep, well-drained, humus-rich, mildly-acid soil[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+]. Tolerant of moderate levels of salt in the soil[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. Plants have a high requirement for iron[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. Prefers a pH in the range 5.5 - 7.5, tolerating 4.5 - 8[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+Newly planted young trees are quite slow to establish and grow away[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Plants commence fruiting in about 6 - 10 years from seed and 4 years from layering[307TitleTropical and Subtropical Trees - A Worldwide Encyclopaedic Guide.
+Publication 
+AuthorBarwick. M.
+PublisherThames & Hudson, London
+Year2004
+ISBN0-500-51181-0
+DescriptionA superb book, very concise and well written, giving a wealth of information on 400 or more species including descriptions, habitat, cultivation details and plant uses. A wealth of colour photographs bring each plant vividly to life.
+, 335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+].
+In warm tropical and subtropical areas with light rainfall he plant can produce 5 or 6 crops each year[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+The flowers and fruits are formed on the trunk and branches[307TitleTropical and Subtropical Trees - A Worldwide Encyclopaedic Guide.
+Publication 
+AuthorBarwick. M.
+PublisherThames & Hudson, London
+Year2004
+ISBN0-500-51181-0
+DescriptionA superb book, very concise and well written, giving a wealth of information on 400 or more species including descriptions, habitat, cultivation details and plant uses. A wealth of colour photographs bring each plant vividly to life.
+].
+Plants have a compact, fibrous root system and transplant well[307TitleTropical and Subtropical Trees - A Worldwide Encyclopaedic Guide.
+Publication 
+AuthorBarwick. M.
+PublisherThames & Hudson, London
+Year2004
+ISBN0-500-51181-0
+DescriptionA superb book, very concise and well written, giving a wealth of information on 400 or more species including descriptions, habitat, cultivation details and plant uses. A wealth of colour photographs bring each plant vividly to life.
+].
+There is at least one named form[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].Edible UsesThe fruit can be eaten raw, made into jellies, syrups and preserves or fermented into wine[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+]. The purplish, grape-like fruit has a thick skin with a translucent, juicy pulp and a pleasant vinous flavour[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+]. In both taste and appearance they are remarkably like some cultivars of the muscadine grape[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+]. The fruit is rich in vitamin C[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. The shining-black, globose fruit is up to 35mm in diameter[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. The jam is marketed in Brazil as 'Brazilian Grape Jelly'[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].MedicinalNone knownOther UsesThe wood is straight-grained, average texture, moderately heavy, but susceptible to wood-eating organisms[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is only used as a fuel and to make charcoal[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - it has a short viability and so is best sown as soon as it is ripe. Sow in a semi-shaded position in a nursery seedbed. Germination rates can be 90% or more, with the seed sprouting within 20 - 35 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The seedlings grow quite slowly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Cuttings
+Side-veneer graftingCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Plinia+cauliflora>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: Type the digit seven into the box
+	
+	
+

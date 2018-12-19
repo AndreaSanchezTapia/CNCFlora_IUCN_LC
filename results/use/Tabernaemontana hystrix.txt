@@ -1,0 +1,196 @@
+
+
+
+	
+		
+	
+		
+
+	
+Tabernaemontana hystrix
+Steud.
+Apocynaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Peschiera fuchsiifolia (A.DC.) Miers
+Peschiera gaudichaudii (A.DC.) Miers
+Peschiera gracillima Miers
+Peschiera granulose Miers
+Peschiera hystrix (Steud.) A.DC.
+Peschiera lundii (A.DC.) Miers
+Peschiera solandri Miers
+Tabernaemontana bracteolaris Mart. ex MÃ¼ll.Arg.
+Tabernaemontana collina Gardner
+Tabernaemontana echinata Vell.
+Tabernaemontana fuchsiifolia A.DC.
+Tabernaemontana gaudichaudii A.DC.
+Tabernaemontana gracilis MÃ¼ll.Arg.
+Tabernaemontana gracillima (Miers) Pichon
+Tabernaemontana lundii A.DC.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering stemPhotograph by: Mauricio Mercadante	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering stemPhotograph by: Mauricio Mercadante
+	Close-up of the flowersPhotograph by: Mauricio Mercadante
+	Ripening fruitsPhotograph by: Mauricio Mercadante
+	Fruit opening to reveal the flesh and seedPhotograph by: Mauricio Mercadante
+
+
+General InformationTabernaemontana hystrix is an shrub or a tree with a low, dense crown growing 4 - 6 metres tall. The bole is usually short and crooked, around 25 - 30cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local use of its wood. It is highly recommended for use in re-establishing native woodland. An ornamental plant, it could be useful for planting under power lines and in narrow streets[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern Brazil.HabitatBroadleaved, semideciduous forest, where it is found mainly in open places and secondary forest formations, though it is also sometimes found in dense primary formations[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Weed PotentialYes
+Other Uses Rating
+HabitEvergreen Tree
+Height5.00 m
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The plant can become a serious weed in pastures where it often self-sows freely and also sends up suckers from the roots[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalNone knownAgroforestry Uses:A fast-growing natural pioneer that can quickly invade pasture, it also provides every year a large crop of fruits that are avidly eaten by birds. It is an essential choice for planting schemes to re-establish native woodland[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is light in weight, soft and with low resistance to rot. It can be used for boards in general, rafters and beams[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and to make charcoal[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position or in the sun in a nursery seedbed or in individual containers. A germination rate in excess of 80% can be expected, with the seed sprouting within 30 - 40 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seed remains viable in storage for at least 10 months[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Tabernaemontana+hystrix>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: Type the digit seven into the box
+	
+	
+

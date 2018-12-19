@@ -1,0 +1,218 @@
+
+
+
+	
+		
+	
+		
+
+	
+Myrciaria glazioviana
+(Kiaersk.) G.M.Barroso ex Sobral
+Myrtaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Eugenia cabelludo glazioviana Kiaersk.
+Paramyrciaria glazioviana (Kiaersk.) Sobral
+	
+	
+	
+	
+Common Name: Cabeludinha
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationCabeludinha is an evergreen shrub or small tree with a dense crown; it can grow 2 - 4 metres tall[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The short, crooked bole branches from low down and is 10 - 20cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The plant is often cultivated in domestic orchards for its edible fruit, which is greatly appreciated locally[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern Brazil.HabitatForested mountain slopes, favouring rocky but moist soils[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Shrub
+Height3.00 m
+Cultivation StatusCultivated, Wild
+Cultivation Details
+Succeeds in full sun to moderate shade[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a moist but well-drained soil[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Newly planted young trees grow away quite slowly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesFruit - raw[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. A translucent, succulent pulp with a very sweet flavour[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The orange-yellow, globose berry is 22 - 28mm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownOther UsesThe wood is straight-grained, of average texture, moderately heavy, hard, slightly susceptible to wood eating organisms[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Because of its small dimensions, it is only suitable for items such as agricultural tool handles[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and to make charcoal[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - it has a short viability and so is best sown as soon as it is ripe. Sow in a semi-shaded position in a nursery seedbed. Germination rates are quite low, with the seed sprouting within 80 - 100 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The seedlings grow away quite slowly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Myrciaria+glazioviana>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

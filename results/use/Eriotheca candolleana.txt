@@ -1,0 +1,190 @@
+
+
+
+	
+		
+	
+		
+
+	
+Eriotheca candolleana
+(K.Schum.) A.Robyns
+Malvaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bombax candolleanum K.Schum.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationEriotheca candolleana is an evergreen tree with a dense, roundish crown growing 12 - 24 metres tall. The straight, cylindrical bole can be 40 - 50cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local use of its wood. It can be used as a pioneer species in reforestation projects[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern and central Brazil.HabitatAtlantic rainforest and semideciduous forests at higher elevations, growing mainly on slopes and found in both dense primary formations and open, secondary growth[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height18.00 m
+Growth RateFast
+PollinatorsInsects
+Cultivation StatusWild
+Cultivation Details
+Prefers a sunny position[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Succeeds in a wide range of soils[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Young plants are fast-growing, reaching a height of around 3 metres within 2 years from seed[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalNone knownAgroforestry Uses:A fast-growing natural pioneer species that succeeds in most soil types. It can be used in reforestation projects to restore native woodland[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe heartwood and sapwood are not clearly differentiated. The wood is straight-grained, light in weight, soft and of low durability[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is used for low quality purposes such as door fillings and panels, ceilings, toys etc[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed or in individual containers. A germination rate of around 30% can be expected, with the seed sprouting within 5 - 10 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. When the seedbed-sown seedlings are 5 - 7cm tall, pot them up into individual containers and they should be ready to plant out about 8 months later[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seeds have a viability in storage of less than 6 months[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eriotheca+candolleana>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: subtract 1 from 12
+	
+	
+

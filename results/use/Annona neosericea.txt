@@ -1,0 +1,200 @@
+
+
+
+	
+		
+	
+		
+
+	
+Annona neosericea
+H.Rainer
+Annonaceae
+This name is not universally accepted. We are following the treatment in the online Flora do Brasil 2012, but some other treatments accept the genus Rollinia, in which case the correct name for this species would be Rollinia sericea (R.E.Fr.) R.E.Fr.[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Rollinia dolabripetala sericea R.E.Fr.
+Rollinia sericea (R.E.Fr.) R.E.Fr.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering branchPhotograph by: Marcio Verdi; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering branchPhotograph by: Marcio Verdi; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Developing fruitPhotograph by: Marcio Verdi; Flora digital do Rio Grande do Sul e de Santa Catarina
+	LeavesPhotograph by: J. P. Maçaneiro; Flora digital do Rio Grande do Sul e de Santa Catarina
+
+
+General InformationAnnona neosericea is a semideciduous tree with a spreading, flat-topped crown; it can grow 5 - 15 metres tall. The bole can be 40 - 50cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The edible fruit is much appreciated within the plants native range, where it is often harvested from the wild for local use. The tree also yields a fibre and wood for local use. It can be used as a pioneer for restoring native woodland and establishing woodland gardens and, with its ornamental foliage, is suitable for landscaping[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - southern and eastern Brazil.HabitatAtlantic rainforest in both dense primary and more open secondary formations at elevations up to 1,000 metres[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height10.00 m
+Growth RateMedium
+Cultivation StatusWild
+Cultivation Details
+Succeeds in full sun to dappled shade[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A moderately fast-growing tree, able to reach a height of around 2.5 metres within 2 years from seed[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesFruit - raw[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The fruit is an ovoid berry around 5cm long and 4cm wide made up of 100 - 150 united carpels[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownAgroforestry Uses:A fairly fast-growing tree that succeeds in open positions and provides food for humans and the native fauna, it can be grown as a pioneer species when restoring native woodland and also for establishing woodland gardens[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesA fibre obtained from the bark is used to make ropes[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is medium-textured, straight-grained, light in weight, with poor mechanical properties and poor durability. Of low quality, it can be used to make toys and boxes[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - it has a hard seedcoat and may benefit from scarification before sowing to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing. Sow the seed as sown as soon as it is ripe in a partially shaded position in a nursery seedbed. A low germination rate can be expected from untreated seed, with the seed sprouting within 30 - 50 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seed has a short viability in storage[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Annona+neosericea>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

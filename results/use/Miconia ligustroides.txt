@@ -1,0 +1,190 @@
+
+
+
+	
+		
+	
+		
+
+	
+Miconia ligustroides
+(DC.) Naudin
+Melastomataceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Cremanium ligustroides DC.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Ripening fruitsPhotograph by: Anita Stival; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Ripening fruitsPhotograph by: Anita Stival; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Drawing of a flowering branch (Fig II only)Photograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 14(4): fasicle 100, t. 77 (1887)
+
+
+General InformationMiconia ligustroides is a semideciduous shrub or small tree with a low, rounded crown; it can grow up to 5 metres tall. The short, cylindrical bole can be 15 - 25cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree yields a low quality wood, but is sometimes harvested for local use. It can be used as a pioneer when restoring native woodland.Known HazardsNone knownBotanical ReferencesRangeS. America - southern, eastern, central and northern Brazil.HabitatAtlantic rainforest and semideciduous forests at higher elevations, mainly in the more open and secondary growth areas, favouring well-drained soils[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height4.00 m
+Growth RateFast
+PollinatorsInsects
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a well-drained soil[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Young plants have a rapid rate of growth[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesWe have no specific information for this species, but the small, blue, purple or black fruits of many, if not all, species in this genus is edible[453TitleWoods of Northeastern Peru
+Publication 
+AuthorWilliams L.
+Websitehttp://www.biodiversitylibrary.org/
+PublisherField Museum Press; Chicago.
+Year1936
+ISBN 
+DescriptionGives information on the properties of the wood of well over 1,000 species of woody plants from northeastern Peru. Can be downloaded from the Internet.
+]. The blue, globose berries are 3 - 5mm in diameter[333TitleTree Species of Panama
+Publication 
+Author 
+Websitehttp://ctfs.arnarb.harvard.edu/webatlas/mainframe.php?order=s
+Publisher 
+Year0
+ISBN 
+DescriptionFactsheets on all the tree and shrub species of Panama, giving identification guide, brief guide to the species and some uses. A vast, but rather incomplete work as of 15/07/09.
+].MedicinalNone knownAgroforestry Uses:A fast-growing, pioneer species that provides food for the native fauna, it can be used in reforestation projects for restoring native woodland[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is medium-textured, straight-grained, moderately heavy, easy to cut, very susceptible to rot. A low quality wood, only available in small sizes, it is only used for making boxes[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed - surface sow the small seed and then gently firm it into the soil, being careful not to wash it away when watering. A low germination rate can be expected, with the seed sprouting within 40 - 50 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Miconia+ligustroides>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	
+	
+

@@ -1,0 +1,213 @@
+
+
+
+	
+		
+	
+		
+
+	
+Eschweilera grandiflora
+(Aubl.) Sandwith
+Lecythidaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Eschweilera alba R.Knuth
+Eschweilera fracta R.Knuth
+Lecythis grandiflora Aubl.
+	
+	
+	
+	
+Common Name: Castanha Vermelha
+
+	
+	Drawing of the leaves, flowers, fruit and seedPhotograph by: Descourtilz, M.E., Flore médicale des Antilles, vol. 6: t. 396 (1828) [J.T. Descourtilz]	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Drawing of the leaves, flowers, fruit and seedPhotograph by: Descourtilz, M.E., Flore médicale des Antilles, vol. 6: t. 396 (1828) [J.T. Descourtilz]
+	Drawing of the leaves and flowersPhotograph by: Mutis, J.C., Drawings of the Royal Botanical Expedition to the new Kingdom of Granada, t. 2681 (1783-1816)
+
+
+General InformationCastanha vermelha is an evergreen tree growing up to 30 metres tall.
+The plant is harvested from the wild for its edible seed, which contains a fine oil[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. It is also valued for its timber. The tree is sometimes cultivated for its seed[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil, Peru, Ecuador, French Guiana.HabitatAn understorey tree in the rainforest.Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height25.00 m
+Cultivation StatusCultivated, Wild
+Cultivation DetailsA plant of low elevations in the moist tropics.Edible UsesSeed[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+]. Palatable[2TitleSturtevant's Edible Plants of the World.
+Publication 
+AuthorHedrick. U. P.
+PublisherDover Publications
+Year1972
+ISBN0-486-20459-6
+DescriptionLots of entries, quite a lot of information in most entries and references.
+].
+A fine oil can be obtained from the seeds[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].MedicinalAn infusion of the flowers is used in the treatment of ophthalmia[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].
+The fruit is acidic and refreshant[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].
+An emulsion of the seed is used in the treatment of infections of the urinary tract[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].Other UsesAn oil extracted from the seeds is used in soap-making and as lubricant[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+].
+The light red to orange-red wood is dense, close-grained and very strong[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. It is used for spokes[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].
+We do not have any more specific information for this species, but the general description for the wood of this genus is as follows:-
+The heartwood of most species is light brown, grayish-brown, reddish-brown, or brownish-buff, sometimes with black streaks; it is usually distinct from the yellowish sapwood. The texture is fine and uniform; the grain typically straight; lustre is low; there is no distinctive odour or taste. Depending on the species, silica content may be as high as 2.4%. Most species are highly resistant to attack by both brown-rot and white-rot fungi. Also most of the species have gained wide recognition for their high degree of resistance to marine-borer attack. Resistance to dry-wood termite attack is variable, depending on species. The wood is rated as fairly difficult to air season, drying rates are slow to moderate. Warp and checking are rated as slight to moderate, depending on species. Most of the species are difficult to work because of the high density and high silica content (excepting E. Tenax); specially tipped cutters are suggested. They can be used for purposes such as marine and other heavy construction, industrial flooring, pulpmill
+equipment, railroad crossties, piling, and turnery[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eschweilera+grandiflora>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

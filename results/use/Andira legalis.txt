@@ -1,0 +1,254 @@
+
+
+
+	
+		
+	
+		
+
+	
+Andira legalis
+(Vell.) Toledo
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Andira stipulacea Benth.
+Lumbricidia legalis Vell.
+Vouacapoua legalis (Vell.) Kuntze
+	
+	
+	
+	
+Common Name: 
+
+	
+	Looking into the canopyPhotograph by: diele_lobo	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Looking into the canopyPhotograph by: diele_lobo
+	Leaves of a young treePhotograph by: Alex Popovkin, Bahia, Brazil
+	Mature seedpodsPhotograph by: diele_lobo
+	Seedpods cut openPhotograph by: diele_lobo
+
+
+General InformationAndira legalis is a small, evergreen tree with a roundish crown; it can grow 4 - 7 metres tall. The bole is crooked and up to 30 - 40cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+An ornamental tree, especially when in bloom, it can be used for street plantings[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsThe smoke from the wood is said to be toxic and to cause blindness if it gets in the eyes[307TitleTropical and Subtropical Trees - A Worldwide Encyclopaedic Guide.
+Publication 
+AuthorBarwick. M.
+PublisherThames & Hudson, London
+Year2004
+ISBN0-500-51181-0
+DescriptionA superb book, very concise and well written, giving a wealth of information on 400 or more species including descriptions, habitat, cultivation details and plant uses. A wealth of colour photographs bring each plant vividly to life.
+, 528TitleIndicador de Madeiras e Plantas Uteis do Brasil.
+Publication 
+AuthorFonseca E. T. De
+Websitehttp://www.biodiversitylibrary.org
+Publisher 
+Year1922
+ISBN 
+DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
+].
+The bark and leaves are used medicinally as drastic purgatives, but if the dose used is too large they can cause death[528TitleIndicador de Madeiras e Plantas Uteis do Brasil.
+Publication 
+AuthorFonseca E. T. De
+Websitehttp://www.biodiversitylibrary.org
+Publisher 
+Year1922
+ISBN 
+DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
+].Botanical ReferencesRangeS. America - eastern Brazil.HabitatHumid forests of the coastal lowlands, usually in clayey soils[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height6.00 m
+Growth RateMedium
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Requires a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Young plants usually establish and grow away moderately well[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+This species has a symbiotic relationship with certain soil bacteria, these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[755TitleNodulation Plants in GRIN Taxonomy
+Publication 
+Author 
+Websitehttp://www.ars-grin.gov/~sbmljw/cgi-bin/taxnodul.pl?language=en
+PublisherUnited States Department of Agriculture
+Year0
+ISBN 
+DescriptionAn online database listing plants that have either positive or negative reports on root and stem nodulation with nitrogen-fixing bacteria.
+].Edible UsesNone knownMedicinalThe seeds are vermifuge[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].
+The powdered bark and wood are applied externally in the treatment of skin ulcers[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+The active anthelmintic principle in the plant is the non-proteinogenic amino acid N-methyltyrosine (andirine)[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].Other UsesThe wood is cross-grained; thick-textured; with moderate mechanical properties; heavy; soft and easy to work with[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is used for general carpentry, boat construction etc[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. Of small dimensions, it is mainly used locally in rustic constructions, light cabinet making, fence posts, railway ties etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and charcoal[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - the whole fruit is usually sown because it is difficult to separate the pulp[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Best sown as soon as it is ripe, in individual pots, covering them with 1cm of soil. A germination rate of over 50% is usually achieved within 2 - 4 weeks of sowing[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Plant out into their permanent positions when 20 - 30cm tall[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Andira+legalis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: How many fingers does the typical human have?
+	
+	
+

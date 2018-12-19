@@ -1,0 +1,218 @@
+
+
+
+	
+		
+	
+		
+
+	
+Cordia sellowiana
+Cham.
+Boraginaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Cordia brachypoda A.DC.
+Cordia obscura Cham.
+Gerascanthus brachypodus (A.DC.) Borhidi
+Gerascanthus obscures (Cham.) Borhidi
+Gerascanthus sellowianus (Cham.) Borhidi
+Lithocardium brachypodum Kuntze
+Lithocardium obscurum Kuntze
+Lithocardium sellowianum Kuntze
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering branchPhotograph by: Germaine A. Parada	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering branchPhotograph by: Germaine A. Parada
+	Close-up of the flowersPhotograph by: Germaine A. Parada
+	Looking up into the canopyPhotograph by: Germaine A. Parada
+	LeavesPhotograph by: Germaine A. Parada
+
+
+General InformationCordia sellowiana is a semi-deciduous tree growing 8 - 14 metres tall. The bole can be 30 - 50cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is harvested from the wild for local use of its wood. An ornamental tree, it has potential for use as a pioneer and can be used in urban tree planting[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - Bolivia, Brazil, French Guiana.HabitatMainly found in semi-deciduous, broadleaved forests, both in primary and secondary formations[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height12.00 m
+Growth RateFast
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Grows best in a sunny position[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a deep soil that is well-drained[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+When planted in fertile soils, newly planted young trees grow away quite quickly, easily reaching 3 metres within 2 years[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Plants can commence fruiting when 3 years old[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesAlthough we have seen no specific information for this species, the fruits of all members of this genus are said to be edible[422TitleFruits of the Guianan Flora
+Publication 
+Authorvan Roosmalen. M.G.M.
+PublisherInstitute of Systematic Boyany, Utrecht University; Netherlands.
+Year1985
+ISBN90-9000988-4
+DescriptionTerse descriptions of over 1,700 species from the Guianas that bear fruits - not necessarily edible! Often mentions if the fruit is edible, plus gives brief description of habit and habitat.
+]. In general the fruit comprises a thin to fairly thick layer of pulpy, sweetish-tasting flesh surrounding a single seed[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+The yellowy-brown, globose fruit can be 15mm in diameter, It has a sticky, succulent pulp[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownAgroforestry Uses:A fairly fast-growing tree, producing an edible fruit that is much liked by the native fauna. It is a natural pioneer within its native range[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is light in weight, of low durability when exposed, easy to work with[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It can be used for internal works, cabinet making and general carpentry[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - it has a short viability of less than 5 months. Sow as soon as possible in a semi-shaded position in a nursery seedbed or in individual containers. Germination rates are generally low, with the seeds sprouting within 20 - 40 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Transplant nursery bed seedlings to individual containers when they are 5 - 7cm tall. They should be ready to plant out 4 - 6 months later.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cordia+sellowiana>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	
+	
+

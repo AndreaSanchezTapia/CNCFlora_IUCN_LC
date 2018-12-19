@@ -1,0 +1,222 @@
+
+
+
+	
+		
+	
+		
+
+	
+Syagrus vagans
+(Bondar) A.D.Hawkes
+Arecaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Cocos vagans Bondar
+	
+	
+	
+	
+Common Name: Ariri
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationAriri is an evergreen, stemless, shrubby palm producing a cluster of subterranean stems and growing up to 3 metres tall. The stems are topped by crowns of 10 - 30 stiffly erect leaves, which can each be up to 3 metres long[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].
+The edible fruit is often gathered from the wild and consumed locally, whilst the leaves are also used for thatching etc[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].  The plant is very rarely seen in cultivation.Known HazardsNone knownBotanical References768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+RangeS. America - eastern Brazil.HabitatFound in dry scrubland (caatinga) in the eastern Brazilian state of Bahia, at elevations above 250 metres[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+]. Sandy and gravelly soils, occasionally on lateritic soils, at elevations from 250 - 900 metres[768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Shrub
+Height2.00 m
+Cultivation StatusWild
+Cultivation DetailsA plant of the tropics, where it is found at elevations above 250 metres[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+]. Established plants can tolerate some frost[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+].
+Prefers a sunny position in a sandy, well drained soil[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+]. The plant is drought tolerant[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+].Edible UsesFruit - raw[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. A fibrous, succulent flesh with a sweet, pleasant flavour[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The fruit is up to 35mm long by 25mm wide[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].MedicinalNone knownOther UsesThe leaves are used for thatching and for weaving hats[768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].PropagationSeed -
+Cuttings of the rhizomes[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Syagrus+vagans>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

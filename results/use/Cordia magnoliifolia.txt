@@ -1,0 +1,194 @@
+
+
+
+	
+		
+	
+		
+
+	
+Cordia magnoliifolia
+Cham.
+Boraginaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Cordia diospyrifolia Cham.
+Cordia obliqua Vell.
+Gerascanthus magnoliifolius (Cham.) Borhidi
+Lithocardium diospyrifolium Kuntze
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationCordia magnoliifolia is an evergreen tree with a more or less globose crown; it can grow 7 - 10 metres tall. The cylindrical bole can be 30 - 50cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is harvested from the wild for local use of its wood, It is very ornamental and can be used generally in landscaping[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - southern and eastern Brazil.HabitatMainly found in secondary formations of the Atlantic rainforest at elevations from 20 - 1,700 metres in Brazil[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height8.00 m
+Growth RateFast
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Prefers a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Newly planted young trees grow away rapidly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesAlthough we have seen no specific information for this species, the fruits of all members of this genus are said to be edible[422TitleFruits of the Guianan Flora
+Publication 
+Authorvan Roosmalen. M.G.M.
+PublisherInstitute of Systematic Boyany, Utrecht University; Netherlands.
+Year1985
+ISBN90-9000988-4
+DescriptionTerse descriptions of over 1,700 species from the Guianas that bear fruits - not necessarily edible! Often mentions if the fruit is edible, plus gives brief description of habit and habitat.
+]. In general the fruit comprises a thin to fairly thick layer of pulpy, sweetish-tasting flesh surrounding a single seed[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+The red, globose fruit is about 10mm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It has a mucilaginous pulp with a sweet flavour[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalThe fruits are taken to ease coughing[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].Other UsesThe wood is light in weight, of low resistance to insect attack. Of low quality, it is only used for purposes such as packing cases and to fashion simple cut or carved objects such as toys[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe. Sow in light shade in a nursery seedbed. A germination rate in excess of 50% can be expected, with the seeds sprouting within 90 - 110 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cordia+magnoliifolia>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 10 times itself is?
+	
+	
+

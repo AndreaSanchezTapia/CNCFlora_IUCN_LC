@@ -1,0 +1,178 @@
+
+
+
+	
+		
+	
+		
+
+	
+Maytenus obtusifolia
+Mart.
+Celastraceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+		
+	
+	
+	
+Common Name: 
+
+	
+	Flowering branchPhotograph by: Alex Popovkin, Bahia, Brazil	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering branchPhotograph by: Alex Popovkin, Bahia, Brazil
+	Fruits opening to reveal the aril-covered seedPhotograph by: Alex Popovkin, Bahia, Brazil
+	Leaves and flowersPhotograph by: Alex Popovkin, Bahia, Brazil
+
+
+General InformationMaytenus obtusifolia is a large tree growing up to 32 metres tall[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. The cylindrical bole is up to 1 metre in diameter[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The leaves are a popular herbal remedy in Brazil, where they are commonly harvested from the wild. The tree is harvested from the wild for its timber, whilst its leaves are also used as a tea substitute.Known HazardsNone knownBotanical ReferencesRangeS. America - northern and eastern Brazil.HabitatNot knownProperties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitTree
+Height25.00 m
+Cultivation StatusWild
+Cultivation DetailsA plant of the tropics, found at elevations up to 1,000 metres.Edible UsesAn infusion of the leaves is used as a substitute for China tea (Camellia sinsnsis)[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].MedicinalThe leaves are a popular herbal medicine in Brazil, where they are used in the treatment of serious ulcers, general inflammations, cancer and also against external ulcers on the skin[602TitleEvaluation of the toxicity and antiulcerogenic activity of the ethanol extract of Maytenus obtusifolia leaves.
+Publication 
+AuthorKelly Samara de Lira Mota et al.
+PublisherRevista Brasileira de Farmacognosia
+Year2008
+ISBN0102-695X
+DescriptionA research paper, demonstrating the effectiveness of Maytenus obtusifolia in the treatment of ulcers.
+].
+Research has shown that the plant is an effective and safe treatment against ulcers, though the mechanism of action has not yet been determined[602TitleEvaluation of the toxicity and antiulcerogenic activity of the ethanol extract of Maytenus obtusifolia leaves.
+Publication 
+AuthorKelly Samara de Lira Mota et al.
+PublisherRevista Brasileira de Farmacognosia
+Year2008
+ISBN0102-695X
+DescriptionA research paper, demonstrating the effectiveness of Maytenus obtusifolia in the treatment of ulcers.
+].Other UsesThe heartwood is pale pink to pinky brown, the sapwood is white or gray[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. The wood is hard, heavy, very strong, easy to work but not durable when in contact with the soil[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It is an excellent wood for general construction, and is also used for general carpentry and rural construction work[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Maytenus+obtusifolia>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: How many fingers does the typical human have?
+	
+	
+

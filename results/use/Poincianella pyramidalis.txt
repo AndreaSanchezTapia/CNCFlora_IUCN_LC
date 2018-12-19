@@ -1,0 +1,252 @@
+
+
+
+	
+		
+	
+		
+
+(Redirected from Poincianella pyramidalis)	
+Cenostigma pyramidale
+(Tul.) E.Gagnon & G.P.Lewis
+Fabaceae
+Some authorities include Caesalpinia gardneriana (treated here as a distinct species) as no more than a synonym of this species[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Caesalpinia pyramidalis Tul.
+Poincianella pyramidalis (Tul.) L.P.Queiroz
+	
+	
+	
+	
+Common Name: Catingueira
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationCenostigma pyramidale is a deciduous shrub or tree with a low, rounded crown; it can grow 4 - 10 metres tall[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The short, straight bole is 30 - 40cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is harvested from the wild for local use as a medicine, dye plant and source of wood. The plant is very ornamental[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern, northeastern and northern Brazil.HabitatDry forests and on the drier soils of humid floodplains, where it adopts a more shrub-like habit[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitDeciduous Tree
+Height6.00 m
+Growth RateFast
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Requires a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are very drought tolerant[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Newly planted young trees establish well and grow away rapidly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Plants regenerate well when cut back or coppiced, but cannot tolerate fire[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Although many species within the family Fabaceae have a symbiotic relationship with soil bacteria, this species is said to be devoid of such a relationship and therefore does not fix atmospheric nitrogen[755TitleNodulation Plants in GRIN Taxonomy
+Publication 
+Author 
+Websitehttp://www.ars-grin.gov/~sbmljw/cgi-bin/taxnodul.pl?language=en
+PublisherUnited States Department of Agriculture
+Year0
+ISBN 
+DescriptionAn online database listing plants that have either positive or negative reports on root and stem nodulation with nitrogen-fixing bacteria.
+].Edible UsesNone knownMedicinalThe bark and the flowers are used in the treatment of catarrhal infections and diarrhoea[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].Agroforestry Uses:A very hardy plant, excellent for reforestation projects within its native range[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesA yellow dye is obtained from the bark[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+, 528TitleIndicador de Madeiras e Plantas Uteis do Brasil.
+Publication 
+AuthorFonseca E. T. De
+Websitehttp://www.biodiversitylibrary.org
+Publisher 
+Year1922
+ISBN 
+DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
+].
+The wood is heavy, moderate texture, spiral-grained and highly resistant to rot[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Because of its frequent holes, it is only used for posts and to frame rural houses[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and to make charcoal[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a sunny position in a nursery seedbed. A germination rate in excess of 80% can be expected, with the seeds germinating within 7 - 14 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Young plants grow away rapidly and are soon ready for planting out[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Like many species within the family Fabaceae, once they have ripened and dried the seeds of this species may benefit from scarification before sowing in order to speed up and improve germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cenostigma+pyramidale&redir=Poincianella+pyramidalis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: a square has how many sides?
+	
+	
+

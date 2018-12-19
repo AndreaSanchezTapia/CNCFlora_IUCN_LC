@@ -1,0 +1,249 @@
+
+
+
+	
+		
+	
+		
+
+	
+Cassia leiandra
+Benth.
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+		
+	
+	
+	
+Common Name: Marimari
+
+	
+	Drawing of the leaves, flowers, fruit and seedPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 15(2): fasicle 50, t. 30 (1870)	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationMarimari is a small, deciduous tree with an ample, broad but very sparse crown growing from 6 - 14 metres tall. Te bole is usually twisted and around 20 - 30cm in diameter[416[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].].
+The edible fruit is commonly gathered from the wild and is greatly appreciated within the plants native range[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The plant has a long history of cultivation, dating back to pre-Columbian times, and is still sometimes grown in Brazil[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The tree is very ornamental, especially when in bloom, and can be grown in the garden[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern and northern Brazil.HabitatForests of the floodplains and seasonally flooded forests near lagoons and canals[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. Most commonly found in secondary formations[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitDeciduous Tree
+Height10.00 m
+Cultivation StatusCultivated, Ornamental, Wild
+Cultivation Details
+Prefers a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Often found in the wild on heavy, wet, clay soils[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Plants are tolerant of seasonal inundation of the soil[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A fast-growing plant[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesFruit - raw[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The acidic-sweet, juicy pulp surrounding the seeds is eaten[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The fruit is harvested whilst the seeds are still green[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The fruit is a legume 40 - 70cm long and about 3cm wide[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].MedicinalNone knownAgroforestry Uses:A natural pioneer species in its native range - it could be used in local reforestation projects[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Other UsesThe wood is thick-textured, moderately heavy, soft, of low durability and easy to work[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is only used locally, for applications such as internal work in the construction of rustic houses, tool handles, cheap toys, boxes etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe. The seed has a hard seedcoat and may benefit from scarification before sowing to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing. Sow in a sunny position in a nursery seedbed. Germination should take place within 2 - 4 weeks. Young seedlings grow quickly[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cassia+leiandra>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 100?
+	
+	
+

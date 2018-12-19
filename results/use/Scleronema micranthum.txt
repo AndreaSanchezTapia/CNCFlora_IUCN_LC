@@ -1,0 +1,118 @@
+
+
+
+	
+		
+	
+		
+
+	
+Scleronema micranthum
+(Ducke) Ducke
+Malvaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Catostemma micranthum Ducke
+Scleronema neblinense Steyerm.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationScleronema micranthum is a tree. The bole can be 50 - 80cm in diameter[848TitleTropix 7
+Publication 
+Author 
+Websitehttp://tropix.cirad.fr/en
+PublisherCIRAD
+Year0
+ISBN 
+DescriptionAn on-line guide to the timbers of 245 species of trees.
+].
+The tree is harvested from the wild for its wood.Known HazardsNone knownBotanical ReferencesRangeS. America - northwest Brazil, Colombia, Venezuela.HabitatRain forest.Properties
+Other Uses Rating
+HabitTree
+Height0.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesThe heartwood is red-brown with the frequent presence of traumatic canals; it is clearly demarcated from the 5 - 8cm wide band of sapwood. The texture is coarse; the grain straight. The wood is moderately heavy; moderately hard; not very durable, having a good resistance to dry wood borers but susceptible to fungi and termites. It seasons slowly, with a high risk of checking and distortion; once dry it is poorly stable in service. It can be worked with ordinary tools; nailing and screwing are good; gluing is correct. The wood is used in construction, interior joinery, heavy carpentry, flooring, furniture components, matches, blockboard, moulding, veneer etc[848TitleTropix 7
+Publication 
+Author 
+Websitehttp://tropix.cirad.fr/en
+PublisherCIRAD
+Year0
+ISBN 
+DescriptionAn on-line guide to the timbers of 245 species of trees.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Scleronema+micranthum>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is greater, 5 or 9?
+	
+	
+

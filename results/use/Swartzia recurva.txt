@@ -1,0 +1,121 @@
+
+
+
+	
+		
+	
+		
+
+	
+Swartzia recurva
+Poepp.
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Swartzia aptera recurva (Poepp.) Ducke
+Swartzia arenicola Ducke
+Swartzia bracteata Ducke
+Tounatea recurva (Poepp.) Taub.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationSwartzia recurva is a small tree.
+The tree is harvested from the wild for local medicinal use. It is probably also harvested for its wood, which would be traded.Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil, Peru.HabitatNot knownProperties
+Medicinal Rating
+Other Uses Rating
+HabitTree
+Height0.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalThe fruits are said to be helpful in combatting physical debilitation due to age, malaria or other conditions. The pods are boiled and softened, then added to regular food[630TitleBotanical Museum Leaflets Vol 28
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherHarvard University; Cambridge, Mass.
+Year1981
+ISBN 
+DescriptionAn article on the Ethnopharmacological uses of plants in northwestern S. America, amongst many other articles. It can be downloaded from the Internet.
+].Other UsesWe have no information on the wood of this species. However, a general description of the wood from plants in this genus is as follows:-
+The heartwood is dark brown, reddish-brown, or nearly black, in solid colour or somewhat variegated; it is sharply demarcated from the nearly white to yellowish sapwood. The texture is very fine to medium; the grain straight to irregular; lustre is usually medium; there is no distinctive odour or taste. The heartwood is very resistant to attack by decay fungi and resistant to dry-wood termites, though it is not resistant to marine borers. The wood is generally reported to be moderately difficult to air dry because of checking and warp. It is difficult to work because of its high density, but it finishes very smoothly and takes a high polish. It is used for purposes such as inlay, parquet flooring, turnery, furniture, cabinetwork, violin bows, specialty items; and has been suggested as a substitute for ebony[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Swartzia+recurva>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

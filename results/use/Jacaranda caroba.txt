@@ -1,0 +1,199 @@
+
+
+
+	
+		
+	
+		
+
+	
+Jacaranda caroba
+(Vell.) A.DC.
+Bignoniaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bignonia caroba Vell.
+Jacaranda clausseniana Casar.
+Jacaranda mendoncaei Bureau & K.Schum.
+Jacaranda oxyphylla Cham.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering treePhotograph by: ASCOM Prefeitura de Votuporanga	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering treePhotograph by: ASCOM Prefeitura de Votuporanga
+	Drawing of the flowers, leaves and fruitPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 8(2): fasicle 121, t. 119 (1897)
+	Close-up of flowersPhotograph by: João Medeiros
+		Creative Commons Attribution 2.0
+
+
+General InformationJacaranda caroba varies in height from a deciduous shrub that is only 1.5 metres tall (sometimes treated as a distinct species Jacaranda oxyphylla), up to a tree that can grow 20 metres tall with a crooked bole 80cm or more in diameter[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The plant is gathered from the wild for local medicinal use and is also sometimes used as a source of fuel.Known HazardsNone knownBotanical References200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+RangeS. America - Brazil.HabitatNot knownProperties
+Medicinal Rating
+Other Uses Rating
+HabitDeciduous Tree
+Height5.00 m
+Cultivation StatusWild
+Cultivation DetailsA plant of the tropics where it is generally found at elevations from 500 - 1,600 metres.
+Prefers a sunny position[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. Grows best in a well-drained, fertile soil[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].Edible UsesNone knownMedicinalThe bitter bark is antisypilitic, astringent, cathartic and diuretic[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+, 739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+The leaves are antisyphilitic and tonic[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. They are used in the treatment of syphilis and various skin problems[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+The plant is used  in the treatment of urethritis, rheumatism, and skin-diseases[526TitleAn Illustrated Dictionary of Medicine, Biology and Allied Sciences.
+Publication 
+AuthorGould G.M.
+Websitehttp://www.biodiversitylibrary.org
+PublisherP. Blakiston's Son & Co.; Philadelphia.
+Year1907
+ISBN 
+DescriptionA major work at the time, though very dated now. Contains quite a lot of information about medicinal plant uses.
+].Other UsesThe whitish-grey to light pink wood is light, smooth, somewhat porous, rather brittle and of little durability[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It is only used for fuel and making charcoal[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Jacaranda+caroba>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: How many fingers does the typical human have?
+	
+	
+

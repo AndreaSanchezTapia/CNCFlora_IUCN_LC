@@ -1,0 +1,218 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ormosia arborea
+(Vell.) Harms
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Abrus arboreus Vell.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Fruiting branchesPhotograph by: Angelo Schneider; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Fruiting branchesPhotograph by: Angelo Schneider; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Ripening seedpods opening to release the seedPhotograph by: Marcelo Malysz; Flora digital do Rio Grande do Sul e de Santa Catarina
+	LeavesPhotograph by: Juliana Gonçalves da Silva; Flora digital do Rio Grande do Sul e de Santa Catarina
+	A mandala made from seeds - the circle of red and black seeds are of this speciesPhotograph by: Priscilla Brugnago
+	The attractive woodPhotograph by: mauroguanandi
+
+
+General InformationOrmosia arborea is an evergreen tree with a dense, wide, roundish crown; it can grow 15 - 20 metres tall. The bole can be 50 - 70cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree yields an ornamental timber that is used in cabinet making etc. The brightly coloured seeds are used locally as ornaments. It can be grown as a pioneer species for restoring woodland and is an ornamental tree that provides a good shade and can be used in street planting[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsThe plants, but especially the seed and perhaps also the bark, of many if not all species in this genus contain alkaloids and are toxic[864TitleBotanical Museum Leaflets Vol 21
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherBotanical Museum; Cambridge, Massachusetts
+Year1963 - 1967
+ISBN 
+DescriptionA series of botanical articles. It can be downloaded from the Internet.
+].Botanical References749TitleContributions from the United States National Herbarium. Vol. 32
+Publication 
+AuthorRudd V.E.
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionMonographs of several species in the family Fabaceae, including the Ormosia that occur in the Americas. It can be downloaded from the Internet.
+RangeS. America - eastern and central Brazil.HabitatAtlantic rainforest, favouring drier soils on steep slopes and the tops of hills[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height18.00 m
+Growth RateMedium
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Thrives in drier, well-drained soils[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is moderately fast growing, able to reach a height of around 2.5 metres within 2 years from seed[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+This species has a symbiotic relationship with certain soil bacteria, these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[].Edible UsesNone knownMedicinalNone knownAgroforestry Uses:A moderately fast-growing tree, able to thrive in drier soils and fixing atmospheric nitrogen, it can be used as a pioneer species when restoring native woodland[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe brightly coloured seeds are used as beads for personal adornment and as 'gems' in the ornamentation of weapons and other objects[749TitleContributions from the United States National Herbarium. Vol. 32
+Publication 
+AuthorRudd V.E.
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionMonographs of several species in the family Fabaceae, including the Ormosia that occur in the Americas. It can be downloaded from the Internet.
+]. 
+The wood is medium-textured, moderately heavy, with good mechanical properties and moderately resistant to wood-eating organisms. A decorative wood, it is used for fine cabinet making, panels, veneer, internal finishing in buildings etc[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+We do not have any more information on the wood of this species, but a general description for the wood of S. American members of this genus is as follows:-
+The heartwood is pinkish to reddish, mostly salmon-coloured, sometimes yellowish-brown, more or less streaked; it is not always distinct from the yellowish sapwood. The texture is coarse to very coarse; the grain mostly irregular; lustre usually medium; it feels harsh; there is no distinctive odour or taste. The wood is generally reported to be quite susceptible to attack by decay fungi; it is vulnerable to dry-wood termites, and prone to powder-post beetle attack
+(sapwood). It generally air dries very slowly; checking and warp vary from slight to moderate. For most species, the wood is reported to saw and machine easily, with fair to good results; surfaces, however, are somewhat rough and difficult to finish. It is used for furniture components, interior construction, general carpentry, and utility veneer[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed - it has a hard seedcoat and may benefit from scarification before sowing to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing. Sow the seed in a partially shaded position in a nursery seedbed or in individual containers. A germination rate in excess of 50% can be expected, with the seed sprouting within 20 - 50 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. When the seedbed-sown seedlings are 5 - 7cm tall, pot them up into individual containers and they should be ready to plant out 8 - 10 months later[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seed has a viability in excess of 12 months in storage[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ormosia+arborea>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

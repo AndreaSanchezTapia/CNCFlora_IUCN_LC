@@ -1,0 +1,281 @@
+
+
+
+	
+		
+	
+		
+
+	
+Cecropia glaziovii
+Snethl.
+Urticaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Cecropia macranthera Warb. ex Snethl.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flower buds and flowersPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flower buds and flowersPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Ripening fruitPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Unfurling young leafPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Young plantsPhotograph by: Eurico Zimbres
+		Public domain
+
+
+General InformationCecropia glaziovi is an evergreen tree with a sparse, open crown; it can grow 8 - 16 metres tall. The straight, cylindrical bole can be 20 - 30cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is harvested from the wild for local use as a source of food and various commodities. An excellent pioneer species, it also has ornamental qualities[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsThe branches and leaf petioles of Cecropia species are often hollow and can harbour stinging ants. The trees attract the ants by means of producing a honey-like sap and the ants respond by working to keep the tree free of leaf-eating pests - which can include humans[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].Botanical ReferencesRangeS. America - southern and eastern Brazil.HabitatAtlantic rainforest, mainly in secondary formations[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height12.00 m
+Self-fertileNo
+Cultivation StatusCultivated, Ornamental, Wild
+Cultivation Details
+Plants in this genus generally prefer a sunny position in a well-drained soil[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+A fast-growing, but short-lived tree[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. It can reach its maximum height within 10 years[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A dioecious species, both male and female forms need to be grown if fruit and seed are required.Edible UsesFruit - raw[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. A fleshy pulp with a sweetish flavour when ripe[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The finger-shaped, aggregate fruit can be 150mm long and 15mm wide[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownAgroforestry Uses:With their sparse canopy and attractive foliage that is green above and silver-felted below, members of this genus generally provide a dramatic canopy but only cast a very light shade, allowing other plants to be grown right up to the base of their trunk[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+]. Many members of the genus can be used as pioneer species when developing a new woodland[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Other UsesThe fibrous bark has been used to make coarse cloth and rustic ropes[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The bark is a source of tannins[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The leaves have a rough texture and are traditionally used as a type of sandpaper to smooth the surface of items such as Calabash fruit shells (Cresentia cujete) that are being used to make containers etc[331TitleFlora of Guatemala
+Publication 
+AuthorStandley P.C. & J. A. Steyermark
+Websitehttp://www.archive.org/
+Publisher 
+Year1946 - 1976
+ISBN 
+DescriptionA superb reference, though somewhat dated. Gives lots of plant uses as well as information on plant habit and habitat. The entire flora (13 volumes) can now be downloaded from http://www.archive.org/
+, 420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Sapwood and heartwood are not differentiated. The wood is light in weight, soft and not durable[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is generally used for low value items such as boxes, linings, toys, plywood, pencils, matchsticks, shoe heels etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Because it is light in weight, it can be used like balsa wood to make aeroplane models etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is also used for making rafts and buoys[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for making charcoal for gunpowder manufacture, and also for cellulose paste to make paper etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - requires light to germinate. It can be sown in light shade in a nursery seedbed, but should not be covered, just lightly pressed into the soil[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. A reasonable germination rate can be expected, with the seeds sprouting within 3 - 4 weeks[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Greenwood cuttings in a frame with bottom heat.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cecropia+glaziovii>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is greater, 5 or 9?
+	
+	
+

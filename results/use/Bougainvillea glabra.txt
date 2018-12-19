@@ -1,0 +1,361 @@
+
+
+
+	
+		
+	
+		
+
+	
+Bougainvillea glabra
+Choisy
+Nyctaginaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bougainvillea brachycarpa Heimerl
+Bougainvillea pomacea Choisy
+	
+	
+	
+	
+Common Name: Paper Flower
+
+	
+	Flowering plant in Santiago, Cape VerdePhotograph by: Xandu
+		Public domain	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering plant in Santiago, Cape VerdePhotograph by: Xandu
+		Public domain
+	Flowering branchesPhotograph by: tr:Kullan?c?:Tevfik1958
+		Creative Commons Attribution 2.0
+	Close-up of a purple cultivarPhotograph by: darina
+		Creative Commons Attribution-Share Alike 3.0
+	A yellow cultivarPhotograph by: Adityamadhav83
+		Creative Commons Attribution-Share Alike 3.0
+	close up, leavesPhotograph by: Fagg, M.
+		Image credit to Australian National Botanic Gardens
+	close up, flowersPhotograph by: Fagg, M.
+		Image credit to Australian National Botanic Gardens
+	close up, flowersPhotograph by: Fagg, M.
+		Image credit to Australian National Botanic Gardens
+
+
+General InformationPaper flower is a spiny, evergreen plant, varying in habit from a shrub to a tree, or becoming a climbing shrub producing stems up to 7 metres or more long[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. When in a more tree form it has a very dense ellipsoid crown[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The plant can support itself on other plants by means of thorns carried in the leaf axils, though in cultivation it might need tying in to pergolas etc[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+The plant has local medicinal uses, whilst it is also often used as a formal hedge or ground cover. It is widely grown as an ornamental from the warm temperate to the tropical zones, and is often grown in greenhouses in climates that are unsuitable for it.Known HazardsNone knownBotanical References200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+RangeS. America - eastern and central Brazil.HabitatForest and scrubland[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. Atlantic rainforest and semideciduous forests, in both dense primary forest and more open, secondary growth; favouring moister soils and usually at elevations above 500 metres[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Climber
+Height7.00 m
+Growth RateFast
+Cultivation StatusCultivated, Ornamental, Wild
+Cultivation DetailsA plant of the tropics, where it is found at elevations up to 1,500 metres, it can also be grown in warm temperate to subtropical areas. It is better adapted to areas lacking a distinct dry season and flowers more or less continuously in perpetually humid conditions[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 266TitleFlora of China
+Publication 
+Author 
+Websitehttp://flora.huh.harvard.edu/china/
+PublisherMissouri Botanical Garden Press; St. Louis.
+Year1994
+ISBN 
+DescriptionAn excellent, comprehensive resource in 25 volumes. In addition to the botanical information the flora also gives basic information on habitat and some uses. An on-line version is also available.
+]. It grows best in areas where annual daytime temperatures are within the range 18 - 25Â°c, but can tolerate 10 - 38Â°c[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. It can be killed by temperatures of -1Â°c or lower[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. Plants can usually tolerate die back from a freeze, but will withhold blooms for a while[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. It prefers a mean annual rainfall in the range 1,000 - 2,000mm, but tolerates 700 - 3,000mm[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+Requires a sunny position[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. Grows best in a moist, fertile soil[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a pH in the range 6 - 7, tolerating 5.5 - 7.5[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. Plants need to remain moist while in growth, if allowed to dry out too much during this period, leaf drop may occur[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. They become more drought resistant when established[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+A fast-growing plant, easily reaching a height of 4 - 7 metres within 2 years from seed[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalThe plant is used medicinally[266TitleFlora of China
+Publication 
+Author 
+Websitehttp://flora.huh.harvard.edu/china/
+PublisherMissouri Botanical Garden Press; St. Louis.
+Year1994
+ISBN 
+DescriptionAn excellent, comprehensive resource in 25 volumes. In addition to the botanical information the flora also gives basic information on habitat and some uses. An on-line version is also available.
+].
+The leaves are considered to have antiinflammatory activity[360TitlePhilippine Medicinal Plants
+Publication 
+Author 
+Websitehttp://www.stuartxchange.org/CompleteList.html
+Publisher 
+Year0
+ISBN 
+DescriptionA lovely site, giving brief details on the medicinal uses of several hundred (over 400 at the last count) plants in the Philippines, plus a picture of each plant.
+]. The leaves are anthelmintic and antibacterial[1174TitleEthnobotanical Uses of Biofencing Plants in Himachel Pradesh, Northwest Himalaya
+PublicationPakistan Journal of Biological Sciences 16 (24): 1957-1963, 2013
+AuthorPankaj Sharma & Usha Devi
+Publisher 
+Year2013
+ISBN1028-8880
+DescriptionA brief look at 61 species of plants used in hedging in northwest Himalayas nd their other uses
+].
+The reported active compounds in the plant are pinitol, betacyanine, flavonoids, tannins and alkaloids[360TitlePhilippine Medicinal Plants
+Publication 
+Author 
+Websitehttp://www.stuartxchange.org/CompleteList.html
+Publisher 
+Year0
+ISBN 
+DescriptionA lovely site, giving brief details on the medicinal uses of several hundred (over 400 at the last count) plants in the Philippines, plus a picture of each plant.
+].Agroforestry Uses:The plant is just as happy spreading horizontally or hanging downwards as it is climbing upward. It can be trimmed and grown as a formal hedge, or allowed to spread over the ground as a ground cover[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+].
+The plant is traditionally grown in living fences in the northwestern Himalayas, where it helps to exclude livestock and other animals; mark out land boundaries; whilst also providing a range of medicinal and other uses[1174TitleEthnobotanical Uses of Biofencing Plants in Himachel Pradesh, Northwest Himalaya
+PublicationPakistan Journal of Biological Sciences 16 (24): 1957-1963, 2013
+AuthorPankaj Sharma & Usha Devi
+Publisher 
+Year2013
+ISBN1028-8880
+DescriptionA brief look at 61 species of plants used in hedging in northwest Himalayas nd their other uses
+].
+A very fast-growing plant, it can be used as a pioneer species when restoring native woodland[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is light in weight, soft, porous and with a very low durability. It is only used for rural constructions and for fuel[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed or in individual containers. A low germination rate can be expected, with the seed sprouting within 30 - 50 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Pot up the seedbed sown seedlings as soon as they are large enough to handle, being careful to give the least amount of disturbance to the roots as possible and plant out when they are 30cm or more tall.
+Cuttings - they can be placed directly into their permanent position so long as it is not too exposed or excessively sunny and arid[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].
+Air layering.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Bougainvillea+glabra>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 6 add another 6 is?
+	
+	
+

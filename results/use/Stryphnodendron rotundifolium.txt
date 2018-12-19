@@ -1,0 +1,239 @@
+
+
+
+	
+		
+	
+		
+
+	
+Stryphnodendron rotundifolium
+Mart.
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Stryphnodendron discolor Benth.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationStryphnodendron rotundifolium is a tree growing around 15 metres tall. The bole has a thick, corky bark[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The bark is commonly used in Brazil to treat wounds and various skin problems. The bark is also a source of tannins, dyestuff and ink.Known HazardsNone knownBotanical ReferencesRangeS. America - Paraguay, eastern, central and northern Brazil.HabitatDryland forest and savannah.Properties
+Medicinal Rating
+Other Uses Rating
+HabitTree
+Height15.00 m
+Cultivation StatusWild
+Cultivation Details
+This species has a symbiotic relationship with certain soil bacteria; these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[].Edible UsesNone knownMedicinalThe bark has the same medicinal uses as Stryphnodendron adstringens[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. These are as follows:-
+The bark is strongly astringent, haemostatic, styptic and vulnerary due to the presence of tannins[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It is used in the treatment of diarrhoea and dysentery; haemorrhages of the uterus[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].
+Applied externally, the bark is used to treat wounds, ulcers and various skin problems[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+One of the trees many common names, Virgin's Bark, derives from the use made of it by prostitutes[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seedpods are equally rich in tannin and have similar uses[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The leaves are tonic[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 528TitleIndicador de Madeiras e Plantas Uteis do Brasil.
+Publication 
+AuthorFonseca E. T. De
+Websitehttp://www.biodiversitylibrary.org
+Publisher 
+Year1922
+ISBN 
+DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
+].Other UsesThe greyish-white wood is soft, light and elastic[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It is used in cabinet making[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The following uses for Stryphnodendron adstringens also apply to this species[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].
+The bark and seedpods contain a high percentage of tannins[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. There is up to 25% tannin in the bark[528TitleIndicador de Madeiras e Plantas Uteis do Brasil.
+Publication 
+AuthorFonseca E. T. De
+Websitehttp://www.biodiversitylibrary.org
+Publisher 
+Year1922
+ISBN 
+DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
+].
+A red dye is obtained from the bark[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It can be used to make a red ink[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+].PropagationSeed - best sown as soon as it is ripe. The seed germinates better if it is first soaked for 12 - 24 hours in warm water or is scarified by making a small nick in the seedcoat (being careful not to damage the seed). Sow the seed in a nursery seedbed or individual containers in a semi-shaded position in well-drained soil.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Stryphnodendron+rotundifolium>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: Type the digit seven into the box
+	
+	
+

@@ -1,0 +1,298 @@
+
+
+
+	
+		
+	
+		
+
+	
+Copaifera coriacea
+Mart.
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Copaiba coriacea (Mart.) Kuntze
+Copaifera cordifolia Hayne
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationCopaifera coriacea is an evergreen tree growing 20 metres or more tall.
+This is one of several species in this genus that yield a balsam resin. Although varying in colour, aroma, flavour etc from species to species, the resin has remarkably similar medicinal properties and is used interchangeably[461TitleDiccionario das Plantas Uteis do Brasil
+Publication 
+AuthorCorrea M.P.
+PublisherImprensa Nacional; Rio de Janeiro
+Year1926
+ISBN 
+DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
+]. It is exported in quantity for medicinal purposes, and also for making varnishes, perfumery etc.Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil.HabitatRiver banks in the rainforest[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height20.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesThe resin has been approved officially in the U.S. as a food additive and is used in small amounts as a flavouring agent in foods and beverages[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].MedicinalCopaiba-balsam, an oily oleo-resin obtained from the trunk of the tree, has a very long history of use medicinally. It was widely used by the native peoples prior to the Europeans reaching S. America and these uses were soon taken up by the Europeans[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+]. The resin is especially valued for its ability to counter mucous in the chest and genito-urinary system[254TitleThe Encyclopedia of Medicinal Plants
+Publication 
+AuthorChevallier. A.
+PublisherDorling Kindersley. London
+Year1996
+ISBN9-780751-303148
+DescriptionAn excellent guide to over 500 of the more well known medicinal herbs from around the world.
+].
+The resin is an aromatic, stimulant herb with a bitter, burning taste[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. Both it and the bark are anodyne, antacid, antibacterial, antifungal, antiinflammatory, antimicrobial, astringent, cytostatic, demulcent, digestive, disinfectant, diuretic, expectorant, mildly laxative, vermifuge and vulnerary[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The resin obtained from the trunk contains a number of medically active constituents including 30 - 90% essential oils and unusual condensed tannins[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. The essential oil contains alpha- and beta-caryophyllene, sesquiterpenes, resins and terpenic acids[254TitleThe Encyclopedia of Medicinal Plants
+Publication 
+AuthorChevallier. A.
+PublisherDorling Kindersley. London
+Year1996
+ISBN9-780751-303148
+DescriptionAn excellent guide to over 500 of the more well known medicinal herbs from around the world.
+]. It improves the digestion, has diuretic and expectorant effects, and controls bacterial infections[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].
+Much of the clinical research performed to date has verified the traditional uses of copaiba. It has, for instance, been shown to be highly effective as a topical wound healer and anti-inflammatory agent[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+]. The anti-inflammatory effect is mainly due to the sesquiterpenes, particularly caryophyllene which has also demonstrated effective pain-relieving properties, antifungal properties against nail fungus and gastroprotective properties[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The resin as a whole (and, particularly, two of its diterpenes - copalic acid and kaurenic acid) has demonstrated significant antimicrobial activity against gram-positive bacteria. One of copaibaâ€™s other chemicals, kaurenoic acid, has also demonstrated selective antibacterial activity against Gram-positive bacteria in other recent studies[318.
+Other constituents of the resin have demonstrated significant antitumor activity[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The resin is taken internally in the treatment of a range of respiratory problems such as tuberculosis, bronchitis and sinusitis; urinary tract and reproductive system conditions such as cystitis, kidney and bladder infections, vaginal discharge and gonorrhoea[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+, 254TitleThe Encyclopedia of Medicinal Plants
+Publication 
+AuthorChevallier. A.
+PublisherDorling Kindersley. London
+Year1996
+ISBN9-780751-303148
+DescriptionAn excellent guide to over 500 of the more well known medicinal herbs from around the world.
+]. Stomach ulcers, tetanus, herpes, pleurisy and haemorrhages are just some of the other conditions treated with the resin[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+Externally, it is used in the treatment of a range of skin problems including insect bites, eczema, chilblains, sores and psoriasis[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+, 254. It is also used to treat wounds and stop bleeding[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+]. As an antiseptic gargle, it is used to treat sore throats and tonsillitis[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The resin should be used with care, see notes above on toxicity[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].
+The resin is tapped at intervals from the tree and the holes filled in afterwards[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. It is used in infusions or distilled for its essential oil[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].Other UsesAn oleoresin is obtained from the tree[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. It is used in varnishes and lacquers; for photographic paper; removing varnish from old oil paintings etc[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].
+The resin can be used, direct from the tree, as a substitute for diesel oil[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Copaifera+coriacea>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 10 times itself is?
+	
+	
+

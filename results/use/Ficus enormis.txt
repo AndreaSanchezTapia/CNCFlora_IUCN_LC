@@ -1,0 +1,165 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ficus enormis
+Mart. ex Miq.
+Moraceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Ficus cestrifolia Chodat
+Ficus guapoi minor D. Parodi
+Urostigma clusiifolium acutiuscula Miq.
+Urostigma enorme Mart. ex Miq.
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationFicus enormis is an evergreen tree with a wide, dense, globose crown; it can grow 6 - 14 metres tall. The short, crooked bole can be 40 - 80cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The plant often grows as an epiphyte on other trees and also on rocks[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for local use of its wood.Known HazardsNone knownBotanical ReferencesRangeS. America - Argentina, Paraguay, central, eastern and northern BrazilHabitatFound in a variety of forest formations and in savannah, favouring the more open, secondary formations where it can be found in rock cracks (where it can develop an intense root system) and as an epiphyte on other trees, especially palms[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitEvergreen Tree
+Height10.00 m
+PollinatorsWasps
+Cultivation StatusWild
+Cultivation Details
+Succeeds in full sun to quite dense shade[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totaly dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit.
+The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct[413TitleGlobal Invasive Species Database
+Publication 
+Author 
+Websitehttp://www.issg.org/database/welcome/
+Publisher 
+Year0
+ISBN 
+DescriptionVery detailed information on almost 400 species (with more being added) of plants that have become weeds in areas outside their native range.
+].Edible UsesNone knownMedicinalNone knownOther UsesThe wood is medium-textured, moderately heavy, soft, with poor mechanical properties and not very durable. Easy to work with, but of low quality, it is only used for door and panel fillings, boxes, plywood etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed. The seed is very small, so it should be sown on the surface and gently watered into the soil, being careful not to wash it away. A low germination rate can be expected, with the seed sprouting within 21 - 28 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ficus+enormis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 100?
+	
+	
+

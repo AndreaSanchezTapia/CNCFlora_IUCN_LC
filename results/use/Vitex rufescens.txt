@@ -1,0 +1,215 @@
+
+
+
+	
+		
+	
+		
+
+(Redirected from Vitex rufescens)	
+Vitex ferruginea
+Schumach. & Thonn.
+Lamiaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Vitex amboniensis GÃ¼rke
+Vitex dryadum S.Moore
+Vitex fosteri C.H.Wright
+Vitex guerkeana H.Pearson
+Vitex guerkeana Hiern
+Vitex laevigata Baker
+Vitex oxycuspis mossambicensis Moldenke
+Vitex pearsonii W.Piep.
+Vitex polyantha Baker
+Vitex rufescens GÃ¼rke
+Vitex swynnertonii S.Moore
+Vitex tangensis GÃ¼rke
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationVitex ferruginea is a shrub or small tree growing up to 15 metres tall[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+]. The plant sometimes adopts a climbing habit and is often deciduous[308TitleFlora Zambesiaca
+Publication 
+Author 
+Websitehttp://apps.kew.org/efloras/fz/intro.html
+Publisher 
+Year0
+ISBN 
+DescriptionAn excellent online flora of plants from the Zambezi River basin. It lists a number of the plant uses as well as the habitats and botanical descriptions of the plants.
+].
+The tree is harvested from the wild for its edible fruit, wood and medicine, which are used locally.Known HazardsNone knownBotanical References308TitleFlora Zambesiaca
+Publication 
+Author 
+Websitehttp://apps.kew.org/efloras/fz/intro.html
+Publisher 
+Year0
+ISBN 
+DescriptionAn excellent online flora of plants from the Zambezi River basin. It lists a number of the plant uses as well as the habitats and botanical descriptions of the plants.
+RangeTropical Africa - scattered in drier areas from Sierra Leone to Kenya and southern Somalia, then south through Tanzania to most of southern Africa.HabitatRiverine vegetation, semi-evergreen forest, mixed deciduous woodlands, mutemwa thickets on Kalahari Sand and coastal forest, in sandy soils and coastal dunes at elevations from sea level to 610 metres[308TitleFlora Zambesiaca
+Publication 
+Author 
+Websitehttp://apps.kew.org/efloras/fz/intro.html
+Publisher 
+Year0
+ISBN 
+DescriptionAn excellent online flora of plants from the Zambezi River basin. It lists a number of the plant uses as well as the habitats and botanical descriptions of the plants.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height12.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesFruit - raw or cooked[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+]. A sweet tasting flesh[398TitleEdible Wild Plants of Tanzania
+Publication 
+AuthorRuffo, C.K.: Birnie, A. & Tengnas, B.
+PublisherRegional Land Management Unit; Nairobi.
+Year2002
+ISBN9966-896-60-0
+DescriptionA very well presented, simple guide to growing and utilizing wild food plants in Tanzania, with line drawings of each plant, a description, habitat and range, non-food as well as food uses, plus basic information on growing the plants.
+]. The black, globose fruit is 14 - 40mm in diameter[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+].MedicinalThe leaves are chewed to treat sore and swollen throats[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+, 398TitleEdible Wild Plants of Tanzania
+Publication 
+AuthorRuffo, C.K.: Birnie, A. & Tengnas, B.
+PublisherRegional Land Management Unit; Nairobi.
+Year2002
+ISBN9966-896-60-0
+DescriptionA very well presented, simple guide to growing and utilizing wild food plants in Tanzania, with line drawings of each plant, a description, habitat and range, non-food as well as food uses, plus basic information on growing the plants.
+].Other UsesThe wood is used to make spoons[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+, 398TitleEdible Wild Plants of Tanzania
+Publication 
+AuthorRuffo, C.K.: Birnie, A. & Tengnas, B.
+PublisherRegional Land Management Unit; Nairobi.
+Year2002
+ISBN9966-896-60-0
+DescriptionA very well presented, simple guide to growing and utilizing wild food plants in Tanzania, with line drawings of each plant, a description, habitat and range, non-food as well as food uses, plus basic information on growing the plants.
+].
+The wood is used for firewood and to make charcoal[364TitleField Guide to the Moist Forest Trees of Tanzania.
+Publication 
+AuthorLovett J.C.; Ruffo C.K.; Gereau R.E.; Taplin J.R.D
+Websitehttp://www.york.ac.uk/res/celp/webpages/projects/ecology/tree%20guide/introduction.htm
+PublisherFrontier
+Year0
+ISBN1-873070-33-0
+DescriptionA lovely little book giving a basic identification guide to more than 650 species of trees growing in Tanzania. It is also available to view on the internet.
+, 398TitleEdible Wild Plants of Tanzania
+Publication 
+AuthorRuffo, C.K.: Birnie, A. & Tengnas, B.
+PublisherRegional Land Management Unit; Nairobi.
+Year2002
+ISBN9966-896-60-0
+DescriptionA very well presented, simple guide to growing and utilizing wild food plants in Tanzania, with line drawings of each plant, a description, habitat and range, non-food as well as food uses, plus basic information on growing the plants.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Vitex+ferruginea&redir=Vitex+rufescens>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 10 times itself is?
+	
+	
+

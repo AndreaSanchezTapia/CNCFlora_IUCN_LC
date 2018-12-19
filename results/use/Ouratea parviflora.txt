@@ -1,0 +1,140 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ouratea parviflora
+(DC.) Baill.
+Ochnaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Gomphia bracteosa Wawra
+Gomphia parviflora DC.
+Ouratea lucidula (Turcz.) Engl.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Ripening fruitsPhotograph by: Marcio Verdi; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Ripening fruitsPhotograph by: Marcio Verdi; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Flowering branchesPhotograph by: J. P. Maçaneiro; Flora digital do Rio Grande do Sul e de Santa Catarina
+	LeavesPhotograph by: Alexandre Korte; Flora digital do Rio Grande do Sul e de Santa Catarina
+
+
+General InformationOuratea parviflora is a shrub or small tree growing 3 - 5 metres tall.
+The plant is harvested from the wild for medicinal purposes and for the oil obtained from its seed[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+]. Experimental plantations were set up in the 1920's in northern Borneo.Known HazardsNone knownBotanical ReferencesRangeS. America - southern and eastern Brazil.HabitatAtlantic rainforest.Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitShrub
+Height4.00 m
+Cultivation StatusCultivated, Wild
+Cultivation DetailsNot knownEdible UsesA valuable edible oil is obtained from the fruits[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+].MedicinalThe oil obtained from the seed is used as a treatment against leprosy and other skin diseases[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].Other UsesA non-drying, edible oil, known as Batiputa, or Bati oil,  is obtained from the seed[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ouratea+parviflora>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 10 times itself is?
+	
+	
+

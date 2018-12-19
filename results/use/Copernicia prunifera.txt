@@ -1,0 +1,419 @@
+
+
+
+	
+		
+	
+		
+
+	
+Copernicia prunifera
+(Mill.) H.E.Moore
+Arecaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Arrudaria cerifera (Arruda) Macedo
+Copernicia cerifera (Arruda) Mart.
+Corypha cerifera Arruda
+Palma prunifera Mill.
+	
+	
+	
+	
+Common Name: Carnauba Palm
+
+	
+	Young plantPhotograph by: David Stang	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Young plantPhotograph by: David Stang
+	Plant growing in native habitatPhotograph by: Rapper Ouriço
+		Public domain
+	PlantPhotograph by: Tacarijus
+		Creative Commons Attribution 2.5
+	Base of stemPhotograph by: Simon Mayo
+		Image credit to Palmweb
+	Growing in the Parnaiba Palm Forest, Maranon, BrazilPhotograph by: John Dransfield
+		Image credit to Palmweb
+
+
+General InformationCarnauba palm is a large, evergreen fan palm with a single stem, usually growing 7 - 10 metres tall but with some specimens up to 15 metres. The unbranched stem can be 15 - 25cm in diamete; it is topped by a crown of fan-shaped leaves that can be 1 metre long on a petiole that is also 1 metre long[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].
+The plant is extensively cultivated, almost entirely in Brazil, for the wax that can be obtained from the leaves[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+]. It is also often grown as an ornamental in tropical areas[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].Known HazardsNone knownBotanical References200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+RangeS. America - northeastern Brazil.HabitatDry forest areas of Brazil, growing along rivers in valleys, often in areas subject to periodic inundation and periodic drought[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height12.00 m
+Growth RateSlow
+Cultivation StatusCultivated, Ornamental, Wild
+Cultivation DetailsPlants succeed in moist tropical climates where temperatures never fall below 10Â°c, the average annual rainfall is 1,500mm or more and the driest month has 25mm or more rain[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+]. They can also succeed in drier areas with an annual rainfall as low as 250mm and one month or more where rainfall is below 25mm[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+].
+Plants grow well in full sun, even when small[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+]. Prefers a moist, well-drained soil[314TitlePalm and Cycad Societies of Australia.
+Publication 
+Author 
+Websitehttp://www.pacsoa.org.au/
+Publisher 
+Year0
+ISBN 
+DescriptionContains at least a little information on the majority of palm and cycad species, plus a wealth of photographs. A first class website.
+]. Succeeds in saline soils[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A slow-growing plant[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesThe pith of the trunk is rich in starch and is used to make sago[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].
+An edible gum is obtained from the trunk[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].
+Young inflorescences[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].
+The seed is used as a coffee substitute[301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+].
+Leaves - cooked[763TitleHeart of Palm Use: A Family Survey
+Publication 
+AuthorScott Zona, Ph.D.
+Websitehttp://www.virtualherbarium.org/palmresearch/Hearts_of_Palm_table.html
+PublisherFairchild Tropical Botanic Garden, Virtual Herbarium.
+Year0
+ISBN 
+DescriptionAn on-line article listing the botanical names and range of palm trees that have an edible apical bud.
+]. The apical bud, often known as a 'palm heart', is eaten as a vegetable[763TitleHeart of Palm Use: A Family Survey
+Publication 
+AuthorScott Zona, Ph.D.
+Websitehttp://www.virtualherbarium.org/palmresearch/Hearts_of_Palm_table.html
+PublisherFairchild Tropical Botanic Garden, Virtual Herbarium.
+Year0
+ISBN 
+DescriptionAn on-line article listing the botanical names and range of palm trees that have an edible apical bud.
+]. Eating this bud leads to the death of the tree because it is unable to make side shoots[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].MedicinalThe roots are depurative and diuretic. A decoction is considered a specific treatment for syphilis, and is also used in the treatment of arthritis, rheumatism, dermal afflictions and oedema[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+A wax obtained from the leaves is used in the preparation of ointments and cataplasms[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].Other UsesA high quality wax is obtained from the lower surfaces of the leaves[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+, 768TitleField Guide to the Palms of the Americas
+Publication 
+AuthorHenderson A.; Galeano G.; Bernal R.
+PublisherPrinceton University Press; Princeton, New Jersey.
+Year1995
+ISBN0-691-08537-4
+DescriptionAn excellent book, giving basic information on all the 550 species of palms native to the Americas that were known in 1995. Comprehensive information on the plants range and habitat, brief description, some uses and almost 250 photos.
+]. It is very hard and has a high melting point[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. It is used to make various high quality polishes and varnishes, phonographic records, lubricants, soaps, candles etc[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+, 419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The leaves can be used for thatching and weaving into articles such as mats, baskets and hats[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+, 454TitleUseful Fiber Plants of the World
+Publication 
+AuthorDodge C.R.
+Websitehttp://www.biodiversitylibrary.org/
+PublisherUSDA; Washington.
+Year1897
+ISBN 
+DescriptionA rather dated, but very comprehensive catalogue of fibre plants from around the world. The book can be downloaded from the Internet.
+]. The leaves (probably the fibre from them[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+]) are used to make ropes[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+An oil is obtained from the seeds[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is soft, moderately heavy, long-lasting in salty water, easy to work. It is used for fencing, rustic buildings, laths, lathe work such as walking sticks etc[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+, 419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The whole stems are used for poles[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - there is no need to separate the seeds from the fruit before sowing. If stored seed is used then pre-soak for 24 hours in warm water. Sow the seed in a lightly shaded position in a nursery seedbed or in individual containers[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The seed can take 2 - 3 months to germinate[297TitlePalms of the World
+Publication 
+AuthorBlombery. A. & Rodd. T.
+PublisherAngus and Robertson
+Year1992
+ISBN0-207-14848-1
+DescriptionAn excellent guide, well illustrated, with information on cultivation, uses, habitat etc of almost 200 species of Palms.
+]. Sprouting is slow, with a low germination rate[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Young seedlings grow slowly[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Copernicia+prunifera>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: a square has how many sides?
+	
+	
+

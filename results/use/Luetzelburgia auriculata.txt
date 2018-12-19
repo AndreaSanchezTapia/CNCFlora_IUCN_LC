@@ -1,0 +1,213 @@
+
+
+
+	
+		
+	
+		
+
+	
+Luetzelburgia auriculata
+(Allemao) Ducke
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bowdichia freirei Ducke
+Luetzelburgia brasiliensis Yakovlev
+Luetzelburgia pterocarpoides Harms
+Tipuana auriculata Allemao
+	
+	
+	
+	
+Common Name: 
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationLuetzelburgia auriculata is a deciduous tree growing up to 10 metres tall, though it is sometimes no more than a shrub 1.5 - 2.5 metres tall[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+The plant is sometimes harvested from the wild as a source of materials, and has occasionally been used in times of need as an emergency food. The flowers of Luetzelburgia species appear en masse before the plant comes into leaf, making the floral display quite conspicuous and colourful, giving the genus a potential ornamental value[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+The plant is classified as 'Least Concern' in the IUCN Red List of Threatened Species(2013)[338TitleIUCN Red List of Threatened Species
+Publication 
+Author 
+Websitehttp://www.iucnredlist.org/
+Publisher 
+Year0
+ISBN 
+DescriptionA list of plants under threat and facing possible extinction, usually with brief details of the threats and information on habitat.
+].Known HazardsThe pant is not recommended for honey production because of its toxicity[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+At the start of the rainy season, the leaves are reported to be toxic to cattle[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+A recently published study demonstrated that samaras are responsible for poisoning outbreaks in goats[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].Botanical References1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+RangeS. America - central and northeast BrazilHabitatDry forests and savannah[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].Properties
+Conservation StatusLeast Concern
+Edibility Rating
+Other Uses Rating
+HabitDeciduous Tree
+Height8.00 m
+PollinatorsInsects
+Cultivation StatusOrnamental, Wild
+Cultivation DetailsLuetzelburgia auriculata is a plant of the 'Caatinga' dry forest region of northeast Brazil. The climate is hot and dry, there are usually 6 to 11 months without rain each year. The mean annual rainfall varies from 250 - 1,000mm, and the mean annual temperature is from 24 - 26Â°c.
+Although many species within the family Fabaceae have a symbiotic relationship with soil bacteria, this species is said to be devoid of such a relationship and therefore does not fix atmospheric nitrogen[755TitleNodulation Plants in GRIN Taxonomy
+Publication 
+Author 
+Websitehttp://www.ars-grin.gov/~sbmljw/cgi-bin/taxnodul.pl?language=en
+PublisherUnited States Department of Agriculture
+Year0
+ISBN 
+DescriptionAn online database listing plants that have either positive or negative reports on root and stem nodulation with nitrogen-fixing bacteria.
+].Edible UsesDuring the severe drought of 1932 in one semi-arid region of Brazil local people reportedly dug up root tubers of L. auriculata and milled them into flour[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].MedicinalNone knownOther UsesThe oil-rich seeds are used to make soap in some rural areas of the semi-arid region of north-eastern Brazil[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+]. The seeds are 12 - 25mm long, 7 - 15mm wide, 4 - 7mm thick[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+There is a report that leaves help accelerate the maturation of banana fruits[1521TitleA taxonomic revision of the South American papilionoid genus Luetzelburgia (Fabaceae)
+PublicationBotanical Journal of the Linnean Society, 2014, 175, 328-375
+AuthorDomingos VenÃ­cio Oliveira Silva Cardoso; Luciano Paganucci 
+Publisher 
+Year2014
+ISBN 
+Description 
+].
+A phytochemical study showed that the lectin-rich seeds successfully overcome predation by the cowpea beetle Callosobruchus maculatus[121TitleThe Plantsman. Vol. 3. 1981 - 1982.
+Publication 
+Author?
+PublisherRoyal Horticultural Society
+Year1981
+ISBN-
+DescriptionExcerpts from the periodical giving cultivation details and other notes on some of the useful plants..
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Luetzelburgia+auriculata>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is greater, 5 or 9?
+	
+	
+

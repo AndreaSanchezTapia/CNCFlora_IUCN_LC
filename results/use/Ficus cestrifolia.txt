@@ -1,0 +1,199 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ficus cestrifolia
+Schott ex Spreng.
+Moraceae
+Ficus organensis, treated here as a synonym, is accepted as a valid species in the online 2012 Flora do Brasil. Should Ficus organensis be generally accepted as valid in the future, then the main source of information about it can be found in Brazilian Trees, Vol. 3[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Ficus organensis (Miq.) Miq.
+Ficus pohliana (Miq.) Miq.
+Ficus tweediana (Miq.) Miq.
+Urostigma cestrifolium (Schott) Miq.
+Urostigma organense Miq.
+Urostigma pohlianum Miq.
+Urostigma tweedianum Miq.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Base of a large specimenPhotograph by: Martin Molz; Flora digital do Rio Grande do Sul e de Santa Catarina	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Base of a large specimenPhotograph by: Martin Molz; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Tree growing in native habitatPhotograph by: Fábio Piccin Torchelsen; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Looking up the trunkPhotograph by: J. P. Maçaneiro; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Ripening fruitPhotograph by: Valeska Martins da Silva; Flora digital do Rio Grande do Sul e de Santa Catarina
+	Fruiting branchesPhotograph by: Luciano Rodrigues Soares; Flora digital do Rio Grande do Sul e de Santa Catarina
+
+
+General InformationFicus cestrifolia is a semideciduous tree with a wide, flat-topped, dense crown; it can grow 10 - 25 metres tall. The short, grooved bole can be 60 - 90cm in diameter with basal prop roots[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is sometimes harvested from the wild for its low value wood. It can be used as a pioneer when restoring native woodland and, providing a good shade, it can be used in landscaping[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - southern and eastern Brazil.HabitatAtlantic rainforest and semideciduous forests at higher elevations, usually in open places and areas of secondary growth[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height17.50 m
+Growth RateMedium
+PollinatorsWasps
+Cultivation StatusWild
+Cultivation Details
+Grows best in a sunny position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A moderately fast-growing plant when young[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree flowers and produces fruit nearly all year round[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Fig trees have a unique form of fertilization, each species relying on a single, highly specialized species of wasp that is itself totaly dependant upon that fig species in order to breed. The trees produce three types of flower; male, a long-styled female and a short-styled female flower, often called the gall flower. All three types of flower are contained within the structure we usually think of as the fruit.
+The female fig wasp enters a fig and lays its eggs on the short styled female flowers while pollinating the long styled female flowers. Wingless male fig wasps emerge first, inseminate the emerging females and then bore exit tunnels out of the fig for the winged females. Females emerge, collect pollen from the male flowers and fly off in search of figs whose female flowers are receptive. In order to support a population of its pollinator, individuals of a Ficus spp. must flower asynchronously. A population must exceed a critical minimum size to ensure that at any time of the year at least some plants have overlap of emmission and reception of fig wasps. Without this temporal overlap the short-lived pollinator wasps will go locally extinct[413TitleGlobal Invasive Species Database
+Publication 
+Author 
+Websitehttp://www.issg.org/database/welcome/
+Publisher 
+Year0
+ISBN 
+DescriptionVery detailed information on almost 400 species (with more being added) of plants that have become weeds in areas outside their native range.
+].Edible UsesNone knownMedicinalNone knownAgroforestry Uses:A fast-growing tree providing food for the native fauna, it can be grown as a pioneer when restoring native woodland[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is coarse-textured, straight-grained, light in weight, easy to cut, with poor mechanical properties and very susceptible to termites and rot. It is only used for low value items such as troughs, shoe heels and the filling in doors and panels[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in a nursery seedbed. The seed is very small and an easy way of obtaining it from the tree is to collect the fruits and place them in a plastic bag then leave them until the fruit is partially decomposed. Then mix the fruit with some water to make a suspension of seeds and pulp - this suspension can be sown directly onto the seedbed. A low germination rate can be expected, with the seed sprouting within 30 - 40 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ficus+cestrifolia>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	
+	
+

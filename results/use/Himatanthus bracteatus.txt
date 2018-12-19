@@ -1,0 +1,159 @@
+
+
+
+	
+		
+	
+		
+
+	
+Himatanthus bracteatus
+(A.DC.) Woodson
+Apocynaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Plumeria bracteata A.DC.
+Plumeria revoluta Huber
+	
+	
+	
+	
+Common Name: 
+
+	
+	Close-up of the flowerPhotograph by: Tarciso Leão	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Close-up of the flowerPhotograph by: Tarciso Leão
+	Flowers and leavesPhotograph by: Tarciso Leão
+	Latex seeping from cut end of stemPhotograph by: Tarciso Leão
+	Trunk with slash to show the wood and also latex seepingPhotograph by: Tarciso Leão
+	Looking up the trunkPhotograph by: Tarciso Leão
+	Ripening seedpodsPhotograph by: Tarciso Leão
+	Flowers and leavesPhotograph by: Tarciso Leão
+
+
+General InformationHimatanthus bracteatus is a tree that can grow up to 25 metres tall[422TitleFruits of the Guianan Flora
+Publication 
+Authorvan Roosmalen. M.G.M.
+PublisherInstitute of Systematic Boyany, Utrecht University; Netherlands.
+Year1985
+ISBN90-9000988-4
+DescriptionTerse descriptions of over 1,700 species from the Guianas that bear fruits - not necessarily edible! Often mentions if the fruit is edible, plus gives brief description of habit and habitat.
+].
+The tree is harvested from the wild for local medicinal use.Known HazardsNone knownBotanical ReferencesRangeS. America - Brazil, Peru, Ecuador, Colombia, Venezuela, the Guyanas.HabitatRain forests, mountain savannah and savannah forests, savannah[422TitleFruits of the Guianan Flora
+Publication 
+Authorvan Roosmalen. M.G.M.
+PublisherInstitute of Systematic Boyany, Utrecht University; Netherlands.
+Year1985
+ISBN90-9000988-4
+DescriptionTerse descriptions of over 1,700 species from the Guianas that bear fruits - not necessarily edible! Often mentions if the fruit is edible, plus gives brief description of habit and habitat.
+].Properties
+Medicinal Rating
+HabitTree
+Height20.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalA decoction of the bark is drunk as an antimalarial[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].
+The bark is macerated and applied topically as a bandage for sores[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+]. An extract from the macerated inner bark is applied to cuts and wounds in order to stop bleeding[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].
+The white latex is used externally as an anti-fungal. It is applied to the skin to cure itching as an anti-pruritic[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+]Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Himatanthus+bracteatus>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

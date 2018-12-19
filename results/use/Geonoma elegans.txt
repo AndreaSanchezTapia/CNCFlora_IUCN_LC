@@ -1,0 +1,140 @@
+
+
+
+	
+		
+	
+		
+
+	
+Geonoma elegans
+Mart.
+Arecaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Geonoma bifurca Drude
+Geonoma caudescens H.Wendl. ex Drude
+Geonoma gamiova Barb.Rodr.
+Geonoma olfersiana Klotzsch ex Drude
+	
+	
+	
+	
+Common Name: 
+
+	
+	Plant growing in its native habitatPhotograph by: Susana Dreveck 	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Plant growing in its native habitatPhotograph by: Susana Dreveck 
+	LeavesPhotograph by: Anita Stival; Flora digital do Rio Grande do Sul e de Santa Catarina
+
+
+General InformationGeonoma elegans is an evergreen palm growing 1 - 3 metres tall. The plant produces a cluster of unbranched stems 4 - 10mm in diameter; these are topped by 8 - 10 leaves that can be up to 75cm long[773TitleA Revision of Geonoma (Arecaceae)
+PublicationPhytotaxa 17: 1 - 271
+AuthorHenderson A.
+Websitehttp://www.mapress.com/phytotaxa/
+PublisherMagnolia Press
+Year2011
+ISBN1179-3155
+DescriptionA treatment of the genus Geonoma, giving very detailed botanical descriptions and some information on habitat. It can be downloaded from the Internet.
+].
+The plant is harvested from the wild for local use as a source of thatch.Known HazardsNone knownBotanical References773TitleA Revision of Geonoma (Arecaceae)
+PublicationPhytotaxa 17: 1 - 271
+AuthorHenderson A.
+Websitehttp://www.mapress.com/phytotaxa/
+PublisherMagnolia Press
+Year2011
+ISBN1179-3155
+DescriptionA treatment of the genus Geonoma, giving very detailed botanical descriptions and some information on habitat. It can be downloaded from the Internet.
+RangeS. America - southern and eastern Brazil.HabitatAn understorey plant in lowland rainforest, growing at elevations from sea level to 800 metres[773TitleA Revision of Geonoma (Arecaceae)
+PublicationPhytotaxa 17: 1 - 271
+AuthorHenderson A.
+Websitehttp://www.mapress.com/phytotaxa/
+PublisherMagnolia Press
+Year2011
+ISBN1179-3155
+DescriptionA treatment of the genus Geonoma, giving very detailed botanical descriptions and some information on habitat. It can be downloaded from the Internet.
+].Properties
+Other Uses Rating
+HabitEvergreen Shrub
+Height2.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesThe leaves are used for thatch[467TitleThe Philippine Journal of Science. Vol. 4
+Publication 
+AuthorFreer P.C. (Editor)
+Websitehttp://www.biodiversitylibrary.org
+PublisherThe Bureau of Science, Philippines.
+Year1909
+ISBN 
+DescriptionA number of articles on Philippine plants, including one on the qualities of Philippine woods.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Geonoma+elegans>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: a square has how many sides?
+	
+	
+

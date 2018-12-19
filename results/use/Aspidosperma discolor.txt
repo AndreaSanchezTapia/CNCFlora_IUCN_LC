@@ -1,0 +1,216 @@
+
+
+
+	
+		
+	
+		
+
+	
+Aspidosperma discolor
+A.DC.
+Apocynaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Aspidosperma francisii A.DC.
+Macaglia discolor (A.DC.) Kuntze
+	
+	
+	
+	
+Common Name: 
+
+	
+	Looking up into the canopyPhotograph by: Tarciso Leão	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Looking up into the canopyPhotograph by: Tarciso Leão
+	TrunkPhotograph by: Tarciso Leão
+	LeavesPhotograph by: Tarciso Leão
+	Open seedpod, showing the seedPhotograph by: Tarciso Leão
+
+
+General InformationAspidosperma discolor is a semideciduous tree with a dense, oblong crown; it can grow 15 - 25 metres tall. The straight bole is distinctly fluted, it can be 40 - 60cm in diameter. All parts of the plant contain a milky latex[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The plant is harvested from the wild for mainly local use as a medicine and source of wood. An ornamental tree, it is suited for planting in narrow streets under power lines[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsThe freshly cut wood and sap of Aspidosperma species causes irritation of the eyes, nose, and throat, with general malaise[407TitleBoDD (Botanical Dermatology Database)
+Publication 
+Author 
+Websitehttp://bodd.cf.ac.uk/
+Publisher 
+Year0
+ISBN 
+DescriptionBrief notes on a very wide range of plants that have reports of causing harm to the skin.
+].
+The sawdust, on contact with abraded skin, produces local burning and a vesicular eruption with general symptoms of muscular weakness and cramps, sweating, dryness of the mouth, and faintness[407TitleBoDD (Botanical Dermatology Database)
+Publication 
+Author 
+Websitehttp://bodd.cf.ac.uk/
+Publisher 
+Year0
+ISBN 
+DescriptionBrief notes on a very wide range of plants that have reports of causing harm to the skin.
+].
+Once the wood is thoroughly dry it loses its toxicity unless polishes or dyes in organic solvents are used on it[407TitleBoDD (Botanical Dermatology Database)
+Publication 
+Author 
+Websitehttp://bodd.cf.ac.uk/
+Publisher 
+Year0
+ISBN 
+DescriptionBrief notes on a very wide range of plants that have reports of causing harm to the skin.
+]Botanical References409TitleAnnals of the Missouri Botanical Garden Vol. 38
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1951
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains part of the Flora of Panama and a revision of the genus Aspidosperma, amongst other things.
+RangeS. America - central, eastern and northern Brazil.HabitatSemideciduous, broadleaved forest[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitSemi-deciduous Tree
+Height20.00 m
+Growth RateFast
+PollinatorsInsects
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Succeeds in full sun and in dappled shade[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Plants are tolerant of a very wide range of soils[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Young trees usually establish well and grow away quickly[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalThe bark is extremely bitter and is said to have an antimalarial action[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].Other UsesThe wood is hard, moderately heavy, with poor mechanical properties and of low durability when exposed to the elements. It is easy to work and is used for making tool handles, and in building construction for making items such as props, rafters and lathes[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position either in a nursery seedbed or in individual containers. A low germination rate can be expected, with the seed sprouting within 15 - 35 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Seedlings grow away quickly and they should be ready to plant out less than 6 months later[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Aspidosperma+discolor>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	
+	
+

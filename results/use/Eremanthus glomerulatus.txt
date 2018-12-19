@@ -1,0 +1,150 @@
+
+
+
+	
+		
+	
+		
+
+	
+Eremanthus glomerulatus
+Less.
+Asteraceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Albertinia glomerulata (Less.) DC.
+Albertinia obtusata Mart. ex DC.
+Albertinia pallidiseta DC.
+Albertinia rufiseta DC.
+Albertinia stellata Gardner
+Eremanthus pallidisetus (DC.) Sch.Bip.
+Eremanthus stellatus (Gardner) Sch.Bip.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Drawing of the leaves and flowersPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 6(2): fasicle 62, t. 43 (1873)	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationEremanthus glomerulatus is a slender to robust tree growing 2 - 10 metres tall[444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+]. The bole can be 20cm in diameter[444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+].
+The wood is often used locally to make posts.Known HazardsNone knownBotanical References444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+RangeS. America - southern and eastern Brazil.HabitatFound commonly in large colonies and may dominate savannah and montane savannah habitats, at elevations from 700 - 1,500 metres[444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+].Properties
+Other Uses Rating
+HabitTree
+Height7.00 m
+Cultivation StatusWild
+Cultivation DetailsA plant of moderate elevations in the tropics, generally found at elevations above 700 - 1,500 metres[444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+].Edible UsesNone knownMedicinalNone knownOther UsesBecause of its abundance, the wood is often used for fence posts[444TitleAnnals of the Missouri Botanical Garden Vol. 74
+Publication 
+Author 
+PublisherMissouri Botanical Garden
+Year1987
+ISBN 
+DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eremanthus+glomerulatus>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: 10 times itself is?
+	
+	
+

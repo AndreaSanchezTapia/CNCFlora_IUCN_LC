@@ -1,0 +1,112 @@
+
+
+
+	
+		
+	
+		
+
+	
+Tabernaemontana angulata
+Mart. ex MÃ¼ll.Arg.
+Apocynaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Anacampta angulata (Mart. ex MÃ¼ll.Arg.) Miers
+Bonafousia angulata (Mart. ex MÃ¼ll.Arg.) Boiteau & L.Allorge
+Bonafousia silvae L.Allorge
+	
+	
+	
+	
+Common Name: 
+
+	
+	Drawing of the flowers and leavesPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 6(1): fasicle 26, t. 23 (1860)	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationTabernaemontana angulata is a shrub or a tree.
+The bark is used locally as an hallucinogenic.Known HazardsNone knownBotanical ReferencesRangeS. America - north and northeast Brazil.HabitatNot knownProperties
+Medicinal Rating
+HabitTree
+Height0.00 m
+Cultivation StatusWild
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalThe bark is macerated for the latex it contains, this is employed as an hallucinogen[348TitleMedicinal Plants of the Guianas
+Publication 
+AuthorDeFilipps, R. A.; Maina, S. L.; & Crepin, J.
+Websitehttp://botany.si.edu/bdg/medicinal/index.html
+PublisherSmithsonian Museum
+Year0
+ISBN 
+DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
+].Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Tabernaemontana+angulata>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

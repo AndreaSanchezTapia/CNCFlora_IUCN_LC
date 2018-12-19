@@ -1,0 +1,196 @@
+
+
+
+	
+		
+	
+		
+
+	
+Ceiba erianthos
+(Cav.) K.Schum.
+Malvaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bombax erianthos Cav.
+Eriodendron leiantherum DC.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Drawing from Nova genera et species plantarum.
+Monachii:Impensis Auctoris,1824-1829Photograph by: Biodiversity Heritage Library
+		Creative Commons Attribution 2.0	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Drawing from Nova genera et species plantarum.
+Monachii:Impensis Auctoris,1824-1829Photograph by: Biodiversity Heritage Library
+		Creative Commons Attribution 2.0
+	Drawing from Nova genera et species plantarum.
+Monachii:Impensis Auctoris,1824-1829Photograph by: Biodiversity Heritage Library
+		Creative Commons Attribution 2.0
+
+
+General InformationCeiba erianthos is a deciduous tree with a wide, flat-topped crown; it can grow about 10 metres tall. The short, spiny bole thickens at the base, it can be 40 - 60cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 698TitleA Taxonomic Revision of the Genus Ceiba
+PublicationAnales del JardÃ­n BotÃ¡nico de Madrid 60 (2) pp259 - 300
+AuthorGibbs P.; Semir J.
+Websitehttp://dialnet.unirioja.es/servlet/fichero_articulo?codigo=762476&orden=78027
+PublisherAnales del JardÃ­n BotÃ¡nico de Madrid
+Year2003
+ISBN 
+DescriptionA new treatment of the genus, which includes species previously in Chorisia. Available as a PDF file on the Internet.
+].
+The tree is harvested from the wild as a local source of fibre and timber. A very ornamental tree, suitable for use in landscaping, although the bole and branches are richly endowed with prickles[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical References698TitleA Taxonomic Revision of the Genus Ceiba
+PublicationAnales del JardÃ­n BotÃ¡nico de Madrid 60 (2) pp259 - 300
+AuthorGibbs P.; Semir J.
+Websitehttp://dialnet.unirioja.es/servlet/fichero_articulo?codigo=762476&orden=78027
+PublisherAnales del JardÃ­n BotÃ¡nico de Madrid
+Year2003
+ISBN 
+DescriptionA new treatment of the genus, which includes species previously in Chorisia. Available as a PDF file on the Internet.
+RangeS. America - eastern Brazil.HabitatMoist and dry coastal broadleaved forests, usually growing on rocky outcrops[698TitleA Taxonomic Revision of the Genus Ceiba
+PublicationAnales del JardÃ­n BotÃ¡nico de Madrid 60 (2) pp259 - 300
+AuthorGibbs P.; Semir J.
+Websitehttp://dialnet.unirioja.es/servlet/fichero_articulo?codigo=762476&orden=78027
+PublisherAnales del JardÃ­n BotÃ¡nico de Madrid
+Year2003
+ISBN 
+DescriptionA new treatment of the genus, which includes species previously in Chorisia. Available as a PDF file on the Internet.
+]. Often found in rock crevices or in rocky terrains that make the transition towards normal soil[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Other Uses Rating
+HabitDeciduous Tree
+Height8.00 m
+PollinatorsBats
+Self-fertileNo
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Prefers a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesNone knownMedicinalNone knownOther UsesThe floss inside the seed capsule are used as a stuffing material for pillows, mattresses, cushions etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is medium-textured, straight-grained, very light in weight, soft and not very durable. It is only used locally for low value items such as boxes[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - best sown as soon as it is ripe. Sow in a sunny position in a nursery seedbed and only just cover the seed. Germination rates are usually high, with the seed sprouting within a few days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Seedlings grow away quickly.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ceiba+erianthos>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 100?
+	
+	
+

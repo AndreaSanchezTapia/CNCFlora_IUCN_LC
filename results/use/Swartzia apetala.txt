@@ -1,0 +1,131 @@
+
+
+
+	
+		
+	
+		
+
+	
+Swartzia apetala
+Raddi
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Swartzia blanchetii Benth.
+Swartzia glabra Vogel
+Tounatea apetala (Raddi) Taub.
+Tounatea blancheti (Benth.) Taub.
+	
+	
+	
+	
+Common Name: 
+
+	
+	Fruiting branchPhotograph by: Alex Popovkin, Bahia, Brazil	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Fruiting branchPhotograph by: Alex Popovkin, Bahia, Brazil
+	Seedpod opened to reveal the black seed and white arilPhotograph by: Alex Popovkin, Bahia, Brazil
+	Trunk and canopyPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Close-up of flowerPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	SeedpodsPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+
+
+General InformationSwartzia apetala is a tall tree.
+The tree is probably harvested from the wild for its wood.Known HazardsNone knownBotanical ReferencesRangeS. America - eastern Brazil.HabitatNot knownProperties
+Other Uses Rating
+HabitTree
+Height0.00 m
+Cultivation StatusWild
+Cultivation Details
+This species has a symbiotic relationship with certain soil bacteria; these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[755TitleNodulation Plants in GRIN Taxonomy
+Publication 
+Author 
+Websitehttp://www.ars-grin.gov/~sbmljw/cgi-bin/taxnodul.pl?language=en
+PublisherUnited States Department of Agriculture
+Year0
+ISBN 
+DescriptionAn online database listing plants that have either positive or negative reports on root and stem nodulation with nitrogen-fixing bacteria.
+].Edible UsesNone knownMedicinalNone knownOther UsesWe have no information on the wood of this species. However, a general description of the wood from plants in this genus is as follows:-
+The heartwood is dark brown, reddish-brown, or nearly black, in solid colour or somewhat variegated; it is sharply demarcated from the nearly white to yellowish sapwood. The texture is very fine to medium; the grain straight to irregular; lustre is usually medium; there is no distinctive odour or taste. The heartwood is very resistant to attack by decay fungi and resistant to dry-wood termites, though it is not resistant to marine borers. The wood is generally reported to be moderately difficult to air dry because of checking and warp. It is difficult to work because of its high density, but it finishes very smoothly and takes a high polish. It is used for purposes such as inlay, parquet flooring, turnery, furniture, cabinetwork, violin bows, specialty items; and has been suggested as a substitute for ebony[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Swartzia+apetala>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: a square has how many sides?
+	
+	
+

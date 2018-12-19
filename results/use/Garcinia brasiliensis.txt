@@ -1,0 +1,293 @@
+
+
+
+	
+		
+	
+		
+
+	
+Garcinia brasiliensis
+Mart.
+Clusiaceae
+There is disagreement between botanists over the correct placing of this species, with some recognising the genus Rheedia and placing this species in that genus as Rheedia brasiliensis (treated here as a synonym)[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Rheedia brasiliensis (Mart.) Planch. & Triana.
+	
+	
+	
+	
+Common Name: Bacupari
+
+	
+	Drawing of the flowering stemPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 12(1): fasicle 102, t. 103 (1888)	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Drawing of the flowering stemPhotograph by: Martius, C., Eichler, A.G., Urban, I., Flora Brasiliensis, vol. 12(1): fasicle 102, t. 103 (1888)
+	Fruiting branchPhotograph by: O. M. Montiel
+
+
+General InformationBacupari is a pyramidal, very attractive, evergreen tree with a dense, rounded crown; it can grow 4 - 13 metres tall[336TitleFruits of Warm Climates
+Publication 
+AuthorMorton. J.
+PublisherFlorida Flair books, Florida.
+Year1987
+ISBN0961018410
+DescriptionA very well written guide to about 125 species.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+, 625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The cylindrical bole can be 20 - 30cm in diameter[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is highly valued for its edible fruit, which is gathered from the wild and consumed locally[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. It is often cultivated for its edible fruit in Brazil, especially in home gardens[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - Argentina, Paraguay, eastern Brazil, Bolivia, Peru, French Guiana.HabitatMainly found in secondary forests, by rivers, floodplains, coastal moist broadleaved forests etc[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height6.00 m
+Growth RateSlow
+Cultivation StatusCultivated, Wild
+Cultivation DetailsA plant of the moist tropics.
+Succeeds in full sun or light shade[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Plants can tolerate at least some inundation[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Newly planted young trees establish and grow away fairly slowly[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesFruit - raw. The aril-like translucent subacid white pulp has an excellent flavour, suggesting that of the mangosteen[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+]. A highly prized fruit, usually eaten fresh but also makes an excellent jam[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+, 301TitleCornucopia II
+Publication 
+AuthorFacciola. S.
+PublisherKampong Publications, California.
+Year1998
+ISBN0-9628087-2-5
+DescriptionThe second edition of an excellent guide to the edible uses of plants, though it does not give any details of cultivation etc.
+]. The ovate fruit may be 32 - 40mm long, with an orange-yellow, pliable, leathery, tough skin, 3 mm thick that is easily removed[332TitleThe Useful Plants of West Tropical Africa.
+Publication 
+AuthorBurkil. H. M.
+PublisherRoyal Botanic Gardens; Kew.
+Year1985 - 2004
+ISBN 
+DescriptionBrief descriptions and details of the uses of over 4,000 plants. A superb, if terse, resource, it is also available electronically on the Web - see http://www.aluka.org/
+].MedicinalThe seeds contain 8 to 9% oil (by weight), which is used in poultices on wounds, whitlows, tumours and, externally, over an enlarged liver[336TitleFruits of Warm Climates
+Publication 
+AuthorMorton. J.
+PublisherFlorida Flair books, Florida.
+Year1987
+ISBN0961018410
+DescriptionA very well written guide to about 125 species.
+].
+An infusion of the pulp has a narcotic action with an effect like that of nicotine[336TitleFruits of Warm Climates
+Publication 
+AuthorMorton. J.
+PublisherFlorida Flair books, Florida.
+Year1987
+ISBN0961018410
+DescriptionA very well written guide to about 125 species.
+].
+The root bark extract contains rheediaxanthone and a polyprenylated benzophenone, other lesser constituents, and 3 new prenylated xanthones[336TitleFruits of Warm Climates
+Publication 
+AuthorMorton. J.
+PublisherFlorida Flair books, Florida.
+Year1987
+ISBN0961018410
+DescriptionA very well written guide to about 125 species.
+].Other UsesThe wood is irregular-grained, coarse-textured, heavy, moderately susceptible to rot[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is suitable only for rural construction[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+We do not have any more information on the wood of this species, but a general description of the wood for trees in the Americas which were formerly considered to be in the genus Rheedia is as follows:-
+The heartwood is dark yellow-brown, grayish- or pinkish-brown, merging gradually into the sapwood; surfaces are sometimes specked with resinous exudations. The texture is medium to coarse; the grain straight to irregular and roey; luster medium to rather low; it is free from discernible odour or taste. Species in Surinam are rated durable to attack by decay fungi and fairly resistant to dry wood termites. Species in Colombia are resistant to a brown-rot fungus but not the white-rot in a laboratory assay. Under field conditions the wood was susceptible to decay and attack by insects. It dries rapidly, but is reported to be moderately difficult to air season, tending to warp and check.  Reports on workability vary with species from moderate to high resistance to cutting to machining fairly well; reports on ease of finishing are also variable. The wood is used for purposes such as furniture, flooring (quarter sawn), heavy construction, and general carpentry[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed - best sown as soon as it is ripe. Place the seed on its side in a nursery seedbed or individual containers in a semi-shaded position[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. A germination rate above 50% can be expected, with the seeds sprouting within 15 - 25 days[625TitleBrazilian Trees. Volume 3.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2009
+ISBN85-86714-34-4
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Garcinia+brasiliensis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

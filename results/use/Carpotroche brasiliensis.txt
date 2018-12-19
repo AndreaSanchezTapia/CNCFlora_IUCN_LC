@@ -1,0 +1,322 @@
+
+
+
+	
+		
+	
+		
+
+	
+Carpotroche brasiliensis
+(Raddi) A.Gray
+Achariaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Mayna brasiliensis Raddi
+	
+	
+	
+	
+Common Name: Pau de Lepra
+
+	
+	FruitsPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	FruitsPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Fruit cut open to reveal flesh and seedsPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Close-up of the seedPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Close-up of the seedPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	The inside of a very mature fruitPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Close-up of a leafPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+
+
+General InformationPau de lepra is a small, evergreen tree with an elongated, dense crown; it can grow from 10 - 20 metres tall[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+, 419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The bole is 30 - 40cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The plant is harvested from the wild for local use as a source of medicines, wood, oil and food. It is rarely also cultivated for medicinal purposes[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+]. An ornamental tree, valued for its flowers and the strange form of its fruits, it is planted along the sides of roads[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - eastern Brazil.HabitatSmall and old forests[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+]. Mainly on alluvial plains in primary and secondary rain forest[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height12.00 m
+Cultivation StatusCultivated, Ornamental, Wild
+Cultivation Details
+Succeeds in a sunny position or dappled shade[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Tolerates most soil types[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Plants grow away slowly, hardly reaching 1.5 metres tall when two years old[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+There are male, female and hermaphrodite plants[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].Edible UsesFruit[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalThe seed oil (officinal Oleum Carpotroche) is used externally in the treatment of leprosy[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+] and other dermatological conditions[46TitleDictionary of Economic Plants.
+Publication 
+AuthorUphof. J. C. Th.
+PublisherWeinheim
+Year1959
+ISBN-
+DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
+]. It is also used as a parasiticide, a depilatory and anti-dandruff treatment[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].
+The oil contains sulphones, which have been shown to have an anti-leprosy action[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+]. It also contains chaulmoogric, hydnocarpic and gorlic acids. Cyanogenic glycosides are found in the seeds and pericarp[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].Other UsesThe oil from the seed has insecticidal and parasiticidal properties[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].
+The oil is also traditionally used to make a soap[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].
+The wood is moderately heavy, compact, difficult to work, splits easily and is moderately durable even under adverse conditions[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is used for internal purposes, cabinet making, carpentry, boxes etc[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The wood is used for fuel and is made into charcoal[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - remove the seeds from the spherical pods and either germinate directly, or remove seed from the hard, outer shell[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+]. It can take up to 6 months to germinate[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+]. Do not germinate deep in soil[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].
+It is also possible to collect seedlings from under tree. Do not take more than 50% of the seedlings[340TitleIracambi Medicinal Plants
+Publication 
+AuthorGallia. E.
+Websitehttp://www.iracambi.com/english/herbarium.shtml
+Publisher 
+Year2003
+ISBN 
+DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Carpotroche+brasiliensis>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: a square has how many sides?
+	
+	
+

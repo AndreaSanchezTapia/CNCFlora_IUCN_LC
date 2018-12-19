@@ -1,0 +1,475 @@
+
+
+
+	
+		
+	
+		
+
+	
+Theobroma grandiflorum
+(Willd. ex Spreng.) K.Schum.
+Malvaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Bubroma grandiflora Willd. ex Spreng.
+Guazuma grandiflora (Spreng.) G.Don
+Theobroma macrantha Bernoulli
+Theobroma silvestre Spruce ex K.Schum.
+	
+	
+	
+	
+Common Name: Cupuassu
+
+	
+	Fruits - one cut open to show the flesh and seedsPhotograph by: Pedro Spoladore	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Fruits - one cut open to show the flesh and seedsPhotograph by: Pedro Spoladore
+	Fruit and leavesPhotograph by: Dick Culbert
+	The fruits are apparently appreciated by antsPhotograph by: Dick Culbert
+	Fruiting tree, four years oldPhotograph by: M.-A. Wolf
+	Close-up of the flowerPhotograph by: Puime
+		Public domain
+	The reddy-brown colour of new growthPhotograph by: Forest and Kim Starr
+
+
+General InformationCupuassu is an evergreen tree with an elongate or pyramidal crown; usually growing 6 - 10 metres tall, but occasionally reaching up to 18 metres[335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+, 420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The bole can be 25 - 30cm in diameter[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].
+The tree is highly valued locally for its edible fruit pulp. It is often harvested from the wild and is also cultivated in Brazil, Colombia, Venezuela, Ecuador, and Costa Rica, for this fruit[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+]. The fruit is often sold in local markets and is frequently in short supply as demand outstrips supply[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].Known HazardsNone knownBotanical References636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+RangeS. America - Amazonian Brazil.HabitatRainforests, usually in areas that do not become inundated[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. The lower tree storey of evergreen rainforests[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].Properties
+Edibility Rating
+Medicinal Rating
+HabitEvergreen Tree
+Height10.00 m
+Growth RateMedium
+PollinatorsInsects, ?Wind
+Cultivation StatusCultivated, Wild
+Cultivation DetailsA plant of the hot, moist, lowland tropics[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+]. It grows best in areas where annual daytime temperatures are within the range 20 - 30Â°c, tolerating 16 - 40Â°c[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+]. It requires a mean annual rainfall  within the range 2,000 - 8,000mm, evenly distributed throughout the year[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].
+Requires a position where shade is provided by taller trees[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Prefers a relatively rich, circumneutral soil[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+]. Prefers a pH in the range 5 - 6.5, tolerating 4.5 - 8.5[418TitleEcocrop
+Publication 
+Author 
+Websitehttp://ecocrop.fao.org/ecocrop/srv/en/home
+Publisher 
+Year0
+ISBN 
+DescriptionBasic information on a wide range of useful plants, plus details of environmental needs where available.
+]. The plant is not drought tolerant, being unable to withstand even short dry seasons without the protection of dense shade and local humidity[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].
+Freshly planted young trees usually grow away moderately well[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+A seedless variety of this species exists[416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+].Edible UsesThe fruit contains a number of large seeds surrounded by a very aromatic, succulent pulp with a slightly acidic flavour[335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+, 416TitleBrazilian Fruits and Cultivated Exotics
+Publication 
+AuthorLorenzi. H.; Bacher. L.; Lacerda. M.; Sartori. S.
+PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
+Year2000
+ISBN85-867174-24-0
+DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
+]. This pulp can be eaten raw and is said to be delicious[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+, 335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+]. Creamy, with an exotic flavour[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+]. Sweetish and agreeably scented[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is also used to make fresh juice, ice cream, jam and tarts[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+, 318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+]. The brown fruit is 12 - 25cm long and 10 - 12cm in diameter, with the pulp occupying about a third of the space within[335TitlePerennial Edible Fruits of the Tropics : an Inventory
+Publication 
+AuthorMartin, F. W.; Campbell, C. W.; Rubertbe, R. M.
+PublisherU.S. Dept. of Agriculture, Agricultural Research Service
+Year1987
+ISBN 
+DescriptionA booklet giving terse details of almost 300 species of edible fruits, plus regional lists of Botanical and Common names for over 2,500 less well-known edible fruits of the tropics.
+].
+Seed - used as a substitute for chocolate[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The seeds have a high amount of fat and give a good cocoa butter[317TitleMansfeld's Database of Agricultural and Horticultural Plants
+Publication 
+Author 
+Websitehttp://mansfeld.ipk-gatersleben.de/pls/htmldb_pgrc/f?p=185:3:4292127278597336
+Publisher 
+Year0
+ISBN 
+DescriptionTerse details of a huge range of useful plants.
+]. The seeds of species in this genus are generally a rich source of oil (around 50%), starch (around 15%) and protein (around 15%)[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+]. They also contain a volatile oil and the stimulating alkaloids caffeine and theobromine[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].Medicinal	The plant (part not specified, but it is almost certainly the fruit or the seed[KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+]) is nutritive, stimulant and tonic[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The seeds are used in the treatment of abdominal pains[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+The juiced fruit is drunk to facilitate difficult births[318TitleRaintree Nutrition - Tropical Plant Database
+Publication 
+Author 
+Websitehttp://www.rain-tree.com/plants.htm
+Publisher 
+Year0
+ISBN 
+DescriptionDetailed information on the medicinal uses of more than two hundred rainforest plants, mainly from S. America, with basic descriptions of the plants, their other uses etc.
+].
+Although no specific reports of medicinal use have been seen for this plant, the seed is a source of cacao powder and butter. These products have the following medicinal uses:-
+Cacao powder and butter, which are obtained from the seed, are nutritive[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. The  butter is also applied externally as an emollient[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].
+Cacao powder is taken internally in the treatment of angina and high blood pressure[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+].
+Cacao butter is an excellent emollient, being applied to the skin to soothe and soften it[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. It is used traditionally to treat chapped skin and burns, and is also rubbed into bruises[238TitleEncyclopaedia of Herbs and their Uses.
+Publication 
+AuthorBown. D.
+PublisherDorling Kindersley, London.
+Year1995
+ISBN0-7513-020-31
+DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
+]. Research has shown that it can help to counter the bacteria responsible for boils and septicaemia[254TitleThe Encyclopedia of Medicinal Plants
+Publication 
+AuthorChevallier. A.
+PublisherDorling Kindersley. London
+Year1996
+ISBN9-780751-303148
+DescriptionAn excellent guide to over 500 of the more well known medicinal herbs from around the world.
+].Other UsesAn oil, known as cacao butter, which is solid at room temperature, is obtained from the seed. In addition to being used locally as a food and medicine, cacao butter is important in the cosmetics and pharmaceutical industries[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+].
+The wood is of medium texture, straight-grained, moderately heavy and with moderate natural durability[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. It is very little used, but is suitable for cabinet making and internal cladding of buildings[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].PropagationSeed - it has a very short viability, requiring high humidity and optimum temperatures to remain viable. There is no dormancy, the seed often germinating whilst still inside the pod[636TitleContributions from the United States National Herbarium Vol. 35
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org
+PublisherSmithsonian Institution Press; Washington.
+Year1968
+ISBN 
+DescriptionA treatment of the genus Theobroma and a monograph of the Humiriaceae are two of the various articles contained in this issue. It can be downloaded from the Internet.
+]. Sow the seed as soon as it is ripe, in a semi-shaded position in individual containers[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Cover with about 15mm of soil. Germination rates of fresh seed is usually high, with sprouting taking place in 20 - 40 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Young plants are usually ready for planting out 5 - 6 months later[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Theobroma+grandiflorum>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: subtract 1 from 12
+	
+	
+

@@ -1,0 +1,248 @@
+
+
+
+	
+		
+	
+		
+
+(Redirected from Lecythis idatimon)	
+Eschweilera ovata
+(Cambess.) Mart. ex Miers
+Lecythidaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Chytroma ibiriba Miers
+Eschweilera acuminata (O.Berg) Miers
+Eschweilera blanchetiana (O.Berg) Miers
+Eschweilera gracilis Miers
+Eschweilera laurifolia (O.Berg) Miers
+Eschweilera luschnathii (O.Berg) Miers
+Eschweilera siberiana (O.Berg) Miers
+Lecythis blanchetiana O.Berg
+Lecythis idatimon DC. ex O.Berg
+Lecythis luschnathii O.Berg
+Lecythis odoratissima Salzm. ex Miers
+Lecythis ovata Cambess.
+Lecythis siberiana O.Berg
+Lecythis verrucosa Hoffm. ex O.Berg
+	
+	
+	
+	
+Common Name: 
+
+	
+	Flowering stemPhotograph by: Ulf Mehlig
+		Creative Commons Attribution-Share Alike 3.0	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+	Flowering stemPhotograph by: Ulf Mehlig
+		Creative Commons Attribution-Share Alike 3.0
+	Close-up of flowerPhotograph by: Alex Popovkin, Bahia, Brazil
+		Creative Commons Attribution 2.0
+	Tree growing in Mata do Sabiá, Cabo de Santo Agostinho, Pernambuco, Brasil.Photograph by: Tarciso Leão
+	Flower and leavesPhotograph by: Tarciso Leão
+	Developing fruit.Photograph by: Alex Popovkin, Bahia, Brazil
+	Mature fruit with seeds insidePhotograph by: Alex Popovkin, Bahia, Brazil
+	SeedsPhotograph by: Tarciso Leão
+
+
+General InformationEschweilera ovata is usually an evergreen tree with a dense, pyramidal crown; it can grow 4 - 19 metres tall, though when growing near the coast it can be a shrub just 1 - 3 metres tall. The straight, cylindrical bole can be 40 - 60cm in diameter with a thick bark[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree is harvested from the wild for local use of its edible seed and useful wood. The wood is also traded. An ornamental tree, it can be used in landscaping[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Known HazardsNone knownBotanical References959TitleThe Transactions of the Linnean Society of London Vol. 30
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org/
+PublisherLinnean Society; London
+Year1875
+ISBN 
+DescriptionA botanical journal, it contains the first comprehensive (for its time) treatment of the genus Eschweilera. It can be downloaded from the Internet.
+RangeS. America - central, eastern and northern Brazil.HabitatRainforests, coastal rainforests and the transition to savannah, found in both primary and secondary formations; favouring well-drained terrains[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. When growing near the coast it is more often only a shrub 1 - 3 metres tall[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Edibility Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height10.00 m
+Growth RateMedium
+Cultivation StatusWild
+Cultivation Details
+Succeeds in a sunny position[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Requires a well-drained soil[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Young plants have a moderate rate of growth[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Edible UsesSeed[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. The globose seeds are about 2cm in diameter[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].MedicinalNone knownAgroforestry Uses:The tree has a moderate rate of growth, succeeds in full sun and provides food for humans and other creatures. It can be used as a pioneer when restoring native woodland[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Other UsesThe wood is compact, uniform, heavy, moderately hard, with good mechanical properties and moderately durable. It has proved to be very resistant to the attacks of marine borers. It can be used in naval and general construction, for railway sleepers, fence posts, stakes, cabinet making etc[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 960TitleReport of Marine Borer Conference 1952
+Publication 
+Author 
+Websitehttp://www.biodiversitylibrary.org/
+PublisherUniversity of Miami; Florida
+Year1953
+ISBN 
+DescriptionIt includes a report on woods suitable for use in a marine environment. It can be downloaded from the Internet.
+].
+We do not have any more specific information for this species, but the general description for the wood of this genus is as follows:-
+The heartwood of most species is light brown, grayish-brown, reddish-brown, or brownish-buff, sometimes with black streaks; it is usually distinct from the yellowish sapwood. The texture is fine and uniform; the grain typically straight; lustre is low; there is no distinctive odour or taste. Depending on the species, silica content may be as high as 2.4%. Most species are highly resistant to attack by both brown-rot and white-rot fungi. Also most of the species have gained wide recognition for their high degree of resistance to marine-borer attack. Resistance to dry-wood termite attack is variable, depending on species. The wood is rated as fairly difficult to air season, drying rates are slow to moderate. Warp and checking are rated as slight to moderate, depending on species. Most of the species are difficult to work because of the high density and high silica content (excepting E. Tenax); specially tipped cutters are suggested. They can be used for purposes such as marine and other heavy construction, industrial flooring, pulpmill
+equipment, railroad crossties, piling, and turnery[316TitleTropical Timbers of the World. Ag. Handbook No. 607.
+Publication 
+AuthorChudnoff. Martin.
+PublisherUSDA Forest Service. Wisconsin.
+Year1984
+ISBN 
+DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in individual containers. A low germination rate can be expected, with the seed sprouting within 28 - 35 days[420TitleBrazilian Trees. Volume 2. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-15-1
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eschweilera+ovata&redir=Lecythis+idatimon>
+CommentsMarcelo 15th December 2014 14:08This wood have a nick name of Biriba and is widely used (and considered the best one) for the use of making an important primitive musical instrument of exotic non-orthodox sound used in the Brazilian Art-form and martial art called capoeira.
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is half of 6?
+	
+	
+

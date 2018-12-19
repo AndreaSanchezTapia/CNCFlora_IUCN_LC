@@ -1,0 +1,292 @@
+
+
+
+	
+		
+	
+		
+
+	
+Libidibia ferrea
+(Mart. ex Tul.) L.P.Queiroz
+Fabaceae
+	
+function toggle_vis() {
+	var ele = document.getElementById('synonyms');
+	var val = ele.className;
+	var eletext = document.getElementById('syn_text');
+	var measure = document.querySelector('#measurement');
+	if (val == 'synhid') {
+		ele.className = "synshown";
+		ele.style.height = measure.clientHeight+'px';
+		eletext.innerHTML = "<b>- Synonyms</b>"
+	} else {
+		ele.className = "synhid";
+		ele.style.height = "0";
+		eletext.innerHTML = "<b>+ Synonyms</b>"
+	}
+}
++ Synonyms
+	
+	
+	Caesalpinia ferrea Mart. ex Tul.
+	
+	
+	
+	
+Common Name: Brazilian Ironwood
+
+	No Image.	
+function changeThumbnail(ele, value, value2) {
+	var pic = document.getElementById('PIC');
+	var a = document.getElementById('A_PIC');
+	a.href = a.href.split("#")[0] + "#"+value2;
+	pic.src = value;
+	
+	document.querySelectorAll(".caption")[0].innerHTML = ele.nextSibling.nextSibling.innerHTML;	
+	
+	return false;
+}
+
+
+General InformationLibidibia ferrea is an evergreen tree with a wide, flat-topped crown; it can grow 10 - 15 metres tall. The short and usually crooked bole can be 40 - 60cm in diameter[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The tree yields a very high quality wood and is heavily harvested from the wild for both local use and trade. It also has a range of local medicinal uses and can be planted in reforestation programmes. A rather ornamental tree, particularly valued for its ornamental bark, it is suitable for planting along the sides of streets[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 372TitleFlowers of India
+Publication 
+Author 
+Websitehttp://www.flowersofindia.net/
+Publisher 
+Year0
+ISBN 
+DescriptionA wed site of native Indian plants, plus cultivated and naturalized species. It has good quality photos and terse details on more than 3,000 species and cultivars.
+].Known HazardsNone knownBotanical ReferencesRangeS. America - east and northeast Brazil.HabitatAtlantic rainforest and the dry land forest of northeast Brazil, favouring valley bottoms subject to seasonal flooding and is also found in lowland areas in the dry land forest[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Properties
+Medicinal Rating
+Other Uses Rating
+HabitEvergreen Tree
+Height12.00 m
+Growth RateMedium
+Cultivation StatusOrnamental, Wild
+Cultivation Details
+Grows best in a sunny position[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. Established plants are drought tolerant[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+Trees have a moderate rate of growth, reaching a height of around 2.5 metres within 2 years from seed[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+This species has a symbiotic relationship with certain soil bacteria, these bacteria form nodules on the roots and fix atmospheric nitrogen. Some of this nitrogen is utilized by the growing plant but some can also be used by other plants growing nearby[200TitleThe New RHS Dictionary of Gardening. 1992.
+Publication 
+AuthorHuxley. A.
+PublisherMacMillan Press
+Year1992
+ISBN0-333-47494-5
+DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
+].Edible UsesNone knownMedicinalThe roots are astringent and febrifuge[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+A decoction of the wood is anticatarrhal and vulnerary[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+The roots and stem bark are used in the treatment of diabetes[738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+, 739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+A decoction of the stem bark and fruit is used as a cicatrizant and, in large quantities, as an abortifacient[738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+].
+The inner bark contains tannins and is astringent and antiinflammatory[738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+]. An infusion is used for treating sores and for treating chronic coughs and asthma[739TitleMedicinal Plants of Brazil
+Publication 
+AuthorMors W.B.; Rizzini C.T.; Pereira N.A.
+PublisherReference Publications; Michigan.
+Year2000
+ISBN0-917256-42-5
+DescriptionAn extremely concise book, listing approximately 1,500 species and varieties of plants with their botanical name, common name in Brazil, regions in Brazil where the plant is found, a brief list of uses and any medically active compounds in the plant.
+].
+Pharmacological studies have shown antitumor activity in this species[738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+].Agroforestry Uses:A fairly fast-growing tree that is tolerant of full sun and also fixes atmospheric nitrogen, it can be used as a pioneer when establishing native woodland or woodland gardens[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, KTitlePlants for a Future
+AuthorKen Fern 
+DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
+].Other UsesAn aqueous extract of the seeds produced 85% mortality in third stage mosquito larvae of Aedes aegypti[1431TitleWater extracts of Brazilian leguminous seeds as rich sources of larvicidal compounds against Aedes aegypti L.
+PublicationAnais da Academia Brasileira de CiÃªncias (2010) 82(3): 585-594
+AuthorDavi  F. Farias et al
+Publisher 
+Year2010
+ISBN0001-3765
+Description 
+].
+The wood varies in colour from red through brown to almost black. It is very heavy, hard, rigid, compact and very durable. A high quality timber, it is used for various external purposes including construction, fence posts, pillars, beams etc; it is also used for internal construction, general joinery, tool handles etc[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+, 738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+].
+The wood is a very good quality fuel and also makes a very good charcoal with a high calorific value[738TitleEspÃ©cies Nativas mais utilizadas pelas Comunidades Rurais
+Publication 
+Author 
+Websitehttp://www.cnip.org.br/PFNMs/
+Publisher 
+Year0
+ISBN 
+DescriptionA set of information sheets on some of the plants of northeastern Brazil that are commonly used by the local people.
+].PropagationSeed - it has a hard seedcoat and may benefit from scarification before sowing to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing. Sow the seed in a partially shaded position in a nursery seedbed. A germination rate in excess of 60% can be expected, with the seed sprouting within 7 - 15 days[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+]. When the seedlings are 4 - 5cm tall, pot them up into individual containers and they should be ready to plant out 8 - 9 months later[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].
+The seed has a viability in excess of 8 months in store[419TitleBrazilian Trees. Volume 1. 4th Edition.
+Publication 
+AuthorLorenzi. H.
+PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
+Year2002
+ISBN85-86714-17-8
+DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Libidibia+ferrea>
+	
+	
+	function validate_form() {
+		var user = document.forms["comments"]["user"].value;
+		var email = document.forms["comments"]["email"].value;
+		var body = document.forms["comments"]["body"].value;
+		
+		if (user == "" || user == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (email == "" || email == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		if (body == "" || body == null) {
+			alert ("You must fill in all the fields when leaving a comment");
+			return false;
+		}
+		var atpos = email.indexOf("@");
+		var dotpos = email.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=email.length) {
+			alert("You have to enter a real email address.\nsorry about that.");
+			return false;
+		}
+		
+		if (body.length < 8) {
+			alert ("Please give a meaningful comment :-( ");
+			return false;
+		}
+		return true;
+	}
+	
+	Add a Comment:
+	If you have any useful information about this plant, please leave a comment. Comments have to be approved before they are shown here.
+	
+	Name:
+	Email(Private):
+	Message:
+	Captcha: what is greater, 5 or 9?
+	
+	
+
