@@ -1,6 +1,7 @@
 #join everything
 #aoo <- read.csv("./results/final_with_aooeoo.csv", row.names = 1)
-aoo <- read.csv("./results/aoo_veg.csv", row.names = 1)
+#aoo <- read.csv("./results/aoo_veg.csv", row.names = 1)
+aoo <- read.csv("./results/aoo_veg_cites.csv", row.names = 1)
 use <- read.csv("./results/Use_results_general.csv", row.names = 1)
 names(aoo)
 names(use)

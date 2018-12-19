@@ -60,3 +60,14 @@ any(aoo$nombre %in% CNC$nombre)
 
 #####CITES
 cites <- read.csv("./data/CITES/Index_of_CITES_Species_2018-12-19 10_47.csv")
+cites <- cites %>% filter(Kingdom == "Plantae") %>% filter(RankName %in% c("SPECIES", "SUBSPECIES", "VARIETY"))
+which(aoo$nombre %in% cites$FullName)
+aoo$nombre[195]
+cites[cites$FullName == "Dalbergia brasiliensis",] %>% View()
+unique(cites$RankName)
+head(cites)
+
+aoo <- aoo %>% mutate(CITES = ifelse(nombre %in% cites$FullName, "yes (Appendix II)", ""))
+aoo[aoo$CITES == "yes (Appendix II)",]
+
+write.csv(aoo, "./results/aoo_veg_cites.csv")
