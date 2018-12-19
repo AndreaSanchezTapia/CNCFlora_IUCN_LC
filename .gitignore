@@ -13,3 +13,11 @@ ipt/speciesprofile.txt
 ipt/taxon.txt
 ipt/typesandspecimen.txt
 ipt/vernacularname.txt
+results/output_centroides
+results/output_names
+results/output
+output_final
+iptflora
+all_flora
+all_flora.csv
+gustavobio.R
