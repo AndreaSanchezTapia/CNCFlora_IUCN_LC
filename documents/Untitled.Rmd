@@ -1,0 +1,44 @@
+---
+title: "Relatório"
+author: "Andrea Sánchez Tapia"
+date: "22/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objective
+
+To check the UICN status of 763 species from the Brazilian Atlantic Forest. 
+ 
+
+# Methods
+## Taxonomic status check 
+11-dec-2018 
+
+## Occurrence download
+From GBIF using rgbif function. 
+
+Two separate search rounds: 
+
++ one with all the records that come from exsicatta, with or wihtout coordinates and with or without geospatial issues
++ one of all records with coordinates and no geospatial issues
+
+A cleaning process:
+
++ Deleting duplicata colector-year-collection number
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

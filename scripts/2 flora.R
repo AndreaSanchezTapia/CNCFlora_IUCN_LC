@@ -10,8 +10,8 @@ treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet 
     rename(scientificName = ScientificName) %>%
     mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
                simplify2array())
+treespp$nombre
 treespp[642,] %>% View()
-any(is.na(treespp$scientificName))
 treesspp2 <- treespp %>%
     dplyr::select(Family, scientificName, nombre) %>%
     left_join(flora) %>%
