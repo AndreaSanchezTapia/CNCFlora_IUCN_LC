@@ -55,8 +55,8 @@ for (i in seq_along(especies)) {
 # #mapproj::map.grid(alt.10km, nx = 5, ny = 5, col = "grey50", font = 1, cex = 0.7 , pretty = T)
 # maps::map(,"Brazil",proj = 'mercator', add =F)
 
-data <- data.frame(sp = especies[i],
-                   familia = familias[i],
+data <- data.frame(nombre = especies[i],
+                   final_family = familias[i],
                    nusado = nrow(tabela),
                    eoo = eoo.area,
                    aoo2 = aoo2,
@@ -66,27 +66,82 @@ write.csv(data, file = data_csv2)
 }
 
 library(purrr)
-tabla_aoo_eoo <- list.files("./aoo/", full.names = T) %>%
+tabla_aoo_eoo <- list.files("./aoo", full.names = T) %>%
     purrr::map(.f = read.csv) %>%
     bind_rows() %>% dplyr::select(-1)
-tabla_aoo_eoo <- tabla_aoo_eoo %>% rename(nombre = sp, family = familia)
+names(tabla_aoo_eoo)
+tabla_aoo_eoo <- tabla_aoo_eoo %>% rename(nombre = sp, final_family = familia)
 dim(tabla_aoo_eoo)
 names(tabla_aoo_eoo)
 names(treespp)
 tabla_final <- left_join(treespp, tabla_aoo_eoo)
 head(tabla_final)
+tabla_final$eoo
 write.csv(tabla_final, file = "./results/final_with_aooeoo.csv")
 tabla_final <- read.csv("./results/final_with_aooeoo.csv", row.names = 1)
-names(tabla_final)
-plot(tabla_final$aoo2, tabla_final$aoo10)
-abline(b=1, a=0, col = "red")
-plot(tabla_final$RecordsUsed, tabla_final$nusado)
-plot(tabla_final$Area_10x10km, tabla_final$aoo10)
-plot(treespp$EOO, tabla_final$eoo)
-
-
-##
-treespp <- readxl::read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
+original_table <- readxl::read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
     rename(scientificName = ScientificName) %>%
     mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
                simplify2array())
+data <- left_join(tabla_final, original_table, by = c("nombre"))
+names(data)
+any(is.na(data$aoo2))
+data$AOO_2x2km
+library(ggplot2)
+
+data %>% ggplot2::ggplot(aes(x = AOO_2x2km, y = aoo2)) +
+    geom_abline(slope = 0.25, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("AOO2 us+them")+
+    coord_equal()+
+    theme_classic()
+
+data %>% ggplot2::ggplot(aes(x = Area_10x10km, y = aoo10)) +
+    geom_abline(slope = 0.01, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("AOO10 us+them")+
+    coord_equal()+
+    theme_classic()
+
+data %>% ggplot2::ggplot(aes(x = EOO, y = eoo)) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("EOO us+them")+
+    coord_equal()+
+    theme_classic()
+
+data %>% ggplot2::ggplot(aes(x = aoo2, y = aoo10)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("AOO2 vs AOO 10 US")+
+    coord_equal()+
+    theme_classic()
+
+data %>% ggplot2::ggplot(aes(x = AOO_2x2km, y = Area_10x10km)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("AOO2 vs AOO 10 THEM")+
+    theme_classic()
+
+
+data %>% ggplot2::ggplot(aes(x = RecordsUsed, y= nusado)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("Records used") +
+    coord_equal()
+
+data %>% ggplot2::ggplot(aes(x = RecordsUsed, y= Area_10x10km)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = F) +
+    ggtitle("Records used")
+
+data %>% ggplot2::ggplot(aes(x = nusado, y= aoo10)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = F) +
+    ggtitle("Records used")
+
+
+##
