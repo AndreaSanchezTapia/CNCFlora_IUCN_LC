@@ -74,7 +74,7 @@ Other Uses Rating
 HabitTree
 Height0.00 m
 Cultivation StatusWild
-Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesWood - likely to be of good quality but not well known at present. Most, if not all, reports on the timber of this species should actually be referred to Dicorynis guianensis, a species found in the Guyanas.PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Dicorynia+paraensis>
+Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesWood - likely to be of good quality but not well known at present. Most, if not all, reports on the timber of this species should actually be referred to Dicorynis guianensis, a species found in the Guyanas.PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Dicorynia+paraensis>
 	
 	
 	function validate_form() {
@@ -114,7 +114,7 @@ Cultivation DetailsNot knownEdible UsesNone knownMedicinalNone knownOther UsesWo
 	Name:
 	Email(Private):
 	Message:
-	Captcha: How many fingers does the typical human have?
+	Captcha: 6 add another 6 is?
 	
 	
 

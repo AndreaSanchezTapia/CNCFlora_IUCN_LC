@@ -110,7 +110,7 @@ PublisherImprensa Nacional; Rio de Janeiro
 Year1926
 ISBN 
 DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Protium+brasiliense>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Protium+brasiliense>
 	
 	
 	function validate_form() {
@@ -150,7 +150,7 @@ DescriptionA massive work in 6 volumes giving details of the various uses of Bra
 	Name:
 	Email(Private):
 	Message:
-	Captcha: a square has how many sides?
+	Captcha: 6 add another 6 is?
 	
 	
 

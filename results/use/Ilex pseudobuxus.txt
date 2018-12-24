@@ -94,7 +94,7 @@ PublisherImprensa Nacional; Rio de Janeiro
 Year1926
 ISBN 
 DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ilex+pseudobuxus>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Ilex+pseudobuxus>
 	
 	
 	function validate_form() {
@@ -134,7 +134,7 @@ DescriptionA massive work in 6 volumes giving details of the various uses of Bra
 	Name:
 	Email(Private):
 	Message:
-	Captcha: subtract 1 from 12
+	Captcha: what is greater, 5 or 9?
 	
 	
 

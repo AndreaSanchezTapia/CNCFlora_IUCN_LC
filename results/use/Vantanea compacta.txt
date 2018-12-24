@@ -134,7 +134,7 @@ PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
 Year2002
 ISBN85-86714-15-1
 DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Vantanea+compacta>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Vantanea+compacta>
 	
 	
 	function validate_form() {
@@ -174,7 +174,7 @@ DescriptionInformation on 350 species of Brazilian trees. Stunning photographs o
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is half of 100?
+	Captcha: How many suns are in our solar system
 	
 	
 

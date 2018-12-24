@@ -176,7 +176,7 @@ PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
 Year2000
 ISBN85-867174-24-0
 DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Syagrus+vagans>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Syagrus+vagans>
 	
 	
 	function validate_form() {
@@ -216,7 +216,7 @@ DescriptionA superb book, giving information on several hundred fruit species. E
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is half of 6?
+	Captcha: what is half of 100?
 	
 	
 

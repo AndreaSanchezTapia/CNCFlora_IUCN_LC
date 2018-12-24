@@ -115,7 +115,7 @@ PublisherUniversity of Wisconsin
 Year1981
 ISBN0-333-32221-5
 DescriptionAn amazing and comprehensive work, giving a brief guide to the many genera of the family Fabaceae and also the principle uses of the genus.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Inga+vulpina>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Inga+vulpina>
 	
 	
 	function validate_form() {
@@ -155,7 +155,7 @@ DescriptionAn amazing and comprehensive work, giving a brief guide to the many g
 	Name:
 	Email(Private):
 	Message:
-	Captcha: a square has how many sides?
+	Captcha: Type the digit seven into the box
 	
 	
 

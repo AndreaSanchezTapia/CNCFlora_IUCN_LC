@@ -193,7 +193,7 @@ PublisherImprensa Nacional; Rio de Janeiro
 Year1926
 ISBN 
 DescriptionA massive work in 6 volumes giving details of the various uses of Brazilian plants.
-].PropagationSeed - best sown as soon as it is ripe. The seed germinates better if it is first soaked for 12 - 24 hours in warm water or is scarified by making a small nick in the seedcoat (being careful not to damage the seed). Sow the seed in a nursery seedbed or individual containers in a semi-shaded position in well-drained soil.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Stryphnodendron+rotundifolium>
+].PropagationSeed - best sown as soon as it is ripe. The seed germinates better if it is first soaked for 12 - 24 hours in warm water or is scarified by making a small nick in the seedcoat (being careful not to damage the seed). Sow the seed in a nursery seedbed or individual containers in a semi-shaded position in well-drained soil.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Stryphnodendron+rotundifolium>
 	
 	
 	function validate_form() {
@@ -233,7 +233,7 @@ DescriptionA massive work in 6 volumes giving details of the various uses of Bra
 	Name:
 	Email(Private):
 	Message:
-	Captcha: Type the digit seven into the box
+	Captcha: How many fingers does the typical human have?
 	
 	
 

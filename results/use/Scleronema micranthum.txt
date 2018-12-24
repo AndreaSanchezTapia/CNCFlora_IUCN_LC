@@ -72,7 +72,7 @@ PublisherCIRAD
 Year0
 ISBN 
 DescriptionAn on-line guide to the timbers of 245 species of trees.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Scleronema+micranthum>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Scleronema+micranthum>
 	
 	
 	function validate_form() {
@@ -112,7 +112,7 @@ DescriptionAn on-line guide to the timbers of 245 species of trees.
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is greater, 5 or 9?
+	Captcha: How many suns are in our solar system
 	
 	
 

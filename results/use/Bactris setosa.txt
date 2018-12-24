@@ -128,7 +128,7 @@ PublisherUSDA; Washington.
 Year1897
 ISBN 
 DescriptionA rather dated, but very comprehensive catalogue of fibre plants from around the world. The book can be downloaded from the Internet.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Bactris+setosa>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Bactris+setosa>
 	
 	
 	function validate_form() {
@@ -168,7 +168,7 @@ DescriptionA rather dated, but very comprehensive catalogue of fibre plants from
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 6 add another 6 is?
+	Captcha: How many suns are in our solar system
 	
 	
 

@@ -111,7 +111,7 @@ Publisher 
 Year1922
 ISBN 
 DescriptionBrief details of some of the uses of Brazilian plants. It can be downloaded from the Internet.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Guettarda+angelica>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Guettarda+angelica>
 	
 	
 	function validate_form() {
@@ -151,7 +151,7 @@ DescriptionBrief details of some of the uses of Brazilian plants. It can be down
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 6 add another 6 is?
+	Captcha: what is greater, 5 or 9?
 	
 	
 

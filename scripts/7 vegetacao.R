@@ -24,7 +24,7 @@ for (i in seq_along(unique(veg_comp$FB))) {
 names(aoo_veg)
 View(aoo_veg)
 
-aoo_veg2 <- aoo_veg %>% tidyr::unite(IUCN, 20:67, sep =" ")
+aoo_veg2 <- aoo_veg %>% tidyr::unite(IUCN, 23:70, sep =" ")
 View(aoo_veg2)
 
 write.csv(aoo_veg2, "./results/aoo_veg.csv")

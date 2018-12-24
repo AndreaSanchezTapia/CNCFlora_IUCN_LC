@@ -346,7 +346,7 @@ ISBN85-86714-34-4
 DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
 ].
 Cuttings
-Side-veneer graftingCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Plinia+cauliflora>
+Side-veneer graftingCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Plinia+cauliflora>
 	
 	
 	function validate_form() {
@@ -386,7 +386,7 @@ Side-veneer graftingCite as: Tropical Plants Database, Ken Fern. tropical.thefer
 	Name:
 	Email(Private):
 	Message:
-	Captcha: Type the digit seven into the box
+	Captcha: How many suns are in our solar system
 	
 	
 

@@ -252,7 +252,7 @@ PublisherDorling Kindersley, London.
 Year1995
 ISBN0-7513-020-31
 DescriptionA very well presented and informative book on herbs from around the globe. Plenty in it for both the casual reader and the serious student. Just one main quibble is the silly way of having two separate entries for each plant.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Copaifera+coriacea>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Copaifera+coriacea>
 	
 	
 	function validate_form() {
@@ -292,7 +292,7 @@ DescriptionA very well presented and informative book on herbs from around the g
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 10 times itself is?
+	Captcha: Type the digit seven into the box
 	
 	
 

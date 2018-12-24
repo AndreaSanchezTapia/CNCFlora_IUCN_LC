@@ -116,7 +116,7 @@ PublisherInstituto Plantarum De Estudos Da Flora LTDA; Brazil.
 Year2000
 ISBN85-867174-24-0
 DescriptionA superb book, giving information on several hundred fruit species. Each entry has a brief description of the plant and its uses, accompanied by one to many excellent quality photographs of the fruits.
-].MedicinalNone knownOther UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eugenia+selloi>
+].MedicinalNone knownOther UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Eugenia+selloi>
 	
 	
 	function validate_form() {
@@ -156,7 +156,7 @@ DescriptionA superb book, giving information on several hundred fruit species. E
 	Name:
 	Email(Private):
 	Message:
-	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	Captcha: 10 times itself is?
 	
 	
 

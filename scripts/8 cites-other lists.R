@@ -30,7 +30,7 @@ grao <- read_excel("./data/ameacadas/Lista de especies ameacadas de extincao con
 grao$Nome_cientifico
 
 lagoas <- read_excel("./data/ameacadas/Lista de especies ameacadas Pan Lagoas do Sul.xlsx") %>%
-    select(-3) %>%
+    dplyr::select(-3) %>%
     set_names(c("Familia","Nome_cientifico", "Categoria")) %>%
     mutate(Familia = tolower(Familia)) %>%
     mutate(Familia = Hmisc::capitalize(Familia)) %>%
@@ -53,7 +53,9 @@ write.csv(all_CNCFlora, "./data/ameacadas/all_CNCFLora.csv")
 
 #######################
 
-CNC <- read.csv("./data/ameacadas/all_CNCFLora.csv", row.names = 1) %>% rename(nombre = Nome_cientifico, CNCFlora = Categoria) %>% select(-1)
+CNC <- read.csv("./data/ameacadas/all_CNCFLora.csv", row.names = 1) %>%
+    rename(nombre = Nome_cientifico, CNCFlora = Categoria) %>%
+    dplyr::select(-1)
 
 any(aoo$nombre %in% CNC$nombre)
 #nothing in CNCFlora

@@ -86,6 +86,7 @@ original_table <- readxl::read_excel("./data/LeastConcern_BrazilEndemics_origina
 data <- left_join(tabla_final, original_table, by = c("nombre"))
 names(data)
 any(is.na(data$aoo2))
+any(is.na(data$aoo10))
 data$AOO_2x2km
 library(ggplot2)
 
@@ -145,3 +146,6 @@ data %>% ggplot2::ggplot(aes(x = nusado, y= aoo10)) +
 
 
 ##
+
+install.packages("red")
+install.packages("ConR")

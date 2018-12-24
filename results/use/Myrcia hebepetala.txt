@@ -137,7 +137,7 @@ PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
 Year2002
 ISBN85-86714-15-1
 DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
-].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in individual containers. A low germination rate can be expected, with the seed sprouting within 30 - 40 days[].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Myrcia+hebepetala>
+].PropagationSeed - best sown as soon as it is ripe in a partially shaded position in individual containers. A low germination rate can be expected, with the seed sprouting within 30 - 40 days[].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Myrcia+hebepetala>
 	
 	
 	function validate_form() {
@@ -177,7 +177,7 @@ DescriptionInformation on 350 species of Brazilian trees. Stunning photographs o
 	Name:
 	Email(Private):
 	Message:
-	Captcha: How many suns are in our solar system
+	Captcha: subtract 1 from 12
 	
 	
 

@@ -201,7 +201,7 @@ PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
 Year2002
 ISBN85-86714-15-1
 DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
-]. The seed may benefit from scarification before sowing, in order to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Endopleura+uchi>
+]. The seed may benefit from scarification before sowing, in order to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing.Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Endopleura+uchi>
 	
 	
 	function validate_form() {
@@ -241,7 +241,7 @@ DescriptionInformation on 350 species of Brazilian trees. Stunning photographs o
 	Name:
 	Email(Private):
 	Message:
-	Captcha: How many fingers does the typical human have?
+	Captcha: subtract 1 from 12
 	
 	
 

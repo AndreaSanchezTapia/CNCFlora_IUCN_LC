@@ -108,7 +108,7 @@ PublisherInstituto Plantarum De Estudos Da Flora; Brazil.
 Year2002
 ISBN85-86714-17-8
 DescriptionInformation on 350 species of Brazilian trees. Stunning photographs of each species, brief details on the plant, its uses and how to grow it from seed. A superb work, with the minor irritation that the translation from Portuguese is not of the best.
-]. When the seedlings are 4 - 6cm tall, pot them up into individual containers and they should be ready to plant out 8 - 9 months later[].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ocotea+velutina>
+]. When the seedlings are 4 - 6cm tall, pot them up into individual containers and they should be ready to plant out 8 - 9 months later[].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Ocotea+velutina>
 	
 	
 	function validate_form() {
@@ -148,7 +148,7 @@ DescriptionInformation on 350 species of Brazilian trees. Stunning photographs o
 	Name:
 	Email(Private):
 	Message:
-	Captcha: How many suns are in our solar system
+	Captcha: subtract 1 from 12
 	
 	
 

@@ -276,7 +276,7 @@ Publisher 
 Year2003
 ISBN 
 DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Carpotroche+brasiliensis>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Carpotroche+brasiliensis>
 	
 	
 	function validate_form() {
@@ -316,7 +316,7 @@ DescriptionBasic iInformation on 14 plants of the Atlantic Rainforest in Brazil.
 	Name:
 	Email(Private):
 	Message:
-	Captcha: a square has how many sides?
+	Captcha: How many fingers does the typical human have?
 	
 	
 

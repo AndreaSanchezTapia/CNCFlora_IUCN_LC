@@ -94,7 +94,7 @@ PublisherThe Bureau of Science, Philippines.
 Year1909
 ISBN 
 DescriptionA number of articles on Philippine plants, including one on the qualities of Philippine woods.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Geonoma+elegans>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Geonoma+elegans>
 	
 	
 	function validate_form() {
@@ -134,7 +134,7 @@ DescriptionA number of articles on Philippine plants, including one on the quali
 	Name:
 	Email(Private):
 	Message:
-	Captcha: a square has how many sides?
+	Captcha: what is half of 100?
 	
 	
 

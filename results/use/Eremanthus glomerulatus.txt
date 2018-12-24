@@ -104,7 +104,7 @@ PublisherMissouri Botanical Garden
 Year1987
 ISBN 
 DescriptionAn excellent botanical publication, available for download from the Internet. This volume contains a treatment of the genus Mezilaurus.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eremanthus+glomerulatus>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Eremanthus+glomerulatus>
 	
 	
 	function validate_form() {
@@ -144,7 +144,7 @@ DescriptionAn excellent botanical publication, available for download from the I
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 10 times itself is?
+	Captcha: what is greater, 5 or 9?
 	
 	
 

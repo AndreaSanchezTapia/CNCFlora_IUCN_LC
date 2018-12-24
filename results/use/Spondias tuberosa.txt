@@ -263,7 +263,7 @@ PublisherMacMillan Press
 Year1992
 ISBN0-333-47494-5
 DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Spondias+tuberosa>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Spondias+tuberosa>
 	
 	
 	function validate_form() {
@@ -303,7 +303,7 @@ DescriptionExcellent and very comprehensive, though it contains a number of sill
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is half of 100?
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
 	
 	
 

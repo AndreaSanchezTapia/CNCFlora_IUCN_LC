@@ -206,7 +206,7 @@ Publisher 
 Year0
 ISBN 
 DescriptionA Brazilian gardening site, giving cultivation details for a large number of species.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Clusia+fluminensis>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Clusia+fluminensis>
 	
 	
 	function validate_form() {
@@ -246,7 +246,7 @@ DescriptionA Brazilian gardening site, giving cultivation details for a large nu
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 10 times itself is?
+	Captcha: what is half of 100?
 	
 	
 

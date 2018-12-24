@@ -5,7 +5,7 @@ library(dplyr)
 
 treespp <- read.csv("./results/names_flora.csv", row.names = 1)
 names(treespp)
-familias <- treespp$family
+familias <- treespp$final_family
 especies <- treespp$nombre
 #Specifying the url for desired website to be scraped
 url_id <- 'http://tropical.theferns.info/viewtropical.php?id='
@@ -27,13 +27,13 @@ buscar_the_ferns <- function(especie) {
     teste <- html_text(rank_data_html) #### si no hay=0
     #teste2 <- html_text(rank_data_html2) #### si no hay=0
     write(teste,paste0("./results/use/",especie,".txt"))
-    Sys.sleep(10)
+    Sys.sleep(0.5)
 }
 
 especies[282]
 i
-for (i in 286) {
-    print(especies[i])
+for (i in 287:length(especies)) {
+    print(especies[i], i)
     buscar_the_ferns(especies[i])
 
 }
@@ -41,7 +41,7 @@ for (i in 286) {
 #211, 286 paila
 
 files <- list.files("./results/use", full.names = T)
-done <- files %>% str_split("/", simplify = T) %>% data.frame() %>% dplyr::select(4) %>% pull %>% str_split(".txt", simplify = T) %>% data.frame() %>% select(1)
+done <- files %>% str_split("/", simplify = T) %>% data.frame() %>% dplyr::select(4) %>% pull %>% str_split(".txt", simplify = T) %>% data.frame() %>% dplyr::select(1)
 setdiff(done$X1, especies)
 setdiff(especies, done$X1)
 which(especies %in% setdiff(especies, done$X1))

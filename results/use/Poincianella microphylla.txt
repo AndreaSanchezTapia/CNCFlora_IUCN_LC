@@ -111,7 +111,7 @@ DescriptionInformation on 350 species of Brazilian trees. Stunning photographs o
 Like many species within the family Fabaceae, once they have been dried for storage the seeds of this species may benefit from scarification before sowing in order to speed up germination. This can usually be done by pouring a small amount of nearly boiling water on the seeds (being careful not to cook them!) and then soaking them for 12 - 24 hours in warm water. By this time they should have imbibed moisture and swollen - if they have not, then carefully make a nick in the seedcoat (being careful not to damage the embryo) and soak for a further 12 hours before sowing[KTitlePlants for a Future
 AuthorKen Fern 
 DescriptionNotes from observations, tasting etc at Plants For A Future and on field trips.
-].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Cenostigma+microphyllum&redir=Poincianella+microphylla>
+].Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Cenostigma+microphyllum&redir=Poincianella+microphylla>
 	
 	
 	function validate_form() {
@@ -151,7 +151,7 @@ DescriptionNotes from observations, tasting etc at Plants For A Future and on fi
 	Name:
 	Email(Private):
 	Message:
-	Captcha: subtract 1 from 12
+	Captcha: How many suns are in our solar system
 	
 	
 

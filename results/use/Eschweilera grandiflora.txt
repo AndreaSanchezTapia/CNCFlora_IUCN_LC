@@ -167,7 +167,7 @@ PublisherUSDA Forest Service. Wisconsin.
 Year1984
 ISBN 
 DescriptionTerse details on the properties of the wood of almost 400 species of trees from the Tropics.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Eschweilera+grandiflora>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Eschweilera+grandiflora>
 	
 	
 	function validate_form() {
@@ -207,7 +207,7 @@ DescriptionTerse details on the properties of the wood of almost 400 species of 
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 6 add another 6 is?
+	Captcha: subtract 1 from 12
 	
 	
 

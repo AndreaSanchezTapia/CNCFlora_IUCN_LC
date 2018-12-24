@@ -167,7 +167,7 @@ PublisherRoyal Horticultural Society
 Year1981
 ISBN-
 DescriptionExcerpts from the periodical giving cultivation details and other notes on some of the useful plants..
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Luetzelburgia+auriculata>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Luetzelburgia+auriculata>
 	
 	
 	function validate_form() {
@@ -207,7 +207,7 @@ DescriptionExcerpts from the periodical giving cultivation details and other not
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is greater, 5 or 9?
+	Captcha: subtract 1 from 12
 	
 	
 

@@ -143,7 +143,7 @@ Year1992
 ISBN0-333-47494-5
 DescriptionExcellent and very comprehensive, though it contains a number of silly mistakes. Readable yet also very detailed.
 ].
-Air layeringCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ixora+gardneriana>
+Air layeringCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Ixora+gardneriana>
 	
 	
 	function validate_form() {
@@ -183,7 +183,7 @@ Air layeringCite as: Tropical Plants Database, Ken Fern. tropical.theferns.info.
 	Name:
 	Email(Private):
 	Message:
-	Captcha: a square has how many sides?
+	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
 	
 	
 

@@ -68,7 +68,7 @@ PublisherWeinheim
 Year1959
 ISBN-
 DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
-].Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ocotea+indecora>
+].Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Ocotea+indecora>
 	
 	
 	function validate_form() {
@@ -108,7 +108,7 @@ DescriptionAn excellent and very comprehensive guide but it only gives very shor
 	Name:
 	Email(Private):
 	Message:
-	Captcha: if i have 3 bananas, and i eat them all, how many bananas did i just eat?
+	Captcha: 10 times itself is?
 	
 	
 

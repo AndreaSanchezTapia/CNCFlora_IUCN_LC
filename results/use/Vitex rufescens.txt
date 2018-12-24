@@ -169,7 +169,7 @@ PublisherRegional Land Management Unit; Nairobi.
 Year2002
 ISBN9966-896-60-0
 DescriptionA very well presented, simple guide to growing and utilizing wild food plants in Tanzania, with line drawings of each plant, a description, habitat and range, non-food as well as food uses, plus basic information on growing the plants.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Vitex+ferruginea&redir=Vitex+rufescens>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Vitex+ferruginea&redir=Vitex+rufescens>
 	
 	
 	function validate_form() {
@@ -209,7 +209,7 @@ DescriptionA very well presented, simple guide to growing and utilizing wild foo
 	Name:
 	Email(Private):
 	Message:
-	Captcha: 10 times itself is?
+	Captcha: what is half of 6?
 	
 	
 

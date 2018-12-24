@@ -66,7 +66,7 @@ PublisherSmithsonian Museum
 Year0
 ISBN 
 DescriptionA down-loadable PDF document of a book in pre-publication awaiting illustration. An excellent, if rather terse, guide to the traditional medicinal uses of the plants of the region
-].Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Tabernaemontana+angulata>
+].Other UsesNone knownPropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Tabernaemontana+angulata>
 	
 	
 	function validate_form() {
@@ -106,7 +106,7 @@ DescriptionA down-loadable PDF document of a book in pre-publication awaiting il
 	Name:
 	Email(Private):
 	Message:
-	Captcha: what is half of 6?
+	Captcha: 6 add another 6 is?
 	
 	
 

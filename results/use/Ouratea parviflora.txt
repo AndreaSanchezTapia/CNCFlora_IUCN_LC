@@ -94,7 +94,7 @@ PublisherWeinheim
 Year1959
 ISBN-
 DescriptionAn excellent and very comprehensive guide but it only gives very short descriptions of the uses without any details of how to utilize the plants. Not for the casual reader.
-].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-18. <tropical.theferns.info/viewtropical.php?id=Ouratea+parviflora>
+].PropagationSeed -Cite as: Tropical Plants Database, Ken Fern. tropical.theferns.info. 2018-12-24. <tropical.theferns.info/viewtropical.php?id=Ouratea+parviflora>
 	
 	
 	function validate_form() {
