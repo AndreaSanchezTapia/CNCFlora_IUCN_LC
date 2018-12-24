@@ -34,9 +34,9 @@ types <- read_delim("./ipt/typesandspecimen.txt", delim = "\t", quote = "") %>%
 vernacular <- read_delim("./ipt/vernacularname.txt", delim = "\t") %>%
     mutate(vernacular = paste(vernacularName, language, locality, sep = "-")) %>%
     dplyr::select(id, vernacular) %>%
-    group_by(id) %>% mutate(all_names = paste(vernacular, collapse = "/")) %>%
+    group_by(id) %>% mutate(vernacular_names = paste(vernacular, collapse = "/")) %>%
     dplyr::select(-vernacular) %>% distinct()
-
+names(vernacular)
 relacion <- unique(relationship$relationshipOfResource)
 relacion
 
@@ -45,5 +45,7 @@ taxon_dist_ref           <- left_join(taxon_dist, ref)
 taxon_dist_ref_lfh       <- left_join(taxon_dist_ref, lf_mod)
 taxon_dist_ref_lfh_types <- left_join(taxon_dist_ref_lfh, types)
 all                      <- left_join(taxon_dist_ref_lfh_types, vernacular)
-all <- mutate(all, nombre = paste(genus, specificEpithet)) %>% distinct()
+all <- all %>% distinct()
+all <- all %>% mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
+           simplify2array())
 write.csv(all, "./ipt/all_flora.csv")

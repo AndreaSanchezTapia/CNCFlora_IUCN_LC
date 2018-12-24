@@ -4,19 +4,21 @@ library(dplyr)
 library(flora)
 #read flora data
 flora <- read_csv("./ipt/all_flora.csv") %>% dplyr::select(-1)
-names(flora)
+head(flora)
 # read original data----
 treespp <- read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
     rename(scientificName = ScientificName) %>%
     mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
                simplify2array())
-treespp$nombre
-treespp[642,] %>% View()
-treesspp2 <- treespp %>%
+
+
+treespp2 <- treespp %>%
     dplyr::select(Family, scientificName, nombre) %>%
+    rename(original_name = scientificName) %>%
     left_join(flora) %>%
     dplyr::select(
            Family,
+           original_name,
            scientificName,
            nombre,
            taxonID,
@@ -25,40 +27,64 @@ treesspp2 <- treespp %>%
            parentNameUsage,
            family,
            taxonomicStatus,
-           nomenclaturalStatus
-           #occurrenceRemarks,
-           #location,
-           #lifeForm,
-           #vegetationType,
-           #habitat,
-           #locality
-           )
+           nomenclaturalStatus,
+           taxonRank,
+           vernacular_names,
+           nombre)
+treespp2[645,] %>% View()
+treespp2_nodupl <- treespp2 %>%
+    filter(!nomenclaturalStatus %in% c("NOME_MAL_APLICADO", "NOME_NAO_VALIDAMENTE_PUBLICADO"))
 
-treesp3 <- treesspp2 %>%
+treespp2_nodupl %>% count(is.na(acceptedNameUsage), taxonomicStatus, nomenclaturalStatus)
+
+treespp3 <- treespp2_nodupl %>%
     #new column final_name
-    mutate(final_name = ifelse(taxonomicStatus == "NOME_ACEITO", scientificName, acceptedNameUsage)) %>%
-    mutate(final_ID = ifelse(taxonomicStatus == "NOME_ACEITO", taxonID, acceptedNameUsageID)) %>%
-    mutate(final_name = ifelse(is.na(taxonID) & is.na(acceptedNameUsageID), scientificName, final_name)) %>%
-    #new column notes
-    mutate(notes = if_else(is.na(taxonID) & is.na(acceptedNameUsageID),
-                           "not in LFB", "LFB")) %>%
+    #si el nombre está correcto: scientificName - si no el accepted (que debería ya incluir sinonimos)
+    mutate(final_name = ifelse(
+        #taxonomicStatus == "NOME_ACEITO",
+        is.na(acceptedNameUsage),
+        scientificName, acceptedNameUsage)) %>%
+    mutate(final_ID = ifelse(
+        is.na(acceptedNameUsage),
+        taxonID, acceptedNameUsageID)) %>%
+#si no lo encuentra
+    mutate(final_name = ifelse(is.na(taxonID), original_name, final_name)) %>%
+    mutate(final_family = if_else(!is.na(family), family, Family)) %>%
+#new column notes
+    mutate(notes = if_else(is.na(taxonID),
+                           "not found", "LFB")) %>%
     #new column syn
-    mutate(tax_notes = if_else(taxonomicStatus == "NOME_ACEITO", "name ok", "")) %>%
+    mutate(tax_notes = if_else(
+        taxonomicStatus == "NOME_ACEITO" & nomenclaturalStatus == "NOME_CORRETO", "name ok", "")) %>%
     mutate(tax_notes = if_else(taxonomicStatus == "SINONIMO", "synonym", tax_notes)) %>%
-    mutate(family = if_else(!is.na(family), family, Family)) %>%
-    #mutate(notes_fam = if_else(family != Family, "family changed", "")) %>%
-    dplyr::select(scientificName, taxonID, final_name, final_ID, notes,tax_notes, family) %>%
-    rename(original_name = scientificName,
-           original_ID = taxonID,
-           scientificName = final_name,
-           taxonID = final_ID)
-write.csv(treesp3, "./results/names_flora1.csv")
+    mutate(tax_notes = if_else(is.na(taxonomicStatus), nomenclaturalStatus, tax_notes)) %>%
 
-names(treesp3)
-names(flora)
-treesp4 <- treesp3 %>%
+    mutate(notes_fam = if_else(final_family != Family, "family changed", "")) %>%
+
+    rename(
+        original_family = Family,
+        name_in_Flora = scientificName,
+        original_ID = taxonID,
+        scientificName = final_name,
+        taxonID = final_ID) %>%
+    dplyr::select(original_family, original_name, name_in_Flora,original_ID,
+                  final_family, scientificName, taxonID,
+                  vernacular_names,
+                  notes, tax_notes, notes_fam
+                  )
+
+treespp3 <- treespp3 %>%
+    mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
+                                    simplify2array())
+View(treespp3[642,])
+write.csv(treespp3, "./results/names_flora1.csv")
+
+
+treesp4 <- treespp3 %>%
+    left_join(flora) %>% select(acceptedNameUsage) %>% count(is.na(acceptedNameUsage))#todo los acceptednameusage están NA! bien.
+treesp4 <- treespp3 %>%
     left_join(flora) %>%
-dplyr::select(-c(8:31, 35:40, 44:46, 48:50))
+dplyr::select(1:12, -c(13:37), 38:40, -c(41:46),47:49, -c(50:55))
 names(treesp4)
 write.csv(treesp4, "./results/names_flora.csv")
-treesp4 %>% View()
+treesp4$nombre
