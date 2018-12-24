@@ -288,3 +288,5 @@ if (nrow(resultado_final) != nrow(tabela_especie)) stop()
 #279
 #373
 #asigné cero para que siguiera la lipieza
+#24/12 ya no obtengo ese error, está haciendo el loop sin parar
+#(pero algunas especies no tenian clean o inpa en sus carpetas entonces el error debe haber sido por eso)
