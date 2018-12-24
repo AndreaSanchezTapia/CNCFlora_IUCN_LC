@@ -6,21 +6,13 @@ library("rgbif")
 library(readxl)
 source("scripts/new_duplicated.R")
 treespp <- read.csv("./results/names_flora.csv", row.names = 1)
-treespp <- treespp %>%
- mutate(nombre = purrr::map(scientificName, ~remove.authors(.)) %>%
-simplify2array())
-treespp$nombre[642] <- "Waltheria cinerescens"
-write.csv(treespp, "./results/names_flora.csv")
-names(treespp)
-names(treespp)
-familias <- treespp$family
+treespp$nombre
+familias <- treespp$final_family
 especies <- treespp$nombre
-especies[3]
-familias[3]
 
 #extração de registros por espécie do gbif
 dir.create("output_final")
-treespp$scientificName[371]
+
 #buscando registros de gbif----
 #i <- 371
 #por algun motivo no sirve el 371 sin nombtre
@@ -30,6 +22,7 @@ for (i in 1:length(especies)) {
     nome_arquivo <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
 
+    if (!file.exists(nome_arquivo)) {
     key <- name_backbone(name = treespp$scientificName[i])$speciesKey
     if (!is.null(key)) {
         occs <- list()
@@ -54,7 +47,8 @@ for (i in 1:length(especies)) {
         }
     } else {
         warning(paste("No key found for", especies[i], "\n"))
-        }
+    }
+    }
     #query.i <- occ_search(scientificName = especies[i])
 
         #as colunas que criam os comentários nem sempre existem:
@@ -79,8 +73,10 @@ for (i in 1:length(especies)) {
     nome_arquivo <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "raw.csv")
     nome_out <- paste0("./output_final/", familias[i],"/",familias[i],"_", especies[i],"_", "inpa.csv")
     print(paste("Inpa", especies[i], i, "de", length(especies), sep = " "))
+    if(!file.exists(nome_out)) {
     #le a tabela
-    tabela_especie <- read.csv(nome_arquivo, row.names = 1, stringsAsFactors = F) %>% mutate(catalogNumber = factor(catalogNumber))
+    tabela_especie <- read.csv(nome_arquivo, row.names = 1, stringsAsFactors = F) %>%
+        mutate(catalogNumber = factor(catalogNumber))
 
     #junta a tabela com os coletores
     if ("Instituto Nacional de Pesquisas da Amazônia (INPA)" %in% tabela_especie$institutionCode) {
@@ -93,18 +89,21 @@ for (i in 1:length(especies)) {
         dplyr::select(-collector)
     #escreve
     write.csv(tabela_especie, file = nome_out)
-    proof <- tabela_especie %>% filter(institutionCode == "Instituto Nacional de Pesquisas da Amazônia (INPA)") %>%
-        dplyr::select(institutionCode, catalogNumber, recordedBy) %>% distinct()
+    proof <- tabela_especie %>%
+        filter(institutionCode == "Instituto Nacional de Pesquisas da Amazônia (INPA)") %>%
+        dplyr::select(institutionCode, catalogNumber, recordedBy) %>%
+        distinct()
     write.csv(proof, file = proof_name)
     } else {
  write.csv(tabela_especie, file = nome_out)
+    }
     }
 }
 
 
 #########################################
     #Limpeza de registros
-source("./scripts/new_duplicated.R")
+
 for (i in 1:length(especies)) {
     print(paste("Limpando", especies[i], i, "de", length(especies), sep = " "))
     ###     o arquivo original sem o inpa
@@ -120,6 +119,7 @@ for (i in 1:length(especies)) {
 ### o nome do arquivo limpo que será criado no final
     nome_clean <- paste0("./output_final/",familias[i],"/",familias[i], "_", especies[i],"_",
                          "clean.csv")
+    #if (!file.exists(nome_clean)) {
 
 #agora a "tabela" é tabela_especie, entao tenho que substituir isso tudo
     #vai ser com a tabela do inpa
@@ -171,6 +171,7 @@ write.csv(tabela_duplicata, file = nome_duplicata)
 #tira os duplicados da tabela especie
 tabela_especie <- tabela_especie[!vetor_duplicata,]
 write.csv(tabela_especie, file = nome_clean)
+    #}
 }
 
 

@@ -10,8 +10,7 @@ library(lubridate)
 library(spfilt)
 # le tudo
 treespp <- read.csv("./results/names_flora.csv", row.names = 1)
-names(treespp)
-familias <- treespp$family
+familias <- treespp$final_family
 especies <- treespp$nombre
 
 
@@ -67,7 +66,7 @@ mpo_estado_unico <- setdiff(unique_mpo, dupl_mpo)
 #assignação de centroides----
 especies
 
-#cria um vetor vazio para ficar de olho em algumas espçecies que ainda tem NA nas notas.
+#cria um vetor vazio para ficar de olho em algumas espécies que ainda tem NA nas notas.
 
 for (i in 1:length(especies)) {
     print(paste("Processando", especies[i], i, "de", length(especies), sep = " "))
@@ -90,7 +89,8 @@ for (i in 1:length(especies)) {
         }
     }
 
-    tabela_especie$stateProvince <- purrr::map(tabela_especie$stateProvince, .f = substituir_siglas) %>%
+    tabela_especie$stateProvince <-
+        purrr::map(tabela_especie$stateProvince, .f = substituir_siglas) %>%
         simplify2array()
     #igual com o municipio
     tabela_especie_edit <- tabela_especie %>%
