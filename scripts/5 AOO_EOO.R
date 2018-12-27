@@ -70,13 +70,11 @@ tabla_aoo_eoo <- list.files("./aoo", full.names = T) %>%
     purrr::map(.f = read.csv) %>%
     bind_rows() %>% dplyr::select(-1)
 names(tabla_aoo_eoo)
-tabla_aoo_eoo <- tabla_aoo_eoo %>% rename(nombre = sp, final_family = familia)
 dim(tabla_aoo_eoo)
-names(tabla_aoo_eoo)
 names(treespp)
 tabla_final <- left_join(treespp, tabla_aoo_eoo)
-head(tabla_final)
 tabla_final$eoo
+head(tabla_final)
 write.csv(tabla_final, file = "./results/final_with_aooeoo.csv")
 tabla_final <- read.csv("./results/final_with_aooeoo.csv", row.names = 1)
 original_table <- readxl::read_excel("./data/LeastConcern_BrazilEndemics_original.xlsx", sheet = 1) %>%
