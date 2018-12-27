@@ -35,3 +35,13 @@ for (i in seq_along(especies)) {
                             uc = which_uc)
     write.csv(final_res, file = uc_output)
 }
+
+
+library(purrr)
+tabla_UCs <- list.files("./output_final", full.names = T, pattern = "UC.csv$", recursive = T) %>%
+    purrr::map(.f = readr::read_csv) %>%
+    bind_rows() %>%
+    dplyr::select(-1)
+tabla_UCs
+
+write.csv(tabla_UCs, "./results/tabla_UCs.csv")
