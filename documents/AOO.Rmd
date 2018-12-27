@@ -1,0 +1,133 @@
+---
+title: "Comparação AOO EOO"
+author: "Andrea Sánchez Tapia"
+date: "27/12/2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning =F, message = F)
+```
+
+
+### Ideia da comparação: Os dados originais de AOO EOO ("them") e os dados calculados aqui usando o pacote `redlistr` ("us") devem estar em escalas comparáveis.
+
+
+#### e estão, em vermelho mostro uma reta com intercepto 0 e coeficiente diretor 1. 
+
+```{r remedy001}
+data <- read.csv("./results/final_results_correctedAOO.csv", row.names = 1)
+library(ggplot2)
+library(dplyr)
+```
+
+
+# AOO original vs. calculado (2km)
+
+```{r remedy002}
+
+data %>% ggplot2::ggplot(aes(x = AOO_2x2km, y = aoo2)) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("AOO2 us+them")+
+    coord_equal()+
+    theme_classic()
+
+
+```
+
+# AOO original vs. calculado (10km)
+
+```{r remedy003}
+data %>% ggplot2::ggplot(aes(x = Area_10x10km, y = aoo10)) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("AOO10 us+them")+
+    coord_equal()+
+    theme_classic()
+```
+
+
+# EOO original vs. calculado
+
+```{r remedy004}
+data %>% ggplot2::ggplot(aes(x = EOO, y = eoo)) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    geom_point() +
+    ggtitle("EOO us+them")+
+    coord_equal()+
+    theme_classic()
+```
+
+
+# Já a comparação entre AOO2 e AOO10 não dá o mesmo resultado pois a àrea de um pixel no primeiro é de 4km^2^ e no segundo de 100km^2^. Isto leva a uma diferença de quase 20 vezes nos valores
+
+### Tanto para os calculados aqui...
+```{r remedy005}
+
+data %>% ggplot2::ggplot(aes(x = aoo2, y = aoo10)) +
+    geom_point() +
+    #geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("AOO2 vs AOO 10 US")+
+#    coord_equal()+
+    theme_classic()
+```
+
+### ...quanto para os enviados por eles
+```{r remedy006}
+
+data %>% ggplot2::ggplot(aes(x = AOO_2x2km, y = Area_10x10km)) +
+    geom_point() +
+    #geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("AOO2 vs AOO 10 THEM")+
+    theme_classic()
+```
+
+
+#Outras variáveis também mudam mas se mantêm em escala similar
+
+### (a gente usou um pouco menos de ocorrências que eles)
+```{r remedy007}
+
+data %>% ggplot2::ggplot(aes(x = RecordsUsed, y= nusado)) +
+    geom_point() +
+    #geom_smooth(method = "lm", se = F) +
+    geom_abline(slope = 1, intercept = 0, col = "red") +
+    ggtitle("Records used") +
+    coord_equal()+
+    theme_classic()
+
+```
+
+### e logicamente os valores de área e de ocorrências usadas são diretamente propocionais
+
+
+```{r remedy008}
+
+data %>% ggplot2::ggplot(aes(x = RecordsUsed, y= Area_10x10km)) +
+    geom_point() +
+    #geom_smooth(method = "lm", se = F) +
+    ggtitle("Records used, AOO10 them")+
+    theme_classic()
+
+
+```
+
+
+```{r remedy009}
+
+data %>% ggplot2::ggplot(aes(x = nusado, y= aoo10)) +
+    geom_point() +
+    #geom_smooth(method = "lm", se = F) +
+    ggtitle("Records used", "AOO us") +
+    theme_classic()
+
+
+```
+
+
+

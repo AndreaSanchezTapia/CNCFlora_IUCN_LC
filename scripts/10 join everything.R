@@ -12,3 +12,6 @@ final <- left_join(aoo, use) %>% left_join(ucs)
 View(final)
 
 write.csv(final, "./results/final_results.csv")
+data <- read.csv("./results/final_results.csv", row.names = 1)
+data %<>% mutate(aoo2 = 4*aoo2, aoo10 = 100*aoo10)
+write.csv(data, "./results/final_results_corrected_AOO.csv")
