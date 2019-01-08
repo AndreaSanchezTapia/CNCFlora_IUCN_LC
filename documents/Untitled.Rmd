@@ -1,8 +1,11 @@
 ---
-title: "Relatório"
+title: 'Data to assist in the assignment of IUCN status for 763 tree species of Brazil '
 author: "Andrea Sánchez Tapia"
-date: "22/11/2018"
-output: html_document
+date: "08/01/2019"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -11,34 +14,68 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Objective
 
-To check the UICN status of 763 species from the Brazilian Atlantic Forest. 
+To gather information that assist in the assignment of UICN status for 763 species from the Brazilian Atlantic Forest. 
  
 
 # Methods
 ## Taxonomic status check 
-11-dec-2018 
+The Flora do Brasil (FB) IPT database was downloaded and formatted, and the taxonomic and nomenclatural status of the provided names were checked. Whenever necessary, the names were substituted by their accepted and valid counterparts.
+
+## Flora do Brasil information
+The additional information from FB was then gathered: vernacular names, establishmentMeans (native or not),
+occurenceRemarks (if endemic and to which Brazilian biomes), location(the Brazilian states where it occurs),
+lifeForm (Shrubs, Trees, Palms Lianas or other climbing, Subshurb etc. Herbs), the vegetationType where it can be found (under the FB classification, that follows national IBGE conventions), and the habitat (whether the species is terrestrial, rupicolous, epiphytic or hemiepiphytic, if avaliable). 
+
 
 ## Occurrence download
-From GBIF using rgbif function. 
+GBIF occurrences for each name were downloaded using rgbif R package (Chamberlain _et al._ 2019). To include name changes, we searched for the name keys and downloaded the occurrences for every key.
+The search parameters were: `limit = 100000`, `hasCoordinate = TRUE`, `basisOfRecord = "PRESERVED_SPECIMEN"`, `hasGeospatialIssue = FALSE`.
 
-Two separate search rounds: 
+We crossed this table with the INPA (Instituto Nacional de Pesquisas da Amazônia), to correct a previously known issue with the collector names that are uploaded to GBIF.
 
-+ one with all the records that come from exsicatta, with or wihtout coordinates and with or without geospatial issues
-+ one of all records with coordinates and no geospatial issues
+## Data cleaning
 
-A cleaning process:
+A cleaning process was performed to delete:
 
-+ Deleting duplicata colector-year-collection number
-```{r cars}
-summary(cars)
-```
++ Occurrences with no data
++ Occurrences outside Brazil
++ Occurrences with no colector-year-collection number
++ Duplicate occurrences (same colector, collection number, year)
 
-## Including Plots
+This cleaning process is equal to the one that is used in CNCFlora protocols.
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## AOO and EOO calculation
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+AOO and EOO were estimated by using the package `redlistr` (Lee & Murray 2019). 
+First the occurrences were transformed into UTM 23, (`+init=epsg:29193`). Then EOO was calculated in m^2 with functions `makeEOO()` and `getAreaEOO()`, and AOO was calculated at 2km and 10km using the function `getAOO()`. The function returns a number of pixels occupied, so the appoximate area was corrected (multiplied by 4 and 100 to obtain km^2).
+
+## Use information
+
+The source to assess possible uses of the studied species was the Useful Tropical Plants Database (http://tropical.theferns.info).
+We searched the data for each species name and marked if the species is present in the database. Further text mining about the specific uses was not performed due to time constraints. 
+
+## UICN vegetation types
+
+We built a table with the equivalency between the FB/INGE vegetation types and the official IUCN vegetation types. Then, we transformed the column vegetationType for each species into the IUCN codes. As each species can be present in several IBGE vegetation types, the results can reflect several IUCN vegetation types. 
+
+## CITES convention and Planos de Ação Nacional. 
+
+We searched for the species names in the list in the CITES annexes (http://checklist.cites.org/) and in the documents created by CNCFlora with the threatened species from Serra do Espinhaço Meridional, PAN Faveiro de Wilson, PAN Grão Mogol, PAN Lagoas do Sul, PAN Rio de Janeiro. Only _Dalbergia brasiliensis_ was found in the CITES Appendix II and no species was found in CNCFlora lists.
+
+## Presence in conservation units. 
+
+The offical shapefile for the Brazilian Conservation Units (CU) at the Federation, State and Municipality levels was downloaded from IBGE website (http://mapas.mma.gov.br/i3geo/datadownload.htm) and the intersection with the species occurrences was recorded. The number of records and the name of the CU were added to the dataset. 
+
+
+# References
+
+Chamberlain, S., Barve, V., Mcglinn, D., & Oldoni, D. (2019). rgbif: Interface to the Global Biodiversity Information Facility API. https://CRAN.R-project.org/package=rgbif. Retrieved December 12, 2018, from https://CRAN.R-project.org/package=rgbif
+
+Checklist of CITES species. Retrieved December 19, 2018, from http://checklist.cites.org/#/en
+
+JBRJ-IPT. Retrieved November 23, 2018, from http://ipt.jbrj.gov.br/jbrj/
+
+Lee, C., & Murray, N. (2019). redlistr: Tools for the IUCN Red List of Ecosystems and Species. https://github.com/red-list-ecosystem/redlistr. Retrieved from https://github.com/red-list-ecosystem/redlistr
+
+Useful Tropical Plants. Retrieved December 18, 2018, from http://tropical.theferns.info/

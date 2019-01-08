@@ -290,3 +290,22 @@ if (nrow(resultado_final) != nrow(tabela_especie)) stop()
 #asigné cero para que siguiera la lipieza
 #24/12 ya no obtengo ese error, está haciendo el loop sin parar
 #(pero algunas especies no tenian clean o inpa en sus carpetas entonces el error debe haber sido por eso)
+
+library(dplyr)
+library(magrittr)
+sp_filt_final <- list.files("output_final", pattern = "sp_filt.csv$", recursive = T, full.names = T)
+arq <- sp_filt_final %>% purrr::map(~read.csv(., row.names = 1))
+arq2 <- arq %>% purrr::map( ~ select(.,
+                                     name,notes, comments))
+arq3 <- arq2 %>% bind_rows()
+warnings()
+cuenta <- count(arq3, comments)
+
+no <- grep(pattern = "original in  falls", x = cuenta$comments)
+mpo <- grep(pattern = "outside municipality", x = cuenta$comments)
+nrow(cuenta)
+length(no)
+length(mpo)
+cuenta %>% slice(-mpo)
+
+#dif entre inpa y spfilt

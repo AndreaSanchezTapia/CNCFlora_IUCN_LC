@@ -88,3 +88,6 @@ dplyr::select(1:12, -c(13:37), 38:40, -c(41:46),47:49, -c(50:55))
 names(treesp4)
 write.csv(treesp4, "./results/names_flora.csv")
 treesp4$nombre
+fl <- read.csv("./results/names_flora.csv")
+names(fl)
+unique(fl$habitat)
