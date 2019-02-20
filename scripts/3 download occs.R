@@ -152,7 +152,8 @@ write.csv(tabela_exclude, file = nome_excluded)
 
 #remover registros com número de coleta, estado e ano iguais (coletas colaborativas duplicadas)
 #gera um vetor TrueFalse dizendo quem é duplicado, omitindo os s.n e NA
-vetor_duplicata <- tabela_especie %>% dplyr::select(year, recordNumber, stateProvince) %>%
+vetor_duplicata <- tabela_especie %>%
+    dplyr::select(year, recordNumber, stateProvince) %>%
     new_duplicated(., incomparables = c("NA", "s.n", "s/n"))
 #cria a tabela de duplicados e salva
 tabela_duplicata <- tabela_especie[vetor_duplicata,]

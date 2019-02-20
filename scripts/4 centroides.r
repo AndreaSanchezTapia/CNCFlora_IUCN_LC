@@ -35,7 +35,8 @@ tabela_centroides_ucs <- tabela_centroides_ucs %>%
 library(rgdal)
 estados <- rgdal::readOGR(dsn = "./data/shape/Limites_v2017/", layer = "lim_unidade_federacao_a")
 #tabela com a sigla pois uma limpeza é substituir a sigla ("rj") pelo nome completo
-sigla_estados <- estados@data[,c("nome", "sigla")] %>% data.frame() %>%
+sigla_estados <- estados@data[,c("nome", "sigla")] %>%
+    data.frame() %>%
     mutate(stateProvince = replace_non_ascii(tolower(nome))) %>%
     mutate(sigla = replace_non_ascii(tolower(sigla)))
 #centroides estados----
@@ -45,21 +46,27 @@ centroides_estados <-
     data.frame %>%
     tibble::rownames_to_column(var = "estados_shp") %>%
     mutate(stateProvince = replace_non_ascii(tolower(estados_shp))) %>%
-    rename(x_estado = x, y_estado = y) %>% left_join(sigla_estados)
+    rename(x_estado = x, y_estado = y) %>%
+    left_join(sigla_estados)
 
 centroides_estados
 
 #compara o nome dos estados e dos municipios porque há municipios com o mesmo nome de alguns estados, importante para a limpeza----
 setdiff(centroides_estados$stateProvince, tabela_centroides$municipality)
 #mesmo nome estado e municipio
-tabela_centroides[which(tabela_centroides$municipality %in%  centroides_estados$stateProvince),]
-dupl_names_state_city <- tabela_centroides$municipality[which(tabela_centroides$municipality %in%  centroides_estados$stateProvince)]
+tabela_centroides[which(tabela_centroides$municipality %in%
+                            centroides_estados$stateProvince),]
+dupl_names_state_city <-
+    tabela_centroides$municipality[which(tabela_centroides$municipality %in%
+                                             centroides_estados$stateProvince)]
 #nomes de estado seguros
 non_dupl_names <- setdiff(centroides_estados$stateProvince, dupl_names_state_city)
 
 #nomes unicos de municipio
 #hay 5570municipios, 282 son duplicados
-unique_mpo <- tabela_centroides %>% distinct(municipality) %>% pull()
+unique_mpo <- tabela_centroides %>%
+    distinct(municipality) %>%
+    pull()
 dupl_mpo <- tabela_centroides$municipality[duplicated(tabela_centroides$municipality)]
 mpo_estado_unico <- setdiff(unique_mpo, dupl_mpo)
 
